@@ -1,0 +1,11 @@
+import assert from "node:assert";import {parseFeed,merge,refresh,classify,safeUrl,type Store} from "../src/lib/news/pipeline";
+const now=Date.parse("2026-11-11T00:00:00Z"),src={name:"Test",category:"Software Engineering"};
+const rss=`<rss><channel><item><title>New CVE-2026-0001 ransomware advisory</title><link>https://a.example/1</link><pubDate>Mon, 09 Nov 2026 10:00:00 GMT</pubDate><description>&lt;p&gt;Details &amp;amp; fixes&lt;/p&gt;</description></item><item><title>Future post</title><link>https://a.example/2</link><pubDate>Mon, 01 Jan 2029 10:00:00 GMT</pubDate></item><item><title>Unsafe</title><link>javascript:alert(1)</link><pubDate>Mon, 09 Nov 2026 10:00:00 GMT</pubDate></item><item><title>Bad date</title><link>https://a.example/3</link><pubDate>nope</pubDate></item></channel></rss>`;
+const atom=`<feed><entry><title>Android release notes</title><link rel="alternate" href="https://b.example/x"/><updated>2026-11-08T09:00:00Z</updated><summary>Kotlin tools</summary></entry><entry><title>New CVE-2026-0001 ransomware advisory!</title><link href="https://c.example/dup"/><updated>2026-11-09T11:00:00Z</updated></entry></feed>`;
+const a=parseFeed(rss,src,now),b=parseFeed(atom,src,now);
+assert.equal(a.length,1,"rejects future, unsafe and bad-date items");assert.equal(a[0].category,"Cybersecurity");assert.equal(a[0].summary,"Details & fixes");
+assert.equal(b.length,2);assert.equal(b[0].url,"https://b.example/x");
+const m=merge([],[...a,...b],90,400,now);assert.equal(m.length,2,"duplicate titles are removed");assert.ok(+new Date(m[0].published)>=+new Date(m[1].published),"sorted newest first");
+assert.equal(merge(m,[],1,400,now).length,0,"old articles are pruned");assert.equal(safeUrl("http://x.com"),null);assert.equal(classify("Kotlin on Android","x"),"Mobile Technology");
+const prev:Store={updated:"2026-11-01T00:00:00Z",articles:m,sources:{}};
+refresh(prev,(async()=>{throw new Error("network down")}) as unknown as typeof fetch,{sources:[{id:"t",name:"T",url:"https://t.example/f",category:"x"}]}).then(s=>{assert.equal(s.articles.length,2,"keeps stored articles on failure");assert.equal(s.updated,prev.updated,"does not bump timestamp when every source fails");assert.equal(s.sources.t.ok,false);console.log("news pipeline tests passed")});

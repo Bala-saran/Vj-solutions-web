@@ -1,0 +1,7 @@
+"use client";
+import Link from "next/link";import {useMemo,useState} from "react";import type {Article} from "@/lib/news/pipeline";
+export default function NewsBrowser({articles,cats}:{articles:Article[];cats:string[]}){const[c,setC]=useState("All");const[q,setQ]=useState("");
+const list=useMemo(()=>articles.filter(a=>(c==="All"||a.category===c)&&(!q||(a.title+a.summary+a.source).toLowerCase().includes(q.toLowerCase()))),[articles,c,q]);
+return(<div><div className="mb-6 flex flex-wrap gap-2">{["All",...cats].map(x=><button key={x} onClick={()=>setC(x)} aria-pressed={c===x} className={`border px-3 py-1.5 text-xs ${c===x?"border-white bg-white text-black":"border-[var(--line)] text-[var(--mute)] hover:text-white"}`}>{x}</button>)}</div>
+<input value={q} onChange={e=>setQ(e.target.value)} placeholder="Search articles" aria-label="Search articles" className="mb-8 w-full border-b border-[var(--line)] bg-transparent py-3 outline-none focus:border-white"/>
+{list.length===0?<p className="text-[var(--mute)]">No articles match your filters.</p>:list.map(a=>(<article key={a.id} className="row py-6"><p className="eyebrow">{a.category} · {a.source} · {new Date(a.published).toLocaleDateString("en-GB")}</p><h3 className="mt-2 text-xl font-semibold"><Link href={`/insights/news/${a.id}`} className="hover:underline">{a.title}</Link></h3>{a.summary&&<p className="mt-2 text-[var(--mute)]">{a.summary}</p>}</article>))}</div>)}

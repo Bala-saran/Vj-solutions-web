@@ -1,0 +1,7 @@
+import type {Metadata} from "next";import Link from "next/link";import {notFound} from "next/navigation";import {Head,Wrap,Cta} from "@/components/ui";import Flow from "@/components/Flow";import {knowledge} from "@/data/knowledge";
+type P={params:Promise<{slug:string}>};
+export const generateStaticParams=()=>knowledge.map(a=>({slug:a.slug}));
+export async function generateMetadata({params}:P):Promise<Metadata>{const{slug}=await params;const a=knowledge.find(x=>x.slug===slug);return a?{title:a.title,description:a.definition}:{}}
+export default async function Page({params}:P){const{slug}=await params;const a=knowledge.find(x=>x.slug===slug);if(!a)notFound();
+const R=(t:string,c:React.ReactNode)=>(<div className="row grid gap-3 py-7 md:grid-cols-[1fr_2fr]"><h2 className="text-sm tracking-widest text-[var(--mute)]">{t}</h2><div>{c}</div></div>);const L=(x:string[])=><ul className="grid gap-2">{x.map(i=><li key={i}>{i}</li>)}</ul>;
+return(<><Head eyebrow={a.cat} title={a.title} lead={a.definition}/><Wrap>{R("FLOW",<Flow steps={a.flow}/>)}{R("HOW IT WORKS",<p>{a.how}</p>)}{R("EXAMPLE",<p>{a.example}</p>)}{R("ADVANTAGES",L(a.pros))}{R("LIMITATIONS",L(a.cons))}{R("REAL-WORLD USE",<p>{a.apps}</p>)}{R("RELATED",<div className="grid gap-2">{a.related.map(r=>{const x=knowledge.find(k=>k.slug===r);return x&&<Link key={r} href={`/insights/knowledge/${r}`} className="border-b border-white w-fit">{x.title}</Link>})}</div>)}</Wrap><Cta/></>)}
