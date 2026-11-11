@@ -1,0 +1,4 @@
+import type {Metadata,Viewport} from "next";import "./globals.css";import Nav from "@/components/Nav";import Footer from "@/components/Footer";import Background3D from "@/components/Background3D";import Cinematic from "@/components/Cinematic";
+export const metadata:Metadata={title:{default:"VJ SOLUTIONS — AI. Engineering. Innovation.",template:"%s | VJ SOLUTIONS"},description:"VJ SOLUTIONS is an independent AI and software development studio building intelligent applications, machine learning solutions, custom software, and digital products.",openGraph:{title:"VJ SOLUTIONS",description:"AI. Engineering. Innovation.",type:"website"}};
+export const viewport:Viewport={themeColor:"#000000",colorScheme:"dark"};
+export default function Root({children}:{children:React.ReactNode}){return(<html lang="en"><body><Cinematic/><Nav/><main className="pt-0">{children}</main><div className="relative z-10"><Footer/></div></body></html>)}

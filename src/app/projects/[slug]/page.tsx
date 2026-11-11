@@ -1,0 +1,7 @@
+import type {Metadata} from "next";import {notFound} from "next/navigation";import {Head,Wrap,Cta} from "@/components/ui";import {projects,sceneFor} from "@/data/site";
+type P={params:Promise<{slug:string}>};
+export const generateStaticParams=()=>projects.map(s=>({slug:s.slug}));
+export async function generateMetadata({params}:P):Promise<Metadata>{const {slug}=await params;const s=projects.find(x=>x.slug===slug);return s?{title:s.title,description:s.summary}:{}}
+export default async function Page({params}:P){const {slug}=await params;const p=projects.find(x=>x.slug===slug);if(!p)notFound();
+const R=(t:string,c:React.ReactNode)=>(<div className="row grid gap-3 py-7 md:grid-cols-[1fr_2fr]"><h2 className="text-sm tracking-widest text-[var(--mute)]">{t}</h2><div>{c}</div></div>);
+return(<><Head eyebrow={p.tag} title={p.title} lead={p.summary}/><Wrap data-scene={sceneFor[p.slug]}>{R("PROBLEM",<p>{p.problem}</p>)}{R("SOLUTION",<p>{p.solution}</p>)}{R("KEY FEATURES",<ul className="grid gap-2">{p.features.map(f=><li key={f}>{f}</li>)}</ul>)}{R("TECHNOLOGY STACK",<p>{p.tech.join(" · ")}</p>)}{p.link&&R("SOURCE",<a className="border-b border-white" href={p.link} target="_blank" rel="noopener">View on GitHub ↗</a>)}</Wrap><Cta/></>)}

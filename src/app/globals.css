@@ -1,0 +1,22 @@
+@import "tailwindcss";
+:root{--bg:#000;--fg:#fff;--mute:#888;--panel:#171717;--line:#2a2a2a}
+html{scroll-behavior:smooth;background:var(--bg)}
+body{background:var(--bg);color:var(--fg);font-family:Inter,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.h1{font-size:clamp(2.2rem,6vw,5rem);font-weight:700;letter-spacing:-.035em;line-height:1.03}
+.h2{font-size:clamp(1.7rem,3.6vw,3rem);font-weight:700;letter-spacing:-.03em;line-height:1.08}
+.eyebrow{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--mute)}
+.btn{display:inline-flex;align-items:center;border:1px solid var(--fg);padding:.85rem 1.4rem;font-size:.75rem;letter-spacing:.12em;font-weight:600;transition:.25s}
+.btn:hover{background:var(--fg);color:var(--bg)}.btn.p{background:var(--fg);color:var(--bg)}.btn.p:hover{background:transparent;color:var(--fg)}
+.row{border-top:1px solid var(--line)}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+#stage{position:fixed;z-index:0;pointer-events:none;inset:0;width:100%;height:100%;opacity:.9}
+@media(max-width:860px){#stage{opacity:.6}}
+main{position:relative;z-index:1}
+.page-in{animation:pin .6s cubic-bezier(.2,.7,.2,1) both}
+@keyframes pin{from{opacity:0;transform:translateY(18px) scale(.995)}to{opacity:1;transform:none}}
+p,li,h1,h2,h3{text-shadow:0 0 18px var(--bg),0 0 6px var(--bg)}
+.fallback{position:absolute;right:8%;top:22%;width:min(46vw,420px);aspect-ratio:1;border:1px solid var(--line);border-radius:50%;display:none}
+.nogl .fallback{display:block}.nogl body{background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:64px 64px}
+.tl{position:absolute;z-index:1;pointer-events:none;transform:translate(-50%,0);font-size:11px;letter-spacing:.18em;text-transform:uppercase;white-space:nowrap;color:var(--fg);opacity:0}
+.tg{position:absolute;z-index:1;right:24px;bottom:30px;font-size:10px;letter-spacing:.22em;color:var(--mute);pointer-events:none}
+@media(max-width:860px){.tl{font-size:9px;letter-spacing:.12em}.tg{display:none}}
