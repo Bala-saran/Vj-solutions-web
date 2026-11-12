@@ -1,0 +1,2 @@
+import Link from "next/link";import {Head,Wrap} from "@/components/ui";
+export default function NF(){return(<><Head eyebrow="404" title="Page not found." lead="The page you requested does not exist or has moved."/><Wrap><div className="flex flex-wrap gap-3"><Link href="/" className="btn p">HOME</Link><Link href="/services" className="btn">SERVICES</Link><Link href="/insights" className="btn">INSIGHTS</Link></div></Wrap></>)}

@@ -1,0 +1,5 @@
+import type {Metadata} from "next";import {Head,Wrap,Cta} from "@/components/ui";import SceneStage from "@/components/3d/SceneStage";import ProjectCard from "@/components/ProjectCard";import {projects} from "@/data/site";
+export const metadata:Metadata={title:"Projects",description:"Creations and the journey behind each one."};
+// To add a project, append an object to `projects` in src/data/site.ts (and optionally projectExtra); this page and /projects/[slug] pick it up automatically.
+const SK=["doc","bars","wave","phone"];
+export default function P(){return(<><SceneStage keys={projects.map((_,i)=>SK[i]||"doc")}/><Head eyebrow="Projects" title="Ideas, brought to life." lead="Each creation started as an idea. Here is the thinking behind it and what it was built with. Nothing here is claimed beyond what it is."/><Wrap><div className="lg:w-[52%]">{projects.map((p,i)=>(<div key={p.slug} data-i={i} className="flex min-h-[80vh] items-center py-6"><ProjectCard p={p} i={i}/></div>))}</div></Wrap><Cta/></>)}
