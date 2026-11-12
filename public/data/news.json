@@ -1,6 +1,150 @@
 {
- "updated": "2026-11-12T14:34:48.392Z",
+ "updated": "2026-11-12T23:11:19.421Z",
  "articles": [
+  {
+   "id": "657af3312af0",
+   "title": "Build once, run on any agent: A practical guide to agent skills",
+   "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog .",
+   "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+   "source": "GitHub Blog",
+   "category": "Developer Tools",
+   "published": "2026-11-12T22:54:52.000Z"
+  },
+  {
+   "id": "fecee83ad946",
+   "title": "Deploy frontier AI models on AWS Trainium with SGLang-Neuron",
+   "summary": "SGLang-Neuron is now publicly available through an AWS Deep Learning Container. With SGLang-Neuron, you can serve models and generate reinforcement learning rollouts with SGLang on AWS Trainium using the same SGLang interface you already know, all running on native PyTorch.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-12T22:03:34.000Z"
+  },
+  {
+   "id": "164d18b9ed2e",
+   "title": "How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore",
+   "summary": "Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore that captures institutional lab-operations knowledge and deploys it at scale. This post walks through the full architecture, from knowledge base construction to deployment and evaluation, delivering about 130x faster first response",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-12T21:47:07.000Z"
+  },
+  {
+   "id": "332da1c688ca",
+   "title": "Four Amazon Bedrock inference choices that affect cost",
+   "summary": "Your Amazon Bedrock inference bill can keep climbing even after you tune prompts and application logic. Four request-level choices (cache duration, service tier, reasoning effort, and maxTokens) change how many tokens the service processes and the rate applied. We show how we tested each and how to ",
+   "url": "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-12T20:51:55.000Z"
+  },
+  {
+   "id": "07356858caea",
+   "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+   "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “pote",
+   "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+   "source": "MIT Technology Review",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-12T20:16:24.000Z"
+  },
+  {
+   "id": "372847c94994",
+   "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+   "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+   "url": "https://openai.com/index/amplitude",
+   "source": "OpenAI News",
+   "category": "Developer Tools",
+   "published": "2026-11-12T20:00:00.000Z"
+  },
+  {
+   "id": "a674b726b083",
+   "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
+   "summary": "Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when",
+   "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-12T19:29:55.000Z"
+  },
+  {
+   "id": "a88bddb17214",
+   "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+   "summary": "",
+   "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+   "source": "Hugging Face Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-12T19:07:35.000Z"
+  },
+  {
+   "id": "355689f1d7ea",
+   "title": "Optimizing cost per task and proving agent ROI on Amazon Bedrock",
+   "summary": "Comparing per-token prices hides the real cost of running a model on Amazon Bedrock. This post shows how to calculate the true cost per task across four hidden cost drivers, reduce it with caching, routing, and output constraints, and prove agent ROI with human baselines, holdout experiments, and a ",
+   "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-per-task-and-proving-agent-roi-on-amazon-bedrock/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-12T18:43:19.000Z"
+  },
+  {
+   "id": "b7b9161e40e9",
+   "title": "Building a self-service LLM gateway with Amazon Bedrock and LiteLLM",
+   "summary": "Build a self-service LLM gateway with LiteLLM on AWS Fargate that puts Amazon Bedrock foundation models behind an OpenAI-compatible API. Developers get instant access through a single API key, while platform teams gain per-user cost controls, quota isolation, and observability.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-12T18:41:12.000Z"
+  },
+  {
+   "id": "459a57b4750a",
+   "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+   "summary": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
+   "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+   "source": "Google AI Blog",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-12T18:00:00.000Z"
+  },
+  {
+   "id": "66bdd92f8e97",
+   "title": "Run agents securely and efficiently with the next generation AgentCore runtime",
+   "summary": "AI agents now run multi-step workloads for hours and act on behalf of users, raising the bar for secure, scalable agent compute. Learn how the next generation of Amazon Bedrock AgentCore runtime delivers hardware-isolated sessions with faster starts, more compute, usage-based billing, and isolation ",
+   "url": "https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-12T17:59:59.000Z"
+  },
+  {
+   "id": "9e1f41c111d5",
+   "title": "Migrate to Amazon Bedrock Managed Knowledge Base with your coding agent",
+   "summary": "The migration guide in the amazon-bedrock skill helps you migrate a customer-managed Amazon Bedrock knowledge base to a Managed Knowledge Base. Your coding agent plans the move with read-only discovery, creates the new knowledge base or an infrastructure-as-code template alongside the original, and ",
+   "url": "https://aws.amazon.com/blogs/machine-learning/migrate-to-amazon-bedrock-managed-knowledge-base-with-your-coding-agent/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-12T16:16:45.000Z"
+  },
+  {
+   "id": "de687054f074",
+   "title": "Build composable, interoperable multi-agent systems with A2A on AWS",
+   "summary": "Build a composable, interoperable multi-agent system on AWS with the Agent-to-Agent (A2A) protocol. A LangChain orchestrator on Amazon ECS communicates with a Strands agent on Amazon Bedrock AgentCore across organizational boundaries, using bidirectional, OAuth-authenticated calls, with neither side",
+   "url": "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-12T15:42:21.000Z"
+  },
+  {
+   "id": "a888961d7ce6",
+   "title": "Fine-grained access control for Amazon Bedrock Managed Knowledge Base tools",
+   "summary": "Learn how to expose an Amazon Bedrock Managed Knowledge Base to AI agents as MCP tools through Amazon Bedrock AgentCore Gateway while keeping per-user access control. A request interceptor injects verified identity, Policy in AgentCore validates it independently, and a resource-based policy restrict",
+   "url": "https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Developer Tools",
+   "published": "2026-11-12T15:40:24.000Z"
+  },
+  {
+   "id": "19d3c2e19db4",
+   "title": "From prototype to production: Engineering agents with Agent DLC",
+   "summary": "Agents stall between demo and release when teams lack a repeatable way to measure how good an agent is and whether the last change helped. This post covers three agent properties that break traditional CI/CD, a measured case where an aggregate metric hides a coverage gap, and Agent DLC: one lifecycl",
+   "url": "https://aws.amazon.com/blogs/machine-learning/from-prototype-to-production-engineering-agents-with-agent-dlc/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-12T15:38:47.000Z"
+  },
   {
    "id": "56aae23ea0ec",
    "title": "The Download: COP31’s climate challenge and the quest for immortality",
@@ -9,6 +153,42 @@
    "source": "MIT Technology Review",
    "category": "Artificial Intelligence",
    "published": "2026-11-12T13:10:00.000Z"
+  },
+  {
+   "id": "3fc70062a296",
+   "title": "Siemens Desigo, Gridscale",
+   "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remot",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-12T12:00:00.000Z"
+  },
+  {
+   "id": "d1b92d164acb",
+   "title": "Siemens RUGGEDCOM APE1808",
+   "summary": "View CSAF Summary Palo Alto Networks has published information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Customers are advised to consult and implement the workarounds provided in ",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-12T12:00:00.000Z"
+  },
+  {
+   "id": "0b6d9bcd8811",
+   "title": "Siemens Building Automation and Energy Products",
+   "summary": "View CSAF Summary On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of imp",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-12T12:00:00.000Z"
+  },
+  {
+   "id": "0326dcbca7c7",
+   "title": "Siemens Industrial Edge Management",
+   "summary": "View CSAF Summary Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - No Management Applications installed: No action is required. Although the affected Brotli library is included in the IEM softwar",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-12T12:00:00.000Z"
   },
   {
    "id": "0990939c7d6e",
@@ -3420,263 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
    "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "03f73eb0d661",
-   "title": "Adaptive Reparametrized Time for Score-Based Diffusion Sampling",
-   "summary": "arXiv:2607.02137v4 Announce Type: replace-cross Abstract: We study timestep allocation for score-based diffusion sampling, where a learned reverse-time dynamics is discretized on a finite grid. Uniform and hand-crafted schedules are standard choices, but they rely on fixed prescriptions and can ther",
-   "url": "https://arxiv.org/abs/2607.02137",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "3ae55ac3520e",
-   "title": "Listen to the Features: Voice Anonymization Driven by Content Embedding Matching over Signal Reconstruction",
-   "summary": "arXiv:2607.09767v2 Announce Type: replace-cross Abstract: The paper presents a voice anonymization model focusing on preserving content rather than producing realistic speech. It relies on content embeddings extracted from a frozen pretrained wav2vec2 encoder. These embeddings are decoded into an an",
-   "url": "https://arxiv.org/abs/2607.09767",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "c5b96de90564",
-   "title": "Reasoning Before Translation: Enhancing Legal Machine Translation with Structured Reasoning",
-   "summary": "arXiv:2607.19181v3 Announce Type: replace-cross Abstract: Neural machine translation (NMT) in the legal domain is a linguistically and conceptually demanding task, primarily due to the complexity of legal language and the high level of precision it requires. The recent emergence of reasoning-capable",
-   "url": "https://arxiv.org/abs/2607.19181",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "205148266f1b",
-   "title": "RamanPFN: A physics-guided spectral foundation framework for in-context learning across diverse Raman applications",
-   "summary": "arXiv:2608.02157v3 Announce Type: replace-cross Abstract: Raman spectroscopy enables label-free molecular characterization across materials science, analytical chemistry, biomedicine, and industrial process monitoring. However, machine learning for high-dimensional spectroscopy remains constrained b",
-   "url": "https://arxiv.org/abs/2608.02157",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "d1cbc2eeb534",
-   "title": "Multimodal Model Diffing for Feature Discovery and Control",
-   "summary": "arXiv:2608.09928v2 Announce Type: replace-cross Abstract: Multimodal Large Language Models (MLLMs) exhibit strong visual understanding, yet the internal features that cause these behaviors remain difficult to identify, audit, or control. While applicable to post-hoc inspection, hidden states that ar",
-   "url": "https://arxiv.org/abs/2608.09928",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "2033df37ae59",
-   "title": "SplitLite: Low-Rank Residual Compression for Split Learning",
-   "summary": "arXiv:2608.23018v3 Announce Type: replace-cross Abstract: Federated fine-tuning of on-device large language models (LLMs) faces a significant computing burden. To overcome this limitation, split learning (SL) has emerged as a promising solution, which offloads the primary training workload to a powe",
-   "url": "https://arxiv.org/abs/2608.23018",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "c4ebe38be27c",
-   "title": "Reinforcement Learning over Patient Trajectories for Clinical Reasoning in EHR Foundation Models",
-   "summary": "arXiv:2609.12277v2 Announce Type: replace-cross Abstract: Electronic health record (EHR) foundation models trained on longitudinal patient trajectories have demonstrated strong performance across diverse clinical prediction tasks. However, their clinical reasoning capabilities remain constrained by ",
-   "url": "https://arxiv.org/abs/2609.12277",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "17f82ce264d4",
-   "title": "CIDERS: Cloud-Edge LLM Collaborative Learning via Accelerating Personalized Bilevel Optimization",
-   "summary": "arXiv:2609.15664v3 Announce Type: replace-cross Abstract: Amid the rapid advancement of physical-world intelligence, cloud-edge collaborative large language models (LLMs) have emerged as a promising roadmap for practical LLM deployment. However, existing cloud-edge paradigms struggle to balance glob",
-   "url": "https://arxiv.org/abs/2609.15664",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "0db15e58d3ae",
-   "title": "GraphToolbox: A Configurable Framework for Controlled Benchmarking of Graph Neural Network Forecasting",
-   "summary": "arXiv:2609.24609v2 Announce Type: replace-cross Abstract: Electricity forecasting often involves spatially related signals observed over regions, substations, and feeders, and Graph Neural Networks (GNNs) represent these relations through a graph. Building a complete GNN forecasting experiment is no",
-   "url": "https://arxiv.org/abs/2609.24609",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "e5d28de9665a",
-   "title": "Learning Perturbation Robust Policies for LLM Agents with Stable Optimization",
-   "summary": "arXiv:2609.34064v2 Announce Type: replace-cross Abstract: Reinforcement learning (RL) has become an effective post-training paradigm for long-horizon large language model (LLM) agents. However, we find that the resulting policies can be sensitive to various policy perturbations, such as hidden-state",
-   "url": "https://arxiv.org/abs/2609.34064",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "4b189b24c2a2",
-   "title": "LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization",
-   "summary": "arXiv:2609.38166v2 Announce Type: replace-cross Abstract: Recent LLMs increasingly adopt hybrid designs that replace standard attention with linear attention, such as Gated DeltaNet (GDN) and Kimi Delta Attention (KDA). Although they compress the context into a fixed-size recurrent state and substan",
-   "url": "https://arxiv.org/abs/2609.38166",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "cee740c440db",
-   "title": "Mitigating Private Data Leakage in LLMs with Whiteout",
-   "summary": "arXiv:2610.02418v2 Announce Type: replace-cross Abstract: Modern large language models (LLMs) are trained on massive, largely unfiltered datasets, including content scraped from nearly every accessible website and user inputs. As a result, LLMs often memorize and reproduce personally sensitive infor",
-   "url": "https://arxiv.org/abs/2610.02418",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "8706e9123ec7",
-   "title": "CACHEFORGE: LLM-Guided End-to-End Generative Cache Replacement Policy for Performance and Hardware Efficiency",
-   "summary": "arXiv:2610.07668v2 Announce Type: replace-cross Abstract: Modern cache replacement designs saturate because they operate within fixed representational structures, hand-crafted and heuristic based feature-engineered predictors, or offline imitation models that cannot generate new decision logic on th",
-   "url": "https://arxiv.org/abs/2610.07668",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "795537d4dc6c",
-   "title": "Where Polanyi Meets Galois: Tacit Knowing as an Algebro-Deterministic Operation, Toward Re-rooting AI-Generated Science",
-   "summary": "arXiv:2610.16102v3 Announce Type: replace-cross Abstract: Tacit knowing, we argue, is an operating regime of one memory substrate, not a separate kind of content. In VaCoAl, an algebro-deterministic hyperdimensional memory over $\\mathrm{GF}(2)$ realized as CASRAM and PyVaCoAl, one DAG of bound recor",
-   "url": "https://arxiv.org/abs/2610.16102",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "8287ffc36bac",
-   "title": "Prune-and-Merge: Training-Free Scaling of Vision Transformers",
-   "summary": "arXiv:2610.18039v3 Announce Type: replace-cross Abstract: Vision Transformers achieve strong performance but incur high computational costs from quadratic token interactions. Training-free token reduction methods improve efficiency, but their robustness remains underexplored. We propose Prune-and Me",
-   "url": "https://arxiv.org/abs/2610.18039",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "5f456d6d468c",
-   "title": "Hearsay or Fact? How Framing and Elicitation Shape LLM Probability Updates",
-   "summary": "arXiv:2610.27745v3 Announce Type: replace-cross Abstract: We measure LLM probability updates on $\\delta$-SNLI premise-hypothesis pairs across the Multi-Candidate Verbalization (MCV) family. Separate calls elicit priors and posteriors; directional movement s signs changes by the annotated direction. ",
-   "url": "https://arxiv.org/abs/2610.27745",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "13fb73ab1b11",
-   "title": "SplatLab: Autonomous Scientific Discovery for 3DGS Research",
-   "summary": "arXiv:2610.30468v3 Announce Type: replace-cross Abstract: Scientific discovery requires more than generating hypotheses: ideas must be grounded in prior work, translated into executable methods, experimentally validated, challenged by counterevidence, and communicated through reproducible findings. ",
-   "url": "https://arxiv.org/abs/2610.30468",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "ba7e60f60ce5",
-   "title": "Base Models Can Detect Hidden Intentions that Prompted Classifiers Miss",
-   "summary": "arXiv:2610.36202v2 Announce Type: replace-cross Abstract: The Persona Selection Model (PSM) posits that post-training selects a persona the model learned during pre-training. Work on subliminal learning has shown that models can impart covert signals (like \"love of owls\") into semantically unrelated",
-   "url": "https://arxiv.org/abs/2610.36202",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "04ae68281bb4",
-   "title": "Spectral-Convolutional Factorized Transformer for Joint Multipath Parameter Estimation: Applications to mmWave Positioning and Radio SLAM",
-   "summary": "arXiv:2611.01491v2 Announce Type: replace-cross Abstract: Future 6G wireless networks are expected to evolve toward AI-native systems that support intelligent, environment-aware services, including positioning and mapping. Current research has already integrated AI into several aspects of communicat",
-   "url": "https://arxiv.org/abs/2611.01491",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "72ec882df75b",
-   "title": "Do Language Models Know Which Constraints Belong Together?",
-   "summary": "arXiv:2611.05726v3 Announce Type: replace-cross Abstract: Dantzig--Wolfe reformulation strengthens the linear relaxation of a mixed-integer program by convexifying constraint families, and each candidate costs a column generation run. The choice is hard when families strengthen the bound only togeth",
-   "url": "https://arxiv.org/abs/2611.05726",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
   }
  ],
  "sources": {
   "huggingface": {
    "ok": true,
-   "count": 905,
-   "at": "2026-11-12T14:34:47.717Z"
+   "count": 906,
+   "at": "2026-11-12T23:11:18.199Z"
   },
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-12T14:34:47.719Z"
+   "at": "2026-11-12T23:11:18.200Z"
   },
   "openai": {
    "ok": true,
-   "count": 1383,
-   "at": "2026-11-12T14:34:47.690Z"
+   "count": 1384,
+   "at": "2026-11-12T23:11:18.174Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 0,
-   "at": "2026-11-12T14:34:47.720Z"
+   "at": "2026-11-12T23:11:18.201Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-12T14:34:47.724Z"
+   "at": "2026-11-12T23:11:18.206Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-12T14:34:47.726Z"
+   "at": "2026-11-12T23:11:18.207Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-12T14:34:47.729Z"
+   "at": "2026-11-12T23:11:18.210Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-12T14:34:47.724Z"
+   "at": "2026-11-12T23:11:18.205Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-12T14:34:47.721Z"
+   "at": "2026-11-12T23:11:18.203Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-12T14:34:47.723Z"
+   "at": "2026-11-12T23:11:18.204Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-12T14:34:47.728Z"
+   "at": "2026-11-12T23:11:18.209Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-12T14:34:47.716Z"
+   "at": "2026-11-12T23:11:18.199Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-12T14:34:47.728Z"
+   "at": "2026-11-12T23:11:18.209Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-12T14:34:47.727Z"
+   "at": "2026-11-12T23:11:18.208Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-12T14:34:47.727Z"
+   "at": "2026-11-12T23:11:18.208Z"
   }
  }
 }
