@@ -1,6 +1,24 @@
 {
- "updated": "2026-11-12T03:47:26.846Z",
+ "updated": "2026-11-12T14:34:48.392Z",
  "articles": [
+  {
+   "id": "56aae23ea0ec",
+   "title": "The Download: COP31’s climate challenge and the quest for immortality",
+   "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What to know about this year’s UN climate talks Thousands of delegates, lobbyists, and journalists have gathered in Antalya, Turkey, for COP31, the an",
+   "url": "https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/",
+   "source": "MIT Technology Review",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-12T13:10:00.000Z"
+  },
+  {
+   "id": "0990939c7d6e",
+   "title": "Holiday Extras is rethinking what it can build with Codex",
+   "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+   "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-12T09:30:00.000Z"
+  },
   {
    "id": "4fde59b89280",
    "title": "Build autonomous AI agents with Amazon Bedrock and Spring AI",
@@ -9,6 +27,24 @@
    "source": "AWS Machine Learning Blog",
    "category": "Cloud Computing",
    "published": "2026-11-12T01:18:23.000Z"
+  },
+  {
+   "id": "56dac742ff29",
+   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+   "summary": "",
+   "url": "https://huggingface.co/blog/3d-lora-finetuning",
+   "source": "Hugging Face Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-12T00:00:00.000Z"
+  },
+  {
+   "id": "b06379671ede",
+   "title": "Supporting research on AI and children’s safety",
+   "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+   "url": "https://openai.com/index/children-first-declaration",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-12T00:00:00.000Z"
   },
   {
    "id": "f28f90d2895a",
@@ -3564,119 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "AI Research",
    "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "c874c1d54742",
-   "title": "ALTO: African and Levantine Tech-Facilitated Gender-Based Violence Corpus",
-   "summary": "arXiv:2611.06706v2 Announce Type: replace-cross Abstract: Tech-facilitated gender based violence (TFGBV) is a pervasive online harm affecting women and gender minority groups through its many direct and covert forms. Current models and annotated datasets for gendered harm detection are dominated by ",
-   "url": "https://arxiv.org/abs/2611.06706",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "bc102ff72e36",
-   "title": "Selective Retrieval Routing for Multi-Violation Knowledge Graph Repair",
-   "summary": "arXiv:2611.07342v2 Announce Type: replace-cross Abstract: Knowledge graphs often contain missing or inconsistent facts that undermine the applications built on them. Schema validation detects such violations but does not identify which of several valid repairs recovers the intended graph. External c",
-   "url": "https://arxiv.org/abs/2611.07342",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "0ff88cf462a3",
-   "title": "Towards Scalable Diagnostic-Driven Whole-Slide Image Retrieval for Pathology Archives",
-   "summary": "arXiv:2611.07935v2 Announce Type: replace-cross Abstract: The growing adoption of digital pathology has rapidly expanded collections of hematoxylin-and-eosin whole-slide images, yet efficient navigation through these archives remains challenging, as metadata is often inconsistent or unavailable. Con",
-   "url": "https://arxiv.org/abs/2611.07935",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "9c6419bc873e",
-   "title": "BEiTScore++: Reference-free Image Captioning Evaluation with BEiT-3 and Conformalized Quantile Regression",
-   "summary": "arXiv:2611.09505v2 Announce Type: replace-cross Abstract: Reliable uncertainty estimation is important for deploying evaluation metrics in real-world settings, where both input ambiguity and domain shifts are common. In this work, we propose an uncertainty-aware extension of the BEiTScore image capt",
-   "url": "https://arxiv.org/abs/2611.09505",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
   }
  ],
  "sources": {
   "huggingface": {
    "ok": true,
-   "count": 904,
-   "at": "2026-11-12T03:47:25.549Z"
+   "count": 905,
+   "at": "2026-11-12T14:34:47.717Z"
   },
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-12T03:47:25.549Z"
+   "at": "2026-11-12T14:34:47.719Z"
   },
   "openai": {
    "ok": true,
-   "count": 1381,
-   "at": "2026-11-12T03:47:25.521Z"
+   "count": 1383,
+   "at": "2026-11-12T14:34:47.690Z"
   },
   "arxiv-ai": {
    "ok": true,
-   "count": 381,
-   "at": "2026-11-12T03:47:25.550Z"
+   "count": 0,
+   "at": "2026-11-12T14:34:47.720Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-12T03:47:25.554Z"
+   "at": "2026-11-12T14:34:47.724Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-12T03:47:25.556Z"
+   "at": "2026-11-12T14:34:47.726Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-12T03:47:25.558Z"
+   "at": "2026-11-12T14:34:47.729Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-12T03:47:25.554Z"
+   "at": "2026-11-12T14:34:47.724Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-12T03:47:25.552Z"
+   "at": "2026-11-12T14:34:47.721Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-12T03:47:25.553Z"
+   "at": "2026-11-12T14:34:47.723Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-12T03:47:25.557Z"
+   "at": "2026-11-12T14:34:47.728Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-12T03:47:25.548Z"
+   "at": "2026-11-12T14:34:47.716Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-12T03:47:25.558Z"
+   "at": "2026-11-12T14:34:47.728Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-12T03:47:25.556Z"
+   "at": "2026-11-12T14:34:47.727Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-12T03:47:25.557Z"
+   "at": "2026-11-12T14:34:47.727Z"
   }
  }
 }
