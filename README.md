@@ -1,4 +1,4 @@
-# VJ SOLUTIONS — Next.js site (static export, GitHub Pages ready)
+# BALA’S CRAFT — Next.js site (static export, GitHub Pages ready)
 Next.js 16 · React 19 · TypeScript · Tailwind v4 · three · fast-xml-parser.
 ## Run
 npm install && npm run dev      # development
