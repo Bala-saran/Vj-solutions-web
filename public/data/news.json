@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-12T23:11:19.421Z",
+ "updated": "2026-11-13T02:24:08.046Z",
  "articles": [
+  {
+   "id": "126f79483dcc",
+   "title": "GitHub availability report: October 2026",
+   "summary": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
+   "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+   "source": "GitHub Blog",
+   "category": "Developer Tools",
+   "published": "2026-11-13T00:20:16.000Z"
+  },
   {
    "id": "657af3312af0",
    "title": "Build once, run on any agent: A practical guide to agent skills",
@@ -47,10 +56,10 @@
    "published": "2026-11-12T20:16:24.000Z"
   },
   {
-   "id": "372847c94994",
+   "id": "5b0f73df89a6",
    "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
    "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-   "url": "https://openai.com/index/amplitude",
+   "url": "https://openai.com/business/customer-stories/amplitude",
    "source": "OpenAI News",
    "category": "Developer Tools",
    "published": "2026-11-12T20:00:00.000Z"
@@ -155,6 +164,15 @@
    "published": "2026-11-12T13:10:00.000Z"
   },
   {
+   "id": "90d79223706e",
+   "title": "Gondola doubles revenue as its team builds more with Codex",
+   "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+   "url": "https://openai.com/business/customer-stories/gondola",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-12T12:00:00.000Z"
+  },
+  {
    "id": "3fc70062a296",
    "title": "Siemens Desigo, Gridscale",
    "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remot",
@@ -209,15 +227,6 @@
    "published": "2026-11-12T01:18:23.000Z"
   },
   {
-   "id": "56dac742ff29",
-   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-   "summary": "",
-   "url": "https://huggingface.co/blog/3d-lora-finetuning",
-   "source": "Hugging Face Blog",
-   "category": "Machine Learning",
-   "published": "2026-11-12T00:00:00.000Z"
-  },
-  {
    "id": "b06379671ede",
    "title": "Supporting research on AI and children’s safety",
    "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
@@ -233,6 +242,15 @@
    "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
    "source": "OpenAI News",
    "category": "Artificial Intelligence",
+   "published": "2026-11-12T00:00:00.000Z"
+  },
+  {
+   "id": "56dac742ff29",
+   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+   "summary": "",
+   "url": "https://huggingface.co/blog/3d-lora-finetuning",
+   "source": "Hugging Face Blog",
+   "category": "Machine Learning",
    "published": "2026-11-12T00:00:00.000Z"
   },
   {
@@ -3582,101 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "AI Research",
    "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "e17686ecb633",
-   "title": "Self-Modeling Interventions can Modulate Emergent Misalignment",
-   "summary": "arXiv:2606.23700v2 Announce Type: replace-cross Abstract: Emergent misalignment (EM) has been linked to the activation of misaligned persona vectors and evil character traits, suggesting that EM operates through disruption of the model's aligned character rather than direct learning of harmful conte",
-   "url": "https://arxiv.org/abs/2606.23700",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-11T05:00:00.000Z"
-  },
-  {
-   "id": "bc06454ba319",
-   "title": "Learning Dexterous Manipulation Using Contact Wrench Guidance From Human Demonstration",
-   "summary": "arXiv:2607.00033v3 Announce Type: replace-cross Abstract: Dexterous robot manipulation can benefit from the abundance of human demonstrations, but transferring such demonstrations to robot policies remains challenging. We present Contact Wrench Guidance from Human Demonstration in Robotic Dexterous ",
-   "url": "https://arxiv.org/abs/2607.00033",
-   "source": "arXiv cs.AI",
-   "category": "Robotics and Automation",
-   "published": "2026-11-11T05:00:00.000Z"
   }
  ],
  "sources": {
   "huggingface": {
    "ok": true,
    "count": 906,
-   "at": "2026-11-12T23:11:18.199Z"
+   "at": "2026-11-13T02:24:06.353Z"
   },
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-12T23:11:18.200Z"
+   "at": "2026-11-13T02:24:06.355Z"
   },
   "openai": {
    "ok": true,
-   "count": 1384,
-   "at": "2026-11-12T23:11:18.174Z"
+   "count": 1385,
+   "at": "2026-11-13T02:24:06.311Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 0,
-   "at": "2026-11-12T23:11:18.201Z"
+   "at": "2026-11-13T02:24:06.356Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-12T23:11:18.206Z"
+   "at": "2026-11-13T02:24:06.362Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-12T23:11:18.207Z"
+   "at": "2026-11-13T02:24:06.364Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-12T23:11:18.210Z"
+   "at": "2026-11-13T02:24:06.367Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-12T23:11:18.205Z"
+   "at": "2026-11-13T02:24:06.361Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-12T23:11:18.203Z"
+   "at": "2026-11-13T02:24:06.357Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-12T23:11:18.204Z"
+   "at": "2026-11-13T02:24:06.358Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-12T23:11:18.209Z"
+   "at": "2026-11-13T02:24:06.366Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-12T23:11:18.199Z"
+   "at": "2026-11-13T02:24:06.352Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-12T23:11:18.209Z"
+   "at": "2026-11-13T02:24:06.366Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-12T23:11:18.208Z"
+   "at": "2026-11-13T02:24:06.365Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-12T23:11:18.208Z"
+   "at": "2026-11-13T02:24:06.365Z"
   }
  }
 }
