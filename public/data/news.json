@@ -1,6 +1,150 @@
 {
- "updated": "2026-11-13T14:03:23.029Z",
+ "updated": "2026-11-13T23:13:07.516Z",
  "articles": [
+  {
+   "id": "3880f24cce93",
+   "title": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
+   "summary": "Coding agents work in tasks, and the number that matters is cost per solved task, not price per token. In this post, you use the AWS CDK to deploy LiteLLM with the NVIDIA NeMo Switchyard routing plugin on Amazon Bedrock, then measure cost per solved task for a routed model group against single-model",
+   "url": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-13T22:30:12.000Z"
+  },
+  {
+   "id": "29d22120108e",
+   "title": "Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime",
+   "summary": "Amazon Bedrock AgentCore runtime V2 snapshots your initialized environment and restores it for each new session, so session start no longer grows with image size. This post explains how V2 starts a session, how to measure session start time, and four patterns to keep work off the first request.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-13T22:02:39.000Z"
+  },
+  {
+   "id": "2e5da3065056",
+   "title": "OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures",
+   "summary": "Deploy OpenFold3-preview from Amazon SageMaker JumpStart to predict 3D structures of proteins, DNA, RNA, and ligand complexes in your own AWS account. The post covers asynchronous inference, multi-GPU parallelism, bringing your own MSAs for accuracy and privacy, and scaling to zero to reduce cost.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-13T21:53:40.000Z"
+  },
+  {
+   "id": "76962f5e09a0",
+   "title": "Kitesurf is now open source",
+   "summary": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
+   "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+   "source": "Cloudflare Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-13T20:20:21.000Z"
+  },
+  {
+   "id": "081d77d792d9",
+   "title": "Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot",
+   "summary": "Learn how AssemblyAI runs cost-optimized speech-to-text inference at scale on AWS, using Amazon ECS, Amazon EC2 Spot GPU instances, and an Amazon SQS-based retry architecture to achieve 70% cost savings while maintaining SLA commitments across European Regions.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-13T19:35:35.000Z"
+  },
+  {
+   "id": "de58dd928045",
+   "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+   "summary": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
+   "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+   "source": "Cloudflare Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-13T19:26:07.000Z"
+  },
+  {
+   "id": "0d9fae548b15",
+   "title": "How Microcredentials Help Engineers Build Trustworthy AI",
+   "summary": "Engineering teams are moving at breakneck speed to integrate artificial intelligence, but they are running into a formidable new barrier: compliance issues. Translating high-level AI ethics , governance , and auditing into daily operational workflows has become one of the industry’s toughest challen",
+   "url": "https://spectrum.ieee.org/microcredentials-trustworthy-ai",
+   "source": "IEEE Spectrum",
+   "category": "Robotics and Automation",
+   "published": "2026-11-13T19:00:03.000Z"
+  },
+  {
+   "id": "16c76fa53ec6",
+   "title": "Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock",
+   "summary": "Amazon Bedrock provides built-in, zero-instrumentation cost attribution that traces every inference call back to the IAM principal that made it. This post shows how to attribute per-user Bedrock costs for AI developer and productivity tools using IAM Identity Center, session tags, and CUR 2.0, and h",
+   "url": "https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Developer Tools",
+   "published": "2026-11-13T18:44:02.000Z"
+  },
+  {
+   "id": "a8b10f8e6653",
+   "title": "Build a model improvement flywheel with Amazon SageMaker HyperPod Data Capture",
+   "summary": "Amazon SageMaker HyperPod Data Capture records live inference inputs and outputs to Amazon S3. This post walks through one end-to-end example: capturing a support router's production traffic, surfacing a new-product blind spot with Amazon Athena, fine-tuning on the captured data with the HyperPod tr",
+   "url": "https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-13T18:01:15.000Z"
+  },
+  {
+   "id": "2427bacb74a9",
+   "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+   "summary": "",
+   "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+   "source": "Hugging Face Blog",
+   "category": "Robotics and Automation",
+   "published": "2026-11-13T18:00:39.000Z"
+  },
+  {
+   "id": "8400bdfe1e2a",
+   "title": "XYBench: Helping with the problem behind the question",
+   "summary": "",
+   "url": "https://huggingface.co/blog/allenai/xybench",
+   "source": "Hugging Face Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-13T17:02:35.000Z"
+  },
+  {
+   "id": "f7123ffb5d54",
+   "title": "Cuttlefish on Mac: Running Android&#8217;s Virtual Device Framework Natively on Apple Silicon",
+   "summary": "How Meta's Reality Labs brought Cuttlefish and its QEMU backend to macOS and Apple silicon. [...] Read More... The post Cuttlefish on Mac: Running Android&#8217;s Virtual Device Framework Natively on Apple Silicon appeared first on Engineering at Meta .",
+   "url": "https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/",
+   "source": "Engineering at Meta",
+   "category": "Mobile Technology",
+   "published": "2026-11-13T17:00:39.000Z"
+  },
+  {
+   "id": "fcdcf30ed87c",
+   "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+   "summary": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
+   "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+   "source": "Ars Technica",
+   "category": "Cybersecurity",
+   "published": "2026-11-13T16:26:32.000Z"
+  },
+  {
+   "id": "5bf4951adbe9",
+   "title": "Introducing ChatGPT Wallet",
+   "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+   "url": "https://openai.com/index/introducing-chatgpt-wallet",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-13T15:00:00.000Z"
+  },
+  {
+   "id": "40e78db6601d",
+   "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+   "summary": "",
+   "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+   "source": "Hugging Face Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-13T14:05:22.000Z"
+  },
+  {
+   "id": "1c51c03338d0",
+   "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+   "summary": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
+   "url": "https://blog.cloudflare.com/spend-management/",
+   "source": "Cloudflare Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-13T14:00:00.000Z"
+  },
   {
    "id": "f1dbc25a6463",
    "title": "The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan",
@@ -9,6 +153,15 @@
    "source": "MIT Technology Review",
    "category": "Artificial Intelligence",
    "published": "2026-11-13T13:10:00.000Z"
+  },
+  {
+   "id": "1671c4ae2d79",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114713 UnrealIRCd Improper Neutralization of Delimiters Vulnerability CVE-2026-123039 Check Point Multiple Products Incorrect Permission Assignment for Cri",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-13T12:00:00.000Z"
   },
   {
    "id": "eec9abe0c41c",
@@ -3447,236 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "AI Research",
    "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "308acf2e109e",
-   "title": "AGORA: Reliability-Aware Aggregation of LLM Judges on Small Evaluation Sets",
-   "summary": "arXiv:2611.05556v2 Announce Type: replace Abstract: LLM-as-a-judge is a common substitute for costly human evaluation, and aggregating several judges is the standard remedy for any single judge's bias. Judge pools mix judges of very different reliability, while the human-labeled sets that validate t",
-   "url": "https://arxiv.org/abs/2611.05556",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "2b01a5f7a559",
-   "title": "SafeOrchestrate: Runtime Checked Intent-Driven Orchestration for Cyber-Physical Systems",
-   "summary": "arXiv:2611.09364v2 Announce Type: replace Abstract: Modern cyber physical systems (CPS) integrate heterogeneous sensors, actuators, controllers, and services, composed at runtime rather than at design time. Orchestrating such systems through natural language (NL) is attractive, but unconstrained lar",
-   "url": "https://arxiv.org/abs/2611.09364",
-   "source": "arXiv cs.AI",
-   "category": "Cybersecurity",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "a144563512ca",
-   "title": "Don't Blame The Preferences: Examining The Emergence of Sycophancy in LLM Training",
-   "summary": "arXiv:2611.10045v2 Announce Type: replace Abstract: AI sycophancy, the tendency of large language models (LLMs) to flatter users and affirm their beliefs, can undermine accuracy and contribute to misinformation, dependence, and overconfidence. Although prior work has benchmarked sycophancy in releas",
-   "url": "https://arxiv.org/abs/2611.10045",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "804ab93bd90e",
-   "title": "BunshinRL: Whole-Workspace Forking for Agentic Reinforcement Learning Rollouts",
-   "summary": "arXiv:2611.10453v2 Announce Type: replace Abstract: Agentic reinforcement learning (RL) rollouts interleave model reasoning with tool calls in persistent workspaces. Scaling these rollouts incurs substantial memory costs for concurrent environments, while slow tool calls delay entire rollout batches",
-   "url": "https://arxiv.org/abs/2611.10453",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "1ffe89994836",
-   "title": "Characterizing Scanpath Decoding Pipelines with Perturbation Profiles",
-   "summary": "arXiv:2611.11632v2 Announce Type: replace Abstract: When a scanpath descriptor supports a classification, it is rarely clear what the classification rests on. We propose perturbation profiles. Five transformations each target one stated property of every scanpath (fixation order, the coupling of dur",
-   "url": "https://arxiv.org/abs/2611.11632",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "d1378c7877a6",
-   "title": "AutoQS: Automated Quantization Strategy Design with Large Language Models",
-   "summary": "arXiv:2611.11975v2 Announce Type: replace Abstract: Quantization reduces LLM deployment costs, but effective strategies must balance model quality and storage. LLM-driven search can automate strategy design through repeated proposal and evaluation. This process must identify useful strategies within",
-   "url": "https://arxiv.org/abs/2611.11975",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "d0be8834e6ce",
-   "title": "Evaluating AI Agents for Industrial-Level Chip Floorplanning: A Framework and Empirical Study",
-   "summary": "arXiv:2611.12048v2 Announce Type: replace Abstract: Floorplanning is an early step in turning a logical circuit into a physical chip: it positions large circuit modules and constrains the space available for subsequent logic placement and wiring. These decisions affect congestion and timing, but the",
-   "url": "https://arxiv.org/abs/2611.12048",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "6522dff0e6bc",
-   "title": "SkillDuet: Co-Evolving Models and Skills through Response Feedback",
-   "summary": "arXiv:2611.12109v2 Announce Type: replace Abstract: During reinforcement learning, experience can be both internalized in LLM parameters and retained externally as reusable textual skills. Parameter updates alter the model's behavior and the interaction experience from which new skills are extracted",
-   "url": "https://arxiv.org/abs/2611.12109",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "4a84d19ebc28",
-   "title": "DForkTree: Accelerating Speculative Decoding with Fork-Aware Block Diffusion Draft Trees",
-   "summary": "arXiv:2611.12356v2 Announce Type: replace Abstract: Speculative decoding speeds up language models by having a lightweight drafter propose future tokens that the target model verifies in parallel. Block diffusion drafters such as DFlash predict an entire block in one forward pass, and DDTree builds ",
-   "url": "https://arxiv.org/abs/2611.12356",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "aa04c2f046d9",
-   "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
-   "summary": "arXiv:2611.12865v2 Announce Type: replace Abstract: Reinforcement learning (RL) can improve an agent's task capability while reinforcing violations of explicitly stated contextual requirements, even when reward accurately measures useful work. We study this reward-driven misalignment through verifia",
-   "url": "https://arxiv.org/abs/2611.12865",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "58dbe3f79355",
-   "title": "Reliability of Claude Code as an Agentic AI Grading System for Handwritten University Exams",
-   "summary": "arXiv:2611.13217v2 Announce Type: replace Abstract: This study examines the reliability of Claude Code, an agentic deployment of the Claude Opus 4.6 large language model, as a grading system for handwritten university exams. Four research questions addressed agreement with expert human grading on to",
-   "url": "https://arxiv.org/abs/2611.13217",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "0248e8342c36",
-   "title": "DrugCoding: A Scientific Programming Agent for Drug Discovery",
-   "summary": "arXiv:2611.13651v2 Announce Type: replace Abstract: Drug discovery involves multiple interconnected research stages, including molecular design, property prediction, and virtual screening. These processes are characterized by complex workflows, interdependent computational tasks, and diverse special",
-   "url": "https://arxiv.org/abs/2611.13651",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "ed28ba28df63",
-   "title": "Approximate and Weighted Data Reconstruction Attack in Federated Learning",
-   "summary": "arXiv:2308.06822v4 Announce Type: replace-cross Abstract: Federated Learning (FL) is a distributed learning paradigm that enables multiple clients to collaborate on building a machine learning model without sharing their private data. Although FL is considered privacy-preserved by design, recent dat",
-   "url": "https://arxiv.org/abs/2308.06822",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "99d5223d6e6e",
-   "title": "MoralBench: Moral Evaluation of LLMs",
-   "summary": "arXiv:2406.04428v3 Announce Type: replace-cross Abstract: In the rapidly evolving field of artificial intelligence, large language models (LLMs) have emerged as powerful tools for a myriad of applications, from natural language processing to decision-making support systems. However, as these models ",
-   "url": "https://arxiv.org/abs/2406.04428",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "4222bb299eff",
-   "title": "A hybrid FEM-PINN method for time-dependent partial differential equations",
-   "summary": "arXiv:2409.02810v2 Announce Type: replace-cross Abstract: In this work, we present a hybrid numerical method for solving evolution partial differential equations (PDEs) by merging the time finite element method with deep neural networks. In contrast to the conventional deep learning-based formulatio",
-   "url": "https://arxiv.org/abs/2409.02810",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "5eb1f6fb4022",
-   "title": "FACE: Few-shot Adapter with Cross-view Fusion for Cross-subject EEG Emotion Recognition",
-   "summary": "arXiv:2503.18998v2 Announce Type: replace-cross Abstract: Cross-subject EEG emotion recognition is challenged by significant inter-subject variability and intricately entangled intra-subject variability. Existing works have primarily addressed these challenges through domain adaptation or generaliza",
-   "url": "https://arxiv.org/abs/2503.18998",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "2741f79a7170",
-   "title": "Shannon observables: A scalable approach to information decomposition",
-   "summary": "arXiv:2504.15779v2 Announce Type: replace-cross Abstract: Distributed systems, such as biological and artificial neural networks, process information via complex interactions engaging multiple subsystems, resulting in high-order structure of the information within the system with distinct properties",
-   "url": "https://arxiv.org/abs/2504.15779",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
   }
  ],
  "sources": {
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-13T14:03:21.768Z"
+   "at": "2026-11-13T23:13:06.176Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 537,
-   "at": "2026-11-13T14:03:21.768Z"
+   "at": "2026-11-13T23:13:06.177Z"
   },
   "huggingface": {
    "ok": true,
-   "count": 906,
-   "at": "2026-11-13T14:03:21.767Z"
+   "count": 907,
+   "at": "2026-11-13T23:13:06.175Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-13T14:03:21.769Z"
+   "at": "2026-11-13T23:13:06.179Z"
   },
   "openai": {
    "ok": true,
-   "count": 1385,
-   "at": "2026-11-13T14:03:21.742Z"
+   "count": 1386,
+   "at": "2026-11-13T23:13:06.152Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-13T14:03:21.771Z"
+   "at": "2026-11-13T23:13:06.180Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-13T14:03:21.777Z"
+   "at": "2026-11-13T23:13:06.185Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-13T14:03:21.774Z"
+   "at": "2026-11-13T23:13:06.183Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-13T14:03:21.776Z"
+   "at": "2026-11-13T23:13:06.185Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-13T14:03:21.776Z"
+   "at": "2026-11-13T23:13:06.184Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-13T14:03:21.775Z"
+   "at": "2026-11-13T23:13:06.183Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-13T14:03:21.772Z"
+   "at": "2026-11-13T23:13:06.181Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-13T14:03:21.773Z"
+   "at": "2026-11-13T23:13:06.181Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-13T14:03:21.766Z"
+   "at": "2026-11-13T23:13:06.175Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-13T14:03:21.775Z"
+   "at": "2026-11-13T23:13:06.184Z"
   }
  }
 }
