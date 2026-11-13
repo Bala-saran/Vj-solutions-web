@@ -112,7 +112,7 @@ const ease=(x:number)=>1-Math.pow(1-Math.min(1,Math.max(0,x)),3);
 const loop=(n:number)=>{raf=requestAnimationFrame(loop);const dt=Math.min(.05,(n-last)/1e3);last=n;if(!vis)return;if(!rm)t+=dt;
 const el=-.07+.19*ease(t/16)+Math.sin(t*.05)*.004;
 sun.set(.2+Math.sin(t*.03)*.02,el,-1).normalize();
-U.uT.value=t;U.uFade.value=rm?1:Math.min(1,t/2.4);
+U.uT.value=t*.35;U.uFade.value=rm?1:Math.min(1,t/2.4);
 sx+=(mx-sx)*.04;sy+=(my-sy)*.04;
 cam.position.set(Math.sin(t*.11)*.5,3.1+Math.sin(t*.42)*.14+Math.sin(t*.9)*.05,0);
 cam.rotation.set(-.075-sy*.05+Math.sin(t*.37)*.004,-sx*.1,Math.sin(t*.29)*.006,"YXZ");
