@@ -10,7 +10,7 @@ const N=mob?450:1100,p=new Float32Array(N*3);for(let i=0;i<N;i++){p[i*3]=(Math.r
 const pg=new T.BufferGeometry();pg.setAttribute("position",new T.BufferAttribute(p,3));const pm=new T.PointsMaterial({size:.03,color:0x999999,transparent:true,opacity:.35,depthWrite:false});g.add(new T.Points(pg,pm));
 const M=mob?24:48,np:number[][]=[];for(let i=0;i<M;i++)np.push([(Math.random()-.5)*14,(Math.random()-.5)*7,-2-Math.random()*5]);
 const lp:number[]=[];for(let i=0;i<M;i++)for(let j=i+1;j<M;j++)if(Math.hypot(np[i][0]-np[j][0],np[i][1]-np[j][1],np[i][2]-np[j][2])<3)lp.push(...np[i],...np[j]);
-const lg=new T.BufferGeometry();lg.setAttribute("position",new T.Float32BufferAttribute(lp,3));const lm=new T.LineBasicMaterial({color:0x7fd8ff,transparent:true,opacity:.06,depthWrite:false});g.add(new T.LineSegments(lg,lm));
+const lg=new T.BufferGeometry();lg.setAttribute("position",new T.Float32BufferAttribute(lp,3));const lm=new T.LineBasicMaterial({color:0xffffff,transparent:true,opacity:.06,depthWrite:false});g.add(new T.LineSegments(lg,lm));
 
 let mx=0;const mv=(e:PointerEvent)=>{mx=e.clientX/innerWidth-.5};addEventListener("pointermove",mv,{passive:true});
 const rs=()=>{r.setSize(innerWidth,innerHeight,false);c.aspect=innerWidth/innerHeight;c.updateProjectionMatrix()};rs();addEventListener("resize",rs);

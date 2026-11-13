@@ -35,7 +35,7 @@ return 105.*dot(m*m,vec4(dot(p0,x0),dot(p1,x1),dot(p2,x2),dot(p3,x3)));}
 `;
 
 const MORPH=`
-uniform float uT;uniform float uStage;
+uniform float uT;uniform float uStage;uniform float uPulse;uniform float uPT;
 vec3 mmDisp(vec3 n){
 float t=uT;
 float k=smoothstep(0.,1.,uStage);
@@ -50,6 +50,7 @@ float rg1=1.-sqrt(pow(mmN(n*1.35+vec3(t*.04,0.,t*.06)),2.)+.03);
 float rg2=1.-sqrt(pow(mmN(n*2.5-t*.05),2.)+.03);
 float r2=.88+.36*rg1*rg1+.10*rg2*rg2;
 float r=r0*s0+r1*s1+r2*s2;
+r+=uPulse*.09*sin(n.y*7.-uPT*8.);
 vec3 p=n*r*(1.+.045*sin(t*.8));
 p.y*=1.+.26*s1+.10*s2;
 float a=p.y*(.5+1.1*s1+.7*s2)+t*.12;
@@ -62,6 +63,14 @@ vec3 a=abs(n.y)<.95?vec3(0.,1.,0.):vec3(1.,0.,0.);
 vec3 t1=normalize(cross(a,n));vec3 t2=cross(n,t1);float e=.012;
 vec3 p0=mmDisp(n);vec3 p1=mmDisp(normalize(n+t1*e));vec3 p2=mmDisp(normalize(n+t2*e));
 nrm=normalize(cross(p1-p0,p2-p0));return p0;}
+`;
+
+const WATER=`
+uniform float uT;uniform vec3 uRp[4];
+float wH(vec2 p){
+float h=.018*sin(p.x*2.3+uT*.9+sin(p.y*1.7+uT*.5))+.014*sin(p.y*3.1-uT*.7+p.x*.8);
+for(int i=0;i<4;i++){float age=uT-uRp[i].z;if(age>0.&&age<7.){float d=length(p-uRp[i].xy);float e=d-age*1.05;h+=sin(e*10.)*exp(-e*e*3.)*exp(-age*.5)*.09/(1.+d*1.2);}}
+return h;}
 `;
 
 const STAGES=["01 · Liquid form","02 · Flowing ribbons","03 · Sculpted structure"];
@@ -93,9 +102,9 @@ const sc=new T.Scene();sc.environment=rt.texture;
 const cam=new T.PerspectiveCamera(38,1,.1,60);cam.position.set(0,0,6.7);
 const key=new T.DirectionalLight(0xffffff,1.1);key.position.set(3,4,5);sc.add(key);
 
-const U={uT:{value:0},uStage:{value:0}};
+const U={uT:{value:0},uStage:{value:0},uPulse:{value:0},uPT:{value:0}};
 const bodyMat=new T.MeshStandardMaterial({color:0xe9edf3,metalness:1,roughness:.1,envMapIntensity:1.3});
-bodyMat.onBeforeCompile=(x:{uniforms:Record<string,{value:unknown}>;vertexShader:string})=>{x.uniforms.uT=U.uT;x.uniforms.uStage=U.uStage;
+bodyMat.onBeforeCompile=(x:{uniforms:Record<string,{value:unknown}>;vertexShader:string})=>{x.uniforms.uT=U.uT;x.uniforms.uStage=U.uStage;x.uniforms.uPulse=U.uPulse;x.uniforms.uPT=U.uPT;
 x.vertexShader=NOISE+MORPH+x.vertexShader
 .replace("#include <beginnormal_vertex>","#include <beginnormal_vertex>\nvec3 mmNrm;vec3 mmPos=mmFull(position,mmNrm);objectNormal=mmNrm;")
 .replace("#include <begin_vertex>","#include <begin_vertex>\ntransformed=mmPos;")};
@@ -138,37 +147,76 @@ vertexShader:"attribute float aR;uniform float uT,uPR;varying float vA;void main
 fragmentShader:"varying float vA;void main(){float d=length(gl_PointCoord-.5);if(d>.5)discard;gl_FragColor=vec4(vec3(.86,.9,1.),smoothstep(.5,.0,d)*vA*.8);}"});
 const parts=new T.Points(pg,pmt);parts.frustumCulled=false;root.add(parts);
 
+/* water pool with ripples, falling droplets, rising bubbles and a mirrored reflection */
+const waterY=-1.95;
+const wU={uT:U.uT,uRp:{value:[0,1,2,3].map(()=>new T.Vector3(0,0,-100))}};
+const wGeo=new T.PlaneGeometry(18,18,mob?120:220,mob?120:220);
+const wMat=new T.MeshStandardMaterial({color:0x0a2230,emissive:0x041824,metalness:.6,roughness:.03,envMapIntensity:1.15,transparent:true,opacity:.88,depthWrite:false});
+wMat.onBeforeCompile=(x:{uniforms:Record<string,{value:unknown}>;vertexShader:string;fragmentShader:string})=>{x.uniforms.uT=wU.uT;x.uniforms.uRp=wU.uRp;
+x.vertexShader="varying float vR;\n"+WATER+x.vertexShader
+.replace("#include <beginnormal_vertex>","#include <beginnormal_vertex>\nfloat mmE=.03;float mmH=wH(position.xy);objectNormal=normalize(vec3(-(wH(position.xy+vec2(mmE,0.))-mmH)/mmE,-(wH(position.xy+vec2(0.,mmE))-mmH)/mmE,1.));")
+.replace("#include <begin_vertex>","#include <begin_vertex>\ntransformed.z+=mmH;vR=length(position.xy)/9.;");
+x.fragmentShader="varying float vR;\n"+x.fragmentShader.replace("#include <dithering_fragment>","#include <dithering_fragment>\ngl_FragColor.a*=1.-smoothstep(.1,.4,vR);")};
+const wMesh=new T.Mesh(wGeo,wMat);wMesh.rotation.x=-Math.PI/2;wMesh.position.y=waterY;wMesh.renderOrder=2;root.add(wMesh);
+const dGeo=new T.IcosahedronGeometry(1,mob?2:3),dMat=new T.MeshStandardMaterial({color:0xeef2f8,metalness:1,roughness:.05,envMapIntensity:1.4});
+type Drop={m:InstanceType<typeof T.Mesh>;m2:InstanceType<typeof T.Mesh>;x:number;z:number;ph:number;per:number;r:number;fired:boolean};
+const drops:Drop[]=[],DN=mob?4:6;
+const mir=new T.Group(),mart=new T.Group();mir.scale.y=-1;mir.position.y=2*waterY;mir.visible=!mob;if(mob)wMat.opacity=.6;mir.add(mart);root.add(mir);
+const body2=new T.Mesh(bodyGeo,bodyMat);body2.frustumCulled=false;mart.add(body2);
+const ribs2=ribs.map(R=>{const m=new T.Mesh(R.g,rMat);m.frustumCulled=false;mart.add(m);return m});
+for(let i=0;i<DN;i++){const a=i/DN*6.2832+.6,rr=.25+.45*rnd(),d:Drop={m:new T.Mesh(dGeo,dMat),m2:new T.Mesh(dGeo,dMat),x:Math.cos(a)*rr,z:Math.sin(a)*rr,ph:i*1.37,per:3.4+rnd()*1.6,r:.085+rnd()*.05,fired:false};root.add(d.m);mir.add(d.m2);drops.push(d)}
+const BN=mob?36:80,bp=new Float32Array(BN*3),ba=new Float32Array(BN);
+for(let i=0;i<BN;i++){const a=rnd()*6.2832,q=Math.sqrt(rnd())*2.6;bp.set([Math.cos(a)*q,0,Math.sin(a)*q],i*3);ba[i]=rnd()}
+const bg=new T.BufferGeometry();bg.setAttribute("position",new T.BufferAttribute(bp,3));bg.setAttribute("aR",new T.BufferAttribute(ba,1));
+const bmat=new T.ShaderMaterial({transparent:true,depthWrite:false,blending:T.AdditiveBlending,uniforms:{uT:U.uT,uPR:PU.uPR,uW:{value:waterY}},
+vertexShader:"attribute float aR;uniform float uT,uPR,uW;varying float vA;void main(){float f=fract(aR*7.+uT*(.05+.05*aR));vec3 p=position;p.y=uW+f*3.2;p.x+=sin(uT*.6+aR*30.)*.08;vec4 mv=modelViewMatrix*vec4(p,1.);vA=sin(f*3.1416)*(.35+.4*aR);gl_PointSize=uPR*(1.4+2.2*aR)*(7./-mv.z);gl_Position=projectionMatrix*mv;}",
+fragmentShader:"varying float vA;void main(){float d=length(gl_PointCoord-.5);if(d>.5)discard;gl_FragColor=vec4(vec3(.7,.88,1.),smoothstep(.5,.15,d)*vA*.7);}"});
+const bubbles=new T.Points(bg,bmat);bubbles.frustumCulled=false;bubbles.visible=!rm;root.add(bubbles);
+const cs=[new T.Color(0xdde8f6),new T.Color(0xeeeeee),new T.Color(0xf4e8da)],ctmp=new T.Color();
+
 /* layout: sculpture sits right on desktop, upper-centre on mobile; never under the text column */
 let W=1,H=1,hh=2.2,hwid=2.2;
 const layout=()=>{W=L.clientWidth||innerWidth;H=L.clientHeight||innerHeight;r.setSize(W,H,false);const asp=W/H;cam.aspect=asp;cam.updateProjectionMatrix();
 hh=Math.tan(cam.fov*Math.PI/360)*cam.position.z;hwid=hh*asp;const d=W>=1024;
-const s=d?Math.min(hh*.86,hwid*.56)/1.9:Math.min(hwid*.98,hh*.4)/1.9;
-root.scale.setScalar(s);root.position.set(d?hwid*.4:0,d?0:hh*.4,0)};
+const s=d?Math.min(hh*.7,hwid*.5)/1.9:Math.min(hwid*.98,hh*.36)/1.9;
+root.scale.setScalar(s);root.position.set(d?hwid*.4:0,d?hh*.15:hh*.46,0)};
 layout();
 
 let mx=0,my=0;const mv=(e:PointerEvent)=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5};
 const target=()=>{const q=sec.getBoundingClientRect(),tr=q.height-innerHeight;return tr>0?clamp(-q.top/tr,0,1)*2:0};
-let tgt=target(),st=tgt,vis=true,t=rm?7.3:0,last=performance.now(),raf=0,sh=-1,frames=0,acc=0,first=true;
+let pulse=0,pt=0,ripIdx=0;let tgt=target(),st=tgt,vis=true,t=rm?7.3:0,last=performance.now(),raf=0,sh=-1,frames=0,acc=0,first=true;
 const lost=(e:Event)=>{e.preventDefault();setGl(false)};c.addEventListener("webglcontextlost",lost);
 const draw=(dt:number)=>{
 st=rm?tgt:st+(tgt-st)*(1-Math.exp(-dt*3.2));U.uStage.value=st;U.uT.value=t;
 const k=clamp(st,0,2),s1=Math.sin(Math.min(k,1)*Math.PI/2),wr=k<=1?.25+.75*s1:1-.4*(k-1),rs=1+.14*Math.min(k,1)-.1*Math.max(0,k-1);
 for(let i=0;i<ribs.length;i++){const R=ribs[i];buildRib(R,t,wr*(i===0?1:.85),rs);R.m.rotation.set(.5+i*.7+Math.sin(t*.07+i)*.2,t*(.05+i*.02)*(i%2?-1:1),i*1.1+.3)}
+pulse=Math.max(0,pulse-dt*.8);pt+=dt;U.uPulse.value=pulse;U.uPT.value=pt;
+if(k<1)ctmp.lerpColors(cs[0],cs[1],k);else ctmp.lerpColors(cs[1],cs[2],k-1);bodyMat.color.copy(ctmp);rMat.color.copy(ctmp);sc.environmentRotation.y=t*.07;
 art.rotation.y=t*.1+k*.9+mx*.35;art.rotation.x=.12+my*.2;body.rotation.x=1.1;
-cam.position.set(mx*.5,-my*.3,6.7-.4*k/2);cam.lookAt(0,0,0);
+mart.rotation.copy(art.rotation);body2.rotation.copy(body.rotation);ribs.forEach((R,i)=>ribs2[i].rotation.copy(R.m.rotation));
+const rpa=wU.uRp.value;
+for(const d of drops){d.m.visible=d.m2.visible=!rm;if(rm)continue;
+const u=((t+d.ph)%d.per)/d.per,y0=-1-.15*k;let y=waterY,sx=0,sy=0;
+if(u<.25){const g=u/.25;sx=d.r*g;sy=sx*(1+.5*g);y=y0-.1*g}
+else if(u<.7){const v=(u-.25)/.45;sx=d.r*(1-.25*v);sy=sx*(1+.9*v);y=y0-.1-(y0-.1-waterY)*v*v}
+if(u>=.7&&!d.fired){d.fired=true;ripIdx=(ripIdx+1)%4;rpa[ripIdx].set(d.x,-d.z,t)}
+if(u<.1)d.fired=false;
+d.m.position.set(d.x,y,d.z);d.m.scale.set(sx,sy,sx);d.m2.position.copy(d.m.position);d.m2.scale.copy(d.m.scale)}
+cam.position.set(mx*.5,2.3-my*.3,6.7-.4*k/2);cam.lookAt(0,0,0);
 const lv=Math.round(k);if(lv!==sh){sh=lv;setStage(lv)}
-c.dataset.stage=k.toFixed(2);r.render(sc,cam);
+c.dataset.stage=k.toFixed(2);c.dataset.pulse=pulse.toFixed(2);r.render(sc,cam);
 if(first){first=false;setReady(true)}};
 const loop=(n:number)=>{raf=requestAnimationFrame(loop);const dt=Math.min(.05,(n-last)/1e3);last=n;if(!vis||document.hidden)return;t+=dt;draw(dt);
 frames++;acc+=dt;if(frames===90){if(acc/90>.034&&pr>1){pr=1;r.setPixelRatio(1);PU.uPR.value=1;layout()}}};
 const onScroll=()=>{tgt=target();if(rm&&vis)draw(0)};
 const onResize=()=>{layout();tgt=target();if(rm)draw(0)};
-addEventListener("pointermove",mv,{passive:true});addEventListener("scroll",onScroll,{passive:true});addEventListener("resize",onResize);
+const pd=(e:PointerEvent)=>{if(!vis||rm)return;if((e.target as HTMLElement).closest?.("a,button"))return;pulse=1;pt=0;ripIdx=(ripIdx+1)%4;wU.uRp.value[ripIdx].set(0,0,t)};
+addEventListener("pointerdown",pd);addEventListener("pointermove",mv,{passive:true});addEventListener("scroll",onScroll,{passive:true});addEventListener("resize",onResize);
 const io=new IntersectionObserver(es=>{vis=es[0].isIntersecting;last=performance.now()});io.observe(sec);
 draw(0);                       /* first frame is drawn synchronously: the sculpture is on screen as soon as three has loaded */
 if(!rm)raf=requestAnimationFrame(loop);
-stop=()=>{cancelAnimationFrame(raf);io.disconnect();c.removeEventListener("webglcontextlost",lost);removeEventListener("pointermove",mv);removeEventListener("scroll",onScroll);removeEventListener("resize",onResize);
-bodyGeo.dispose();bodyMat.dispose();rMat.dispose();ribs.forEach(x=>x.g.dispose());pg.dispose();pmt.dispose();rt.dispose();pm.dispose();envMeshes.forEach(m=>{m.geometry.dispose();(m.material as InstanceType<typeof T.Material>).dispose()});r.dispose()};
+stop=()=>{cancelAnimationFrame(raf);io.disconnect();c.removeEventListener("webglcontextlost",lost);removeEventListener("pointerdown",pd);removeEventListener("pointermove",mv);removeEventListener("scroll",onScroll);removeEventListener("resize",onResize);
+wGeo.dispose();wMat.dispose();dGeo.dispose();dMat.dispose();bg.dispose();bmat.dispose();bodyGeo.dispose();bodyMat.dispose();rMat.dispose();ribs.forEach(x=>x.g.dispose());pg.dispose();pmt.dispose();rt.dispose();pm.dispose();envMeshes.forEach(m=>{m.geometry.dispose();(m.material as InstanceType<typeof T.Material>).dispose()});r.dispose()};
 })();
 return()=>{dead=true;stop()}},[]);
 return(<div ref={lay} className="absolute inset-0 overflow-hidden" aria-hidden>

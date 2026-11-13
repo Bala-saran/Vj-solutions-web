@@ -27,3 +27,8 @@ Environment: Chromium (Playwright) with software WebGL (SwiftShader), local stat
 - Reduced-motion mode and the WebGL-unavailable fallback were implemented but not exercised in a browser.
 - Real-GPU frame rate and real devices; tests ran on software rendering.
 - Authentication: none exists. API integrations: none besides static news.json.
+
+## Water/effects update (re-verified after this change)
+- `tsc` and `npm run build` pass. Hero screenshots reviewed at 1920x1080 (stage 0) and 390x844; scroll stages advance on both; 0 console errors in the mobile capture run. An earlier water-shader compile error was found by this testing and fixed.
+- The full 46-route x 5-viewport audit and the CTA/form click checks above were run BEFORE the water update and were not repeated.
+- Not verified in a browser: click/tap shockwave, desktop stages 1-2 appearance with water after the final tweaks, reduced-motion mode, real-GPU performance (the pool and mirror add GPU load; tests ran on software rendering).
