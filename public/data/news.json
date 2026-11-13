@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T04:05:09.584Z",
+ "updated": "2026-11-13T04:55:51.212Z",
  "articles": [
   {
    "id": "126f79483dcc",
@@ -227,15 +227,6 @@
    "published": "2026-11-12T01:18:23.000Z"
   },
   {
-   "id": "56dac742ff29",
-   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-   "summary": "",
-   "url": "https://huggingface.co/blog/3d-lora-finetuning",
-   "source": "Hugging Face Blog",
-   "category": "Machine Learning",
-   "published": "2026-11-12T00:00:00.000Z"
-  },
-  {
    "id": "b06379671ede",
    "title": "Supporting research on AI and children’s safety",
    "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
@@ -251,6 +242,15 @@
    "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
    "source": "OpenAI News",
    "category": "Artificial Intelligence",
+   "published": "2026-11-12T00:00:00.000Z"
+  },
+  {
+   "id": "56dac742ff29",
+   "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+   "summary": "",
+   "url": "https://huggingface.co/blog/3d-lora-finetuning",
+   "source": "Hugging Face Blog",
+   "category": "Machine Learning",
    "published": "2026-11-12T00:00:00.000Z"
   },
   {
@@ -434,21 +434,21 @@
    "published": "2026-11-11T05:01:16.000Z"
   },
   {
-   "id": "d2296a64c0dc",
-   "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
-   "summary": "",
-   "url": "https://huggingface.co/blog/token-pooling",
-   "source": "Hugging Face Blog",
-   "category": "Machine Learning",
-   "published": "2026-11-11T00:00:00.000Z"
-  },
-  {
    "id": "8c999d6885d2",
    "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
    "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
    "url": "https://openai.com/index/jiostar-vijay-seshadri",
    "source": "OpenAI News",
    "category": "Artificial Intelligence",
+   "published": "2026-11-11T00:00:00.000Z"
+  },
+  {
+   "id": "d2296a64c0dc",
+   "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+   "summary": "",
+   "url": "https://huggingface.co/blog/token-pooling",
+   "source": "Hugging Face Blog",
+   "category": "Machine Learning",
    "published": "2026-11-11T00:00:00.000Z"
   },
   {
@@ -623,6 +623,15 @@
    "published": "2026-11-10T07:00:00.000Z"
   },
   {
+   "id": "1ff74ee2cb10",
+   "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+   "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+   "url": "https://openai.com/index/cogent-security",
+   "source": "OpenAI News",
+   "category": "Cybersecurity",
+   "published": "2026-11-10T00:00:00.000Z"
+  },
+  {
    "id": "724fae925148",
    "title": "Pay for Hugging Face Hub with your Google Cloud Account",
    "summary": "",
@@ -638,15 +647,6 @@
    "url": "https://huggingface.co/blog/decision",
    "source": "Hugging Face Blog",
    "category": "Machine Learning",
-   "published": "2026-11-10T00:00:00.000Z"
-  },
-  {
-   "id": "1ff74ee2cb10",
-   "title": "Cogent and OpenAI build cyber defense factories for enterprises",
-   "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
-   "url": "https://openai.com/index/cogent-security",
-   "source": "OpenAI News",
-   "category": "Cybersecurity",
    "published": "2026-11-10T00:00:00.000Z"
   },
   {
@@ -866,21 +866,21 @@
    "published": "2026-11-06T08:00:00.000Z"
   },
   {
-   "id": "82196d4ece0a",
-   "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-   "summary": "",
-   "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-   "source": "Hugging Face Blog",
-   "category": "Machine Learning",
-   "published": "2026-11-06T00:00:00.000Z"
-  },
-  {
    "id": "cfd4354afa14",
    "title": "Measuring how AI agents handle everyday wet-lab science",
    "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
    "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
    "source": "OpenAI News",
    "category": "AI Research",
+   "published": "2026-11-06T00:00:00.000Z"
+  },
+  {
+   "id": "82196d4ece0a",
+   "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+   "summary": "",
+   "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+   "source": "Hugging Face Blog",
+   "category": "Machine Learning",
    "published": "2026-11-06T00:00:00.000Z"
   },
   {
@@ -1046,21 +1046,21 @@
    "published": "2026-11-05T00:45:15.000Z"
   },
   {
-   "id": "89209ab642b1",
-   "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
-   "summary": "",
-   "url": "https://huggingface.co/blog/phonon-tts",
-   "source": "Hugging Face Blog",
-   "category": "AI Research",
-   "published": "2026-11-05T00:00:00.000Z"
-  },
-  {
    "id": "c0d7b0808284",
    "title": "Franklin Templeton uses OpenAI to support investment research",
    "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
    "url": "https://openai.com/index/franklin-templeton",
    "source": "OpenAI News",
    "category": "Artificial Intelligence",
+   "published": "2026-11-05T00:00:00.000Z"
+  },
+  {
+   "id": "89209ab642b1",
+   "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+   "summary": "",
+   "url": "https://huggingface.co/blog/phonon-tts",
+   "source": "Hugging Face Blog",
+   "category": "AI Research",
    "published": "2026-11-05T00:00:00.000Z"
   },
   {
@@ -1280,6 +1280,15 @@
    "published": "2026-11-03T02:24:31.000Z"
   },
   {
+   "id": "3d509e27bae2",
+   "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+   "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+   "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-03T00:00:00.000Z"
+  },
+  {
    "id": "20954e3ac0ff",
    "title": "CWE-bench v2: More coverage, quality, and transparency",
    "summary": "",
@@ -1295,15 +1304,6 @@
    "url": "https://huggingface.co/blog/transformers-mic",
    "source": "Hugging Face Blog",
    "category": "Machine Learning",
-   "published": "2026-11-03T00:00:00.000Z"
-  },
-  {
-   "id": "3d509e27bae2",
-   "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
-   "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
-   "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
-   "source": "OpenAI News",
-   "category": "Artificial Intelligence",
    "published": "2026-11-03T00:00:00.000Z"
   },
   {
@@ -1595,6 +1595,15 @@
    "published": "2026-10-29T07:00:00.000Z"
   },
   {
+   "id": "6750c2461412",
+   "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+   "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+   "url": "https://openai.com/index/credit-saison",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-10-29T00:00:00.000Z"
+  },
+  {
    "id": "e1c742c1d925",
    "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
    "summary": "",
@@ -1619,15 +1628,6 @@
    "url": "https://huggingface.co/blog/anydecisionmodel",
    "source": "Hugging Face Blog",
    "category": "Machine Learning",
-   "published": "2026-10-29T00:00:00.000Z"
-  },
-  {
-   "id": "6750c2461412",
-   "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-   "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
-   "url": "https://openai.com/index/credit-saison",
-   "source": "OpenAI News",
-   "category": "Artificial Intelligence",
    "published": "2026-10-29T00:00:00.000Z"
   },
   {
@@ -2018,15 +2018,6 @@
    "published": "2026-10-23T10:00:00.000Z"
   },
   {
-   "id": "6430909168b5",
-   "title": "Does Your Model Run on AWS Trainium? Look It Up",
-   "summary": "",
-   "url": "https://huggingface.co/blog/torch-neuronx-model-support",
-   "source": "Hugging Face Blog",
-   "category": "Cloud Computing",
-   "published": "2026-10-23T00:00:00.000Z"
-  },
-  {
    "id": "c6099fc8919f",
    "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
    "summary": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
@@ -2042,6 +2033,15 @@
    "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
    "source": "OpenAI News",
    "category": "Artificial Intelligence",
+   "published": "2026-10-23T00:00:00.000Z"
+  },
+  {
+   "id": "6430909168b5",
+   "title": "Does Your Model Run on AWS Trainium? Look It Up",
+   "summary": "",
+   "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+   "source": "Hugging Face Blog",
+   "category": "Cloud Computing",
    "published": "2026-10-23T00:00:00.000Z"
   },
   {
@@ -2423,6 +2423,15 @@
    "published": "2026-10-20T07:00:00.000Z"
   },
   {
+   "id": "dbaa90254253",
+   "title": "OpenAI acquires Orchestra Bio",
+   "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+   "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-10-20T00:00:00.000Z"
+  },
+  {
    "id": "84cd8d44e982",
    "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
    "summary": "",
@@ -2447,15 +2456,6 @@
    "url": "https://huggingface.co/blog/mps-pytorch-2-15",
    "source": "Hugging Face Blog",
    "category": "Machine Learning",
-   "published": "2026-10-20T00:00:00.000Z"
-  },
-  {
-   "id": "dbaa90254253",
-   "title": "OpenAI acquires Orchestra Bio",
-   "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-   "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-   "source": "OpenAI News",
-   "category": "Artificial Intelligence",
    "published": "2026-10-20T00:00:00.000Z"
   },
   {
@@ -2558,15 +2558,6 @@
    "published": "2026-10-16T19:00:00.000Z"
   },
   {
-   "id": "849b423196d1",
-   "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
-   "summary": "",
-   "url": "https://huggingface.co/blog/reflection-beam",
-   "source": "Hugging Face Blog",
-   "category": "Machine Learning",
-   "published": "2026-10-16T00:00:00.000Z"
-  },
-  {
    "id": "1d7d75b47c31",
    "title": "How Grupo Boticário uses AI to strengthen human connections",
    "summary": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
@@ -2600,6 +2591,15 @@
    "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
    "source": "OpenAI News",
    "category": "Artificial Intelligence",
+   "published": "2026-10-16T00:00:00.000Z"
+  },
+  {
+   "id": "849b423196d1",
+   "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+   "summary": "",
+   "url": "https://huggingface.co/blog/reflection-beam",
+   "source": "Hugging Face Blog",
+   "category": "Machine Learning",
    "published": "2026-10-16T00:00:00.000Z"
   },
   {
@@ -2639,6 +2639,15 @@
    "published": "2026-10-15T09:08:45.000Z"
   },
   {
+   "id": "dd00c04c9b95",
+   "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+   "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+   "url": "https://openai.com/index/sullivan-cromwell",
+   "source": "OpenAI News",
+   "category": "Developer Tools",
+   "published": "2026-10-15T00:00:00.000Z"
+  },
+  {
    "id": "9d251ac6836a",
    "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
    "summary": "",
@@ -2654,15 +2663,6 @@
    "url": "https://huggingface.co/blog/flux-3",
    "source": "Hugging Face Blog",
    "category": "Machine Learning",
-   "published": "2026-10-15T00:00:00.000Z"
-  },
-  {
-   "id": "dd00c04c9b95",
-   "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-   "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-   "url": "https://openai.com/index/sullivan-cromwell",
-   "source": "OpenAI News",
-   "category": "Developer Tools",
    "published": "2026-10-15T00:00:00.000Z"
   },
   {
@@ -2864,21 +2864,21 @@
    "published": "2026-10-08T12:00:00.000Z"
   },
   {
-   "id": "0f05fd4155a4",
-   "title": "The model that didn't exist, so you made it yourself",
-   "summary": "",
-   "url": "https://huggingface.co/blog/building-with-ml-intern",
-   "source": "Hugging Face Blog",
-   "category": "Machine Learning",
-   "published": "2026-10-08T00:00:00.000Z"
-  },
-  {
    "id": "077dea1e8a7a",
    "title": "Disrupting AI-enabled “false front” operations",
    "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
    "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
    "source": "OpenAI News",
    "category": "Artificial Intelligence",
+   "published": "2026-10-08T00:00:00.000Z"
+  },
+  {
+   "id": "0f05fd4155a4",
+   "title": "The model that didn't exist, so you made it yourself",
+   "summary": "",
+   "url": "https://huggingface.co/blog/building-with-ml-intern",
+   "source": "Hugging Face Blog",
+   "category": "Machine Learning",
    "published": "2026-10-08T00:00:00.000Z"
   },
   {
@@ -3269,15 +3269,6 @@
    "published": "2026-09-28T07:00:00.000Z"
   },
   {
-   "id": "a30a6af008de",
-   "title": "Welcome RL Environments to the hub",
-   "summary": "",
-   "url": "https://huggingface.co/blog/rl-environments",
-   "source": "Hugging Face Blog",
-   "category": "Machine Learning",
-   "published": "2026-09-28T00:00:00.000Z"
-  },
-  {
    "id": "bf0fe8cc388a",
    "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
    "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
@@ -3293,6 +3284,15 @@
    "url": "https://openai.com/form/codex-originals",
    "source": "OpenAI News",
    "category": "Artificial Intelligence",
+   "published": "2026-09-28T00:00:00.000Z"
+  },
+  {
+   "id": "a30a6af008de",
+   "title": "Welcome RL Environments to the hub",
+   "summary": "",
+   "url": "https://huggingface.co/blog/rl-environments",
+   "source": "Hugging Face Blog",
+   "category": "Machine Learning",
    "published": "2026-09-28T00:00:00.000Z"
   },
   {
@@ -3467,6 +3467,15 @@
    "published": "2026-09-22T12:00:00.000Z"
   },
   {
+   "id": "b4fb82cc1313",
+   "title": "Priorities and principles for effective third party assessments",
+   "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+   "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-09-22T00:00:00.000Z"
+  },
+  {
    "id": "2960c64a019e",
    "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
    "summary": "",
@@ -3491,15 +3500,6 @@
    "url": "https://huggingface.co/blog/omlx",
    "source": "Hugging Face Blog",
    "category": "Machine Learning",
-   "published": "2026-09-22T00:00:00.000Z"
-  },
-  {
-   "id": "b4fb82cc1313",
-   "title": "Priorities and principles for effective third party assessments",
-   "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-   "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-   "source": "OpenAI News",
-   "category": "Artificial Intelligence",
    "published": "2026-09-22T00:00:00.000Z"
   },
   {
@@ -3548,21 +3548,21 @@
    "published": "2026-09-21T07:00:00.000Z"
   },
   {
-   "id": "eb792e0fc342",
-   "title": "tokenizers v1: encode, decode and scaling, measured",
-   "summary": "",
-   "url": "https://huggingface.co/blog/tokenizers-v1",
-   "source": "Hugging Face Blog",
-   "category": "Machine Learning",
-   "published": "2026-09-21T00:00:00.000Z"
-  },
-  {
    "id": "d1749ba76a98",
    "title": "V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
    "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
    "url": "https://openai.com/index/v7",
    "source": "OpenAI News",
    "category": "Artificial Intelligence",
+   "published": "2026-09-21T00:00:00.000Z"
+  },
+  {
+   "id": "eb792e0fc342",
+   "title": "tokenizers v1: encode, decode and scaling, measured",
+   "summary": "",
+   "url": "https://huggingface.co/blog/tokenizers-v1",
+   "source": "Hugging Face Blog",
+   "category": "Machine Learning",
    "published": "2026-09-21T00:00:00.000Z"
   },
   {
@@ -3606,77 +3606,77 @@
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-13T04:05:08.226Z"
+   "at": "2026-11-13T04:55:49.891Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 0,
-   "at": "2026-11-13T04:05:08.228Z"
+   "at": "2026-11-13T04:55:49.892Z"
   },
   "huggingface": {
    "ok": true,
    "count": 906,
-   "at": "2026-11-13T04:05:08.225Z"
+   "at": "2026-11-13T04:55:49.890Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-13T04:05:08.229Z"
+   "at": "2026-11-13T04:55:49.893Z"
   },
   "openai": {
    "ok": true,
    "count": 1385,
-   "at": "2026-11-13T04:05:08.192Z"
+   "at": "2026-11-13T04:55:49.858Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-13T04:05:08.230Z"
+   "at": "2026-11-13T04:55:49.895Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-13T04:05:08.237Z"
+   "at": "2026-11-13T04:55:49.902Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-13T04:05:08.234Z"
+   "at": "2026-11-13T04:55:49.899Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-13T04:05:08.237Z"
+   "at": "2026-11-13T04:55:49.902Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-13T04:05:08.236Z"
+   "at": "2026-11-13T04:55:49.901Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-13T04:05:08.235Z"
+   "at": "2026-11-13T04:55:49.900Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-13T04:05:08.232Z"
+   "at": "2026-11-13T04:55:49.896Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-13T04:05:08.232Z"
+   "at": "2026-11-13T04:55:49.897Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-13T04:05:08.223Z"
+   "at": "2026-11-13T04:55:49.888Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-13T04:05:08.236Z"
+   "at": "2026-11-13T04:55:49.900Z"
   }
  }
 }
