@@ -19,12 +19,18 @@ If the fetch step fails the workflow continues and the previous JSON is kept; th
 Sources: src/lib/news/sources.ts (15 feeds). Live check from a machine with internet: `npm run news:fetch` then open public/data/news.json.
 **Why Insights showed "not connected":** the stored file was empty because no fetch had ever run (this development sandbox cannot reach the internet). The first workflow run fills it; I could not run it here.
 
-## Tests run in this environment
-tsc: clean. ESLint: 0 errors (3 warnings). `next build` static export: 47 pages. Static server check: all routes tested return 200 and unknown routes return 404; base-path build rewrites assets and links to /<repo>/. News parser/dedupe/fallback tests pass. Not run: browser tests.
+## Adding a project
+Append an object to `projects` in src/data/site.ts (slug, title, tag, summary = the idea, problem, solution = the thinking behind it, features, tech, optional link). Optionally add a `projectExtra[slug]` entry (flow, challenges, limits, future). /projects, /projects/[slug], the home page and the 3D scene order pick it up automatically (scenes default to the document scene; set the scene list in src/app/projects/page.tsx).
+Only the four projects that exist in this repository are present; nothing else has been invented.
 
-## Not verified / not done
-- No browser was available: the particle head, brain, eye rays, labels, scroll scenes, floating navigation and mobile layouts have not been seen rendering.
-- Background videos not included (see ASSET_CREDITS.md).
-- Live feeds never reached; feed URLs unverified against the real internet.
-- Not rebuilt: the interactive technology ecosystem map, per-service unique layouts, and the Knowledge Center covers 19 of the requested topics (missing e.g. data visualization, predictive analytics, API authentication as separate articles).
-- Removed: the legacy "cinematic" engine (src/lib/cinematic, which needed @ts-nocheck). The shared SceneStage system now drives all section scenes, and the 3D hero was rewritten as a particle point cloud.
+## Background videos
+Not included (no internet access in the build environment). To add: put licensed, muted, black-and-white clips and poster images in public/video/, record them in ASSET_CREDITS.md, and render them behind a section with low opacity. No video integration code was added.
+
+## Verification performed (Chromium with software WebGL, local static server)
+- Scene sync (data-scene attribute on the 3D canvas): Home, Services, Projects and AI Lab all pass direct jumps, slow/fast scrolling down and up, repeated jumps and a 3-second hold, with no console errors.
+- 26 routes at 1440 px and at 390 px: HTTP 200, no console errors, no failed requests, no horizontal overflow. Same 26 routes pass when served under the /bala-site base path. Unknown route returns 404 and 404.html contains the not-found page.
+- Built HTML contains no "BC", "VJ" or "company" wording (the only "studio" is the tool name Android Studio).
+- News pipeline: unit tests plus an end-to-end run against local RSS and Atom servers (duplicate removed, dates preserved, categories assigned, failed feed keeps stored articles).
+## Not verified
+- Live feeds and the GitHub Actions run (no internet or GitHub access here): the Insights page shows an empty store until the first real workflow run.
+- Real devices, other browsers, and real GPU frame rates (tests ran on software rendering at about 7 fps).
