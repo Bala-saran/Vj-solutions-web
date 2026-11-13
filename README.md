@@ -34,3 +34,7 @@ Not included (no internet access in the build environment). To add: put licensed
 ## Not verified
 - Live feeds and the GitHub Actions run (no internet or GitHub access here): the Insights page shows an empty store until the first real workflow run.
 - Real devices, other browsers, and real GPU frame rates (tests ran on software rendering at about 7 fps).
+
+## Morphing Matter hero (added)
+`src/components/MorphingMatter.tsx` replaces the previous hero visual on the home page (`src/app/page.tsx`, hero section only; `HeroHead.tsx` is left in the repo but no longer used). A liquid-chrome body (vertex-shader displacement, smooth normals), three flowing ribbons and a light particle shell. Scroll through the pinned hero (200svh) moves through three stages: liquid form, flowing ribbons, sculpted structure. CSS poster orb shows until the first WebGL frame; the poster stays if WebGL is unavailable; prefers-reduced-motion renders a still frame and does not animate; mobile uses a lighter mesh, fewer particles and 2 ribbons.
+Run: `npm ci && npm run dev` (or `npm run build` → static export in `out/`).
