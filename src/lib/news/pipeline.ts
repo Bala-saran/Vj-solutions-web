@@ -29,7 +29,7 @@ return out.sort((a,b)=>+new Date(b.published)-+new Date(a.published)).slice(0,ma
 export async function refresh(prev:Store,fetcher:typeof fetch=fetch,opts:{maxAgeDays?:number;maxItems?:number;sources?:Source[]}={}):Promise<Store>{
 const srcs=opts.sources??SOURCES,sources={...prev.sources},fresh:Article[]=[];let okAny=false;
 await Promise.all(srcs.map(async s=>{const at=new Date().toISOString();try{const ac=new AbortController(),to=setTimeout(()=>ac.abort(),10000);
-const r=await fetcher(s.url,{signal:ac.signal,headers:{"User-Agent":"VJSolutionsNewsBot/1.0 (+https://vjsolutions.example)",Accept:"application/rss+xml, application/atom+xml, application/xml, text/xml"}});clearTimeout(to);
+const r=await fetcher(s.url,{signal:ac.signal,headers:{"User-Agent":"BalasCraftNewsBot/1.0 (+https://balascraft.example)",Accept:"application/rss+xml, application/atom+xml, application/xml, text/xml"}});clearTimeout(to);
 if(!r.ok)throw new Error("HTTP "+r.status);const items=parseFeed(await r.text(),s);fresh.push(...items);okAny=true;sources[s.id]={ok:true,count:items.length,at}}
 catch(e){sources[s.id]={...(prev.sources[s.id]??{count:0}),ok:false,error:String((e as Error).message||e),at}}}));
 return{updated:okAny?new Date().toISOString():prev.updated,articles:merge(prev.articles,fresh,opts.maxAgeDays,opts.maxItems),sources}}
