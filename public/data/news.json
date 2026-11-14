@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-13T23:13:07.516Z",
+ "updated": "2026-11-14T04:50:06.717Z",
  "articles": [
+  {
+   "id": "fc5d215625b2",
+   "title": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1",
+   "summary": "GS Caltex connects Amazon SageMaker Canvas to Amazon SageMaker Pipelines so process engineers' no-code models run in production. This post shows how ML engineers reuse validated preprocessing flows and models, cutting deployment from about a week to a few hours and running batch inference every 30 m",
+   "url": "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-13T23:22:09.000Z"
+  },
   {
    "id": "3880f24cce93",
    "title": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
@@ -189,6 +198,15 @@
    "source": "MIT Technology Review",
    "category": "Artificial Intelligence",
    "published": "2026-11-13T10:00:00.000Z"
+  },
+  {
+   "id": "d1318183fe17",
+   "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+   "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+   "url": "https://openai.com/business/customer-stories/shield",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-13T08:00:00.000Z"
   },
   {
    "id": "473743245dad",
@@ -3582,101 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "AI Research",
    "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "0962f5234247",
-   "title": "Axion 1.0: Open Agent Foundation Models, Simplified",
-   "summary": "arXiv:2611.03233v3 Announce Type: replace Abstract: We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages follo",
-   "url": "https://arxiv.org/abs/2611.03233",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "b04ed1cc202d",
-   "title": "LOLPlay: Benchmarking Real-Time Visual Agents in League of Legends",
-   "summary": "arXiv:2611.03685v2 Announce Type: replace Abstract: Visual agents need to coordinate reasoning and action while their environment evolves during inference. We introduce LOLPlay, a benchmark in native League of Legends with 36 champion-specific tasks spanning resource management, combat, cooperation,",
-   "url": "https://arxiv.org/abs/2611.03685",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
   }
  ],
  "sources": {
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-13T23:13:06.176Z"
+   "at": "2026-11-14T04:50:05.709Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 537,
-   "at": "2026-11-13T23:13:06.177Z"
+   "at": "2026-11-14T04:50:05.710Z"
   },
   "huggingface": {
    "ok": true,
    "count": 907,
-   "at": "2026-11-13T23:13:06.175Z"
+   "at": "2026-11-14T04:50:05.708Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-13T23:13:06.179Z"
+   "at": "2026-11-14T04:50:05.711Z"
   },
   "openai": {
    "ok": true,
-   "count": 1386,
-   "at": "2026-11-13T23:13:06.152Z"
+   "count": 1387,
+   "at": "2026-11-14T04:50:05.681Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-13T23:13:06.180Z"
+   "at": "2026-11-14T04:50:05.713Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-13T23:13:06.185Z"
+   "at": "2026-11-14T04:50:05.719Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-13T23:13:06.183Z"
+   "at": "2026-11-14T04:50:05.716Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-13T23:13:06.185Z"
+   "at": "2026-11-14T04:50:05.719Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-13T23:13:06.184Z"
+   "at": "2026-11-14T04:50:05.718Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-13T23:13:06.183Z"
+   "at": "2026-11-14T04:50:05.717Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-13T23:13:06.181Z"
+   "at": "2026-11-14T04:50:05.714Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-13T23:13:06.181Z"
+   "at": "2026-11-14T04:50:05.715Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-13T23:13:06.175Z"
+   "at": "2026-11-14T04:50:05.707Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-13T23:13:06.184Z"
+   "at": "2026-11-14T04:50:05.718Z"
   }
  }
 }
