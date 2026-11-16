@@ -1,6 +1,24 @@
 {
- "updated": "2026-11-15T22:27:20.977Z",
+ "updated": "2026-11-16T04:37:48.267Z",
  "articles": [
+  {
+   "id": "87d7014c15ee",
+   "title": "A step toward defining the Standard Model on a lattice",
+   "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+   "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+   "source": "OpenAI News",
+   "category": "Developer Tools",
+   "published": "2026-11-15T22:00:01.000Z"
+  },
+  {
+   "id": "4b0fc5b701ff",
+   "title": "Our new blog for science",
+   "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+   "url": "https://openai.com/index/our-new-blog-for-science",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-15T22:00:00.000Z"
+  },
   {
    "id": "fc5d215625b2",
    "title": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1",
@@ -3582,101 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "AI Research",
    "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "de052dba7b78",
-   "title": "Early Stopping in Large Reasoning Models: A Survey and Empirical Audit of Efficiency and Reliability",
-   "summary": "arXiv:2611.00166v2 Announce Type: replace Abstract: Large reasoning models can improve accuracy by generating longer reasoning traces, but some of this computation may be unnecessary. Early-stopping methods aim to stop once enough reasoning is available to answer. Evaluating these methods requires a",
-   "url": "https://arxiv.org/abs/2611.00166",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "7745eb12cdcd",
-   "title": "Data-Scarce, Multi-Granular, Multimodal: Benchmark Design for Biosynthetic Gene Clusters",
-   "summary": "arXiv:2611.02275v2 Announce Type: replace Abstract: Biosynthetic gene clusters (BGCs) are co-located genes that encode the biosynthesis of specialized metabolites, an important source of antibiotics, anticancer agents, immunosuppressants, and agricultural bioactives. Deep learning, particularly self",
-   "url": "https://arxiv.org/abs/2611.02275",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
   }
  ],
  "sources": {
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-15T22:27:19.782Z"
+   "at": "2026-11-16T04:37:47.175Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 0,
-   "at": "2026-11-15T22:27:19.783Z"
+   "at": "2026-11-16T04:37:47.175Z"
   },
   "huggingface": {
    "ok": true,
    "count": 907,
-   "at": "2026-11-15T22:27:19.781Z"
+   "at": "2026-11-16T04:37:47.174Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-15T22:27:19.785Z"
+   "at": "2026-11-16T04:37:47.176Z"
   },
   "openai": {
    "ok": true,
-   "count": 1387,
-   "at": "2026-11-15T22:27:19.759Z"
+   "count": 1389,
+   "at": "2026-11-16T04:37:47.147Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-15T22:27:19.785Z"
+   "at": "2026-11-16T04:37:47.178Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-15T22:27:19.790Z"
+   "at": "2026-11-16T04:37:47.183Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-15T22:27:19.788Z"
+   "at": "2026-11-16T04:37:47.181Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-15T22:27:19.790Z"
+   "at": "2026-11-16T04:37:47.183Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-15T22:27:19.789Z"
+   "at": "2026-11-16T04:37:47.183Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-15T22:27:19.788Z"
+   "at": "2026-11-16T04:37:47.182Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-15T22:27:19.786Z"
+   "at": "2026-11-16T04:37:47.179Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-15T22:27:19.787Z"
+   "at": "2026-11-16T04:37:47.180Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-15T22:27:19.780Z"
+   "at": "2026-11-16T04:37:47.173Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-15T22:27:19.789Z"
+   "at": "2026-11-16T04:37:47.182Z"
   }
  }
 }
