@@ -1,6 +1,150 @@
 {
- "updated": "2026-11-16T14:42:07.877Z",
+ "updated": "2026-11-17T01:31:55.779Z",
  "articles": [
+  {
+   "id": "a6060461cae6",
+   "title": "Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base",
+   "summary": "Amazon Bedrock Managed Knowledge Base and Amazon Bedrock AgentCore memory now store conversations, extract facts, and bring long-term memory into a single AgenticRetrieveStream call. This post shows how to build a memory-aware, multi-user assistant where each user sees only the documents they may re",
+   "url": "https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-16T22:43:30.000Z"
+  },
+  {
+   "id": "8c801cc2c22f",
+   "title": "How Duco transforms financial data automation with Amazon Bedrock AgentCore",
+   "summary": "Duco, a data automation platform for tier-one banks, rebuilt its agentic AI stack on Amazon Bedrock and Amazon Bedrock AgentCore. With strict per-tenant isolation, a multi-model strategy, and an MCP skills architecture that cut context overhead by 90%, Duco cut reconciliation deployment time 10x and",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Robotics and Automation",
+   "published": "2026-11-16T22:06:08.000Z"
+  },
+  {
+   "id": "6d0c766d0505",
+   "title": "Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing",
+   "summary": "Multi-agent coordination is a distributed systems problem, not a model problem. This post gives a field-tested taxonomy of multi-agent design patterns and anti-patterns, a framework for deciding when multiple agents are warranted, and how to build cost-efficient, reliable systems on AWS.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-16T21:53:46.000Z"
+  },
+  {
+   "id": "84f741940fbd",
+   "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
+   "summary": "The PC sales slump \"more than offset” AI boom gains, shareholders say.",
+   "url": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
+   "source": "Ars Technica",
+   "category": "Software Engineering",
+   "published": "2026-11-16T20:37:47.000Z"
+  },
+  {
+   "id": "9c493a96e3fa",
+   "title": "The open-source movement wants Jensen Huang back",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including El",
+   "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+   "source": "MIT Technology Review",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-16T18:38:47.000Z"
+  },
+  {
+   "id": "e978453296e1",
+   "title": "How MoEngage built agentic customer engagement on Amazon Bedrock AgentCore",
+   "summary": "MoEngage built Merlin AI, a set of AI agents on Amazon Bedrock and Amazon Bedrock AgentCore that let marketing and product teams draft, analyze, and adjust campaigns from a single conversation. Learn how MoEngage turned its existing APIs into MCP tools and kept each tenant's data isolated while givi",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-moengage-built-agentic-customer-engagement-on-amazon-bedrock-agentcore/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-16T18:16:07.000Z"
+  },
+  {
+   "id": "cbc8566eda8d",
+   "title": "AWS Weekly Roundup: AWS Nitro Sandboxes, AWS Emulator, and more (November 16, 2026)",
+   "summary": "A second delivery of the same message can reveal more about an application than its happy-path demo. I like tools that make those cases easier to investigate while a change is still small. Last week’s launch of AWS Emulator brings part of that work onto your own machine: developers and coding agents",
+   "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-nitro-sandboxes-aws-emulator-and-more-november-16-2026/",
+   "source": "AWS News Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-16T17:55:46.000Z"
+  },
+  {
+   "id": "f310aaadb0f4",
+   "title": "Modernizing mainframe Assembler to Java using Amazon Bedrock and AWS Transform",
+   "summary": "Legacy mainframe Assembler applications are costly to maintain and hard to staff. This post presents a multi-stage, AI-powered methodology using Amazon Bedrock, Kiro IDE, and AWS Transform to extract business rules, convert Assembler through an intermediate COBOL stage, and deploy modernized Java Sp",
+   "url": "https://aws.amazon.com/blogs/machine-learning/modernizing-mainframe-assembler-to-java-using-amazon-bedrock-and-aws-transform/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-16T17:29:29.000Z"
+  },
+  {
+   "id": "b67ed3c603e1",
+   "title": "Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore",
+   "summary": "Novo Nordisk's Manufacturing Technology team within the Tablet area team built a process-intelligence assistant on Amazon Bedrock AgentCore, using a GraphRAG architecture that pairs a knowledge graph in Amazon Neptune with hybrid search in Amazon OpenSearch Serverless to turn millions of controlled ",
+   "url": "https://aws.amazon.com/blogs/machine-learning/novo-nordisk-modernizes-manufacturing-process-documents-with-amazon-bedrock-agentcore/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-16T17:04:11.000Z"
+  },
+  {
+   "id": "f26f2a4dfd6b",
+   "title": "Broadening access to AI for scientists",
+   "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+   "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-16T17:00:00.000Z"
+  },
+  {
+   "id": "b1c71d07875a",
+   "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+   "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+   "url": "https://openai.com/index/strengthening-online-child-safety",
+   "source": "OpenAI News",
+   "category": "Cybersecurity",
+   "published": "2026-11-16T17:00:00.000Z"
+  },
+  {
+   "id": "8eb1dc82e08b",
+   "title": "Get answers from tables with tabular search in Amazon Bedrock Managed Knowledge Base",
+   "summary": "Amazon Bedrock Managed Knowledge Base now supports tabular search, so agentic retrieval can answer questions over CSV, XLSX, and XLS files. It looks up values and runs calculations across every relevant row, then combines the results with facts from related documents to answer multi-step analytical ",
+   "url": "https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-16T16:12:16.000Z"
+  },
+  {
+   "id": "adba844aff17",
+   "title": "Building trustworthy AI by fencing it in, not predicting it",
+   "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had t",
+   "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+   "source": "MIT Technology Review",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-16T16:04:28.000Z"
+  },
+  {
+   "id": "b4b282d7c953",
+   "title": "Best practices for writing Denied Topics in Amazon Bedrock Guardrails",
+   "summary": "With Denied Topics in Amazon Bedrock Guardrails, you block a content category by describing it in plain language, and the guardrail matches by meaning rather than keyword, which can block more than you intend. This post presents eight best practices for writing a topic precisely enough that the guar",
+   "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-writing-denied-topics-in-amazon-bedrock-guardrails/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-16T15:48:01.000Z"
+  },
+  {
+   "id": "3c73163e13da",
+   "title": "Customize answers per tenant in Amazon Bedrock Managed Knowledge Base",
+   "summary": "Retrieval instructions in Amazon Bedrock Managed Knowledge Base set the voice, format, retrieval guidance, and answer policy for each tenant on shared knowledge bases. This post shows how to give each tenant its own answers, keep tenant data apart with metadata filters, scope access with IAM tags, a",
+   "url": "https://aws.amazon.com/blogs/machine-learning/customize-answers-per-tenant-in-amazon-bedrock-managed-knowledge-base/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-16T15:46:28.000Z"
+  },
+  {
+   "id": "30ad33ef29a5",
+   "title": "Use prompt caching with open-weight models on Amazon Bedrock",
+   "summary": "Many generative AI applications resend the same long context on every request. Prompt caching lets open-weight models on Amazon Bedrock reuse it to reduce input cost and latency. This post shows implicit and explicit caching through the Chat Completions API and applies caching to an OpenCode coding ",
+   "url": "https://aws.amazon.com/blogs/machine-learning/use-prompt-caching-with-open-weight-models-on-amazon-bedrock/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-16T15:42:41.000Z"
+  },
   {
    "id": "d40156bb9a84",
    "title": "Can Robots Bring Stroke Surgery to Remote Hospitals?",
@@ -38,6 +182,15 @@
    "published": "2026-11-16T13:00:00.000Z"
   },
   {
+   "id": "f891bd93f3d2",
+   "title": "Science at the Frontier: How scientists use ChatGPT",
+   "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+   "url": "https://openai.com/index/science-at-the-frontier",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-16T12:00:00.000Z"
+  },
+  {
    "id": "bc38a17a0110",
    "title": "Advanced Metrology for Defect Detection, Tool Health, and Semiconductor Yield Enhancement",
    "summary": "In advanced semiconductor manufacturing, small defects can have a large effect on yield. Thin film deposition tools must stay stable and qualified. Process drift must be caught early. When a defect does appear, engineers need to know where it came from and how it affects device performance. This web",
@@ -63,6 +216,33 @@
    "source": "OpenAI News",
    "category": "Artificial Intelligence",
    "published": "2026-11-16T09:00:00.000Z"
+  },
+  {
+   "id": "ebd9eb949639",
+   "title": "Our first phase of embedded assessments",
+   "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+   "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-16T08:00:00.000Z"
+  },
+  {
+   "id": "b0ded74e06b0",
+   "title": "Advancing computer-use agents for healthcare teams",
+   "summary": "",
+   "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-16T06:00:00.000Z"
+  },
+  {
+   "id": "cfcc7acb02e9",
+   "title": "More ways to move care forward with ChatGPT for Healthcare",
+   "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+   "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-16T06:00:00.000Z"
   },
   {
    "id": "1b6087c38c0a",
@@ -2549,12 +2729,39 @@
    "published": "2026-11-16T05:00:00.000Z"
   },
   {
+   "id": "853b24ff0d6e",
+   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+   "summary": "",
+   "url": "https://huggingface.co/blog/openrouter",
+   "source": "Hugging Face Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-16T00:00:00.000Z"
+  },
+  {
    "id": "e3915f7e4cf0",
    "title": "The King’s Trust and OpenAI launch £1m partnership",
    "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
    "url": "https://openai.com/index/the-kings-trust-and-openai",
    "source": "OpenAI News",
    "category": "Artificial Intelligence",
+   "published": "2026-11-16T00:00:00.000Z"
+  },
+  {
+   "id": "3899b6e8ee3c",
+   "title": "At Holiday Extras, dots get to work before anyone asks",
+   "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+   "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-16T00:00:00.000Z"
+  },
+  {
+   "id": "e5355fd18e10",
+   "title": "Beyond the app: Expanding buyer reach across new surfaces with Google Play",
+   "summary": "Discover how Google Play’s channel expansion tools in Play Console expand buyer reach across store, web, and external surfaces while protecting margins.",
+   "url": "https://developer.android.com/blog/posts/beyond-the-app-google-play-buyer-reach",
+   "source": "Android Developers Blog",
+   "category": "Mobile Technology",
    "published": "2026-11-16T00:00:00.000Z"
   },
   {
@@ -2640,7 +2847,7 @@
   },
   {
    "id": "0d9fae548b15",
-   "title": "How Microcredentials Help Engineers Build Trustworthy AI",
+   "title": "How Microcredentials Can Help Engineers Build Trustworthy AI",
    "summary": "Engineering teams are moving at breakneck speed to integrate artificial intelligence, but they are running into a formidable new barrier: compliance issues. Translating high-level AI ethics , governance , and auditing into daily operational workflows has become one of the industry’s toughest challen",
    "url": "https://spectrum.ieee.org/microcredentials-trustworthy-ai",
    "source": "IEEE Spectrum",
@@ -3393,290 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "AI Research",
    "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "7bf510cbcfd3",
-   "title": "ReA-Bench: Benchmarking Responsible Agent Auditing",
-   "summary": "arXiv:2611.16493v1 Announce Type: new Abstract: As agents perform tasks autonomously in local and cloud environments, auditing their execution trajectories can help service providers identify risks and improve agent harnesses and foundation models. Our analysis of production and red-team trajectorie",
-   "url": "https://arxiv.org/abs/2611.16493",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "1143eee44cf2",
-   "title": "How many LLM-labelled rows does a decision encoder need, and how wrong can the labels be?",
-   "summary": "arXiv:2611.16498v1 Announce Type: new Abstract: A decision encoder such as Laya reads a question with named options (for example, which department should handle a ticket) and a text, and picks an option. It reads both in one forward pass and returns a probability for every option, without writing an",
-   "url": "https://arxiv.org/abs/2611.16498",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "fb8c7199721d",
-   "title": "Recalibrating a Typed-Decision Model in an Afternoon: A Hands-On Recipe for Laya's Confidence Scores",
-   "summary": "arXiv:2611.16499v1 Announce Type: new Abstract: A typed-decision model such as Laya reads a text and a list of options that the caller defines, for example ticket categories, and returns a probability for each option. Code around it compares the top probability with a threshold to answer, abstain or",
-   "url": "https://arxiv.org/abs/2611.16499",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "d60d6e2ef1ac",
-   "title": "SignRot: LLM Quantization with Massive Outlier-Aware Sign-Adjusted Rotation",
-   "summary": "arXiv:2611.16502v1 Announce Type: new Abstract: While quantization compresses LLMs and accelerates inference, outlier activations impede efficient low-bit representation. In particular, massive outliers cause substantial performance degradation. Although rotation-based methods that rely on randomize",
-   "url": "https://arxiv.org/abs/2611.16502",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "9fbe2199097e",
-   "title": "Lost in Delegation: Studying the Effectiveness of Task Orchestration in Generative Search",
-   "summary": "arXiv:2611.16526v1 Announce Type: new Abstract: LLMs have quickly evolved from models used in isolation to agentic systems that delegate tasks to external tools and other LLMs to solve complex assignments. This agentic augmentation has led to impressive capability gains. However, when and how delega",
-   "url": "https://arxiv.org/abs/2611.16526",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "64eebc70447b",
-   "title": "AI has its own style in mathematical proving",
-   "summary": "arXiv:2611.16527v1 Announce Type: new Abstract: As large language models increasingly generate mathematical proofs, whether they develop a proving style distinct from that of human mathematicians remains an open question. This question is particularly pressing as mathematicians increasingly voice co",
-   "url": "https://arxiv.org/abs/2611.16527",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "a5cc24774e28",
-   "title": "SPARC: Accurate Photonic Matrix Multiplication via Representative Vectors",
-   "summary": "arXiv:2611.16561v1 Announce Type: new Abstract: Photonic neural network accelerators have emerged as a promising solution for reducing the power consumption of deep neural network (DNN) inference by executing matrix multiplication on analog photonic hardware. However, their inference accuracy is lim",
-   "url": "https://arxiv.org/abs/2611.16561",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "1c4424bbf0a6",
-   "title": "Large Language Models as Digital Twins: a Distribution-Aware Questionnaire-Based Evaluation",
-   "summary": "arXiv:2611.16586v1 Announce Type: new Abstract: This paper investigates whether Large Language Models can answer a personality questionnaire as a specific individual would. Given a user's social-media posts, the model completes the BFI-2-60 Big Five questionnaire as that user. The predicted response",
-   "url": "https://arxiv.org/abs/2611.16586",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "cb644103fc58",
-   "title": "AstroMemBench: A Benchmark for Memory Systems in Embodied Spacecraft Agents",
-   "summary": "arXiv:2611.16590v1 Announce Type: new Abstract: Long-term spacecraft autonomy requires embodied agents to use operational history under communication delays, time-critical operations, environmental uncertainty, complex physical interactions, power and computational constraints, and safety and reliab",
-   "url": "https://arxiv.org/abs/2611.16590",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "051e5a06d7e6",
-   "title": "Singularity-Bench: Can Agents Build Agents?",
-   "summary": "arXiv:2611.16591v1 Announce Type: new Abstract: Frontier AI agents increasingly succeed on realistic, long-horizon tasks and are beginning to improve the systems through which they operate. Yet existing benchmarks often restrict agents to narrow action spaces, use simplified environments, or rely on",
-   "url": "https://arxiv.org/abs/2611.16591",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "6c7e93c264b6",
-   "title": "A Dual-Branch Graph and Convolutional Network for Interpretable Movement EEG Classification",
-   "summary": "arXiv:2611.16609v1 Announce Type: new Abstract: Decoding upper-limb movements from scalp electroencephalography (EEG) is an important problem for brain-computer interfaces (BCIs), but many deep learning models provide limited insight into the brain regions underlying their predictions. We propose a ",
-   "url": "https://arxiv.org/abs/2611.16609",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "a7ae5f2a7518",
-   "title": "Studies on Sign Language Retrieval in Low-Resource Dictionary Settings",
-   "summary": "arXiv:2611.16621v1 Announce Type: new Abstract: Most sign languages have no annotated corpus, only small dictionaries with one or a few example videos per sign. This study examines how well a pose encoder trained on a single sign language serves such languages without any target-language training. A",
-   "url": "https://arxiv.org/abs/2611.16621",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "ed3a84d18f55",
-   "title": "Folio: Recoverable Multi-Resolution Context Folding for Long-Horizon Language Agents",
-   "summary": "arXiv:2611.16627v1 Announce Type: new Abstract: Long-horizon language agents accumulate tool results and replies until the history no longer fits the context window. Current agents shrink this history by having a model summarize it, so each compaction rereads and rewrites the history it replaces, an",
-   "url": "https://arxiv.org/abs/2611.16627",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "db25eaca94ec",
-   "title": "Safety as a Budget: Calibrating the Control Channel of Constrained GRPO for Vision-Language Models",
-   "summary": "arXiv:2611.16628v1 Announce Type: new Abstract: Reinforcement learning can teach vision-language models (VLMs) to decline harmful image-text requests, but how safe the result becomes is set indirectly, through reward weights found by trial runs. Stating safety as budgets on the rate of harmful assis",
-   "url": "https://arxiv.org/abs/2611.16628",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "341e6232488f",
-   "title": "InertiaMPDD: Multimodal Personalized Depression Detection via Emotional Inertia-Inspired Dynamics Modeling",
-   "summary": "arXiv:2611.16647v1 Announce Type: new Abstract: Multimodal depression screening estimates risk from speech, visual behavior and language. Current methods mainly predict labels, with limited evidence of departures from a non-depressed reference. Recording-level supervision also leaves fine-grained em",
-   "url": "https://arxiv.org/abs/2611.16647",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "14dddbd4ca39",
-   "title": "Natural Gradient Learning in Predictive Coding through Lateral Circuits",
-   "summary": "arXiv:2611.16666v1 Announce Type: new Abstract: Predictive coding (PC) trains neural networks through local energy-minimization dynamics without depending on a global error signal that backpropagation (BP) requires. Although PC is a promising alternative algorithm for efficient learning, the computa",
-   "url": "https://arxiv.org/abs/2611.16666",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "1c82401b0f5b",
-   "title": "When Expert Disagreement Hurts: Prestige and Selectivity in LLM Decision Revision",
-   "summary": "arXiv:2611.16694v1 Announce Type: new Abstract: When language models revise a decision after another agent disagrees, neither reversal counts nor final accuracy shows whether they are fixing mistakes or abandoning correct answers. We introduce a controlled two-pass audit that holds the question, the",
-   "url": "https://arxiv.org/abs/2611.16694",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "dcb3c73efd07",
-   "title": "Acoustic Respiratory Phase Detection on Mobile Devices",
-   "summary": "arXiv:2611.16710v1 Announce Type: new Abstract: Breathing monitoring is important for well-being, stress regulation, and guided breathing exercises, yet existing approaches often rely on contact-based sensors or controlled environments. This paper presents a non-invasive framework for respiratory ph",
-   "url": "https://arxiv.org/abs/2611.16710",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "09c832f96195",
-   "title": "Mind the Accuracy-Approval Gap: How Users Evaluate Sycophantic AI in Everyday Tasks",
-   "summary": "arXiv:2611.16722v1 Announce Type: new Abstract: Large language models (LLMs) often exhibit sycophancy, a tendency to agree with users, flatter or affirm them, and preserve their face, even when independent judgment or critical feedback would be more useful. Prior work has largely evaluated sycophanc",
-   "url": "https://arxiv.org/abs/2611.16722",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "60abc0ab684b",
-   "title": "Scale-Induced Semantic Shift in Visual Prompt Injection Against VLMs and Web Agents",
-   "summary": "arXiv:2611.16744v1 Announce Type: new Abstract: Visual content in multimedia systems may be resized, compressed, or re-rendered before it is interpreted by a vision-language model. We study a security failure mode in which these transformations change the machine-readable semantics of an image: a te",
-   "url": "https://arxiv.org/abs/2611.16744",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "9f4614dfbf03",
-   "title": "A Modular Framework for ESG Prediction through Domain-Specific Language Modeling and Graph Learning",
-   "summary": "arXiv:2611.16831v1 Announce Type: new Abstract: Environmental, Social and Governance (ESG) scores are increasingly used to evaluate corporate sustainability, supporting investment decisions, ensuring regulatory compliance and assessing risk. However, current ESG evaluations largely rely on proprieta",
-   "url": "https://arxiv.org/abs/2611.16831",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "3c06e4b5d120",
-   "title": "CADET: Construction of PCB Routing Instances with Executable Demonstrations",
-   "summary": "arXiv:2611.16913v1 Announce Type: new Abstract: Printed circuit board (PCB) routing is the stage of physical layout that finds paths connecting the placed pads of each net. Public datasets in this domain are few, and most contain only the final states of routed boards, not demonstrations of the elec",
-   "url": "https://arxiv.org/abs/2611.16913",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
-  },
-  {
-   "id": "4f48b16b6a4a",
-   "title": "Universal Infectious Disease Forecasting with Mantis 2",
-   "summary": "arXiv:2611.16935v1 Announce Type: new Abstract: Public health agencies need to anticipate how outbreaks will unfold, when they will peak, and how long demand on health services will remain elevated. We previously developed a foundation model, Mantis, which was trained entirely on simulated outbreaks",
-   "url": "https://arxiv.org/abs/2611.16935",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-13T05:00:00.000Z"
   }
  ],
  "sources": {
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-16T14:42:06.626Z"
+   "at": "2026-11-17T01:31:54.687Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 276,
-   "at": "2026-11-16T14:42:06.627Z"
+   "at": "2026-11-17T01:31:54.687Z"
   },
   "huggingface": {
    "ok": true,
-   "count": 907,
-   "at": "2026-11-16T14:42:06.625Z"
+   "count": 908,
+   "at": "2026-11-17T01:31:54.686Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-16T14:42:06.627Z"
+   "at": "2026-11-17T01:31:54.689Z"
   },
   "openai": {
    "ok": true,
-   "count": 1391,
-   "at": "2026-11-16T14:42:06.603Z"
+   "count": 1398,
+   "at": "2026-11-17T01:31:54.658Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-16T14:42:06.628Z"
+   "at": "2026-11-17T01:31:54.689Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-16T14:42:06.634Z"
+   "at": "2026-11-17T01:31:54.695Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-16T14:42:06.631Z"
+   "at": "2026-11-17T01:31:54.693Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-16T14:42:06.633Z"
+   "at": "2026-11-17T01:31:54.695Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-16T14:42:06.633Z"
+   "at": "2026-11-17T01:31:54.695Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-16T14:42:06.632Z"
+   "at": "2026-11-17T01:31:54.694Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-16T14:42:06.630Z"
+   "at": "2026-11-17T01:31:54.691Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-16T14:42:06.630Z"
+   "at": "2026-11-17T01:31:54.692Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-16T14:42:06.624Z"
+   "at": "2026-11-17T01:31:54.685Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-16T14:42:06.633Z"
+   "at": "2026-11-17T01:31:54.694Z"
   }
  }
 }
