@@ -1,17 +1,118 @@
 "use client";
-import {useState} from "react";import {contact,services} from "@/data/site";
-export default function ContactForm(){const[err,setErr]=useState<Record<string,string>>({});const[msg,setMsg]=useState("");
-async function submit(e:React.FormEvent<HTMLFormElement>){e.preventDefault();const f=new FormData(e.currentTarget);const d=Object.fromEntries(f) as Record<string,string>;const x:Record<string,string>={};
-if((d.name||"").trim().length<2)x.name="Enter your name.";if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(d.email||""))x.email="Enter a valid email.";if((d.message||"").trim().length<20)x.message="Describe your project (20+ characters).";
-setErr(x);setMsg("");if(Object.keys(x).length||d.website)return;
-const ep=process.env.NEXT_PUBLIC_FORM_ENDPOINT;
-if(ep){try{const r=await fetch(ep,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify(d)});setMsg(r.ok?"Thank you. Your inquiry was sent.":"The inquiry could not be sent. Please email us directly.");if(r.ok)e.currentTarget.reset()}catch{setMsg("The inquiry could not be sent. Please email us directly.")}return}
-location.href=`mailto:${contact.email}?subject=${encodeURIComponent("Project inquiry — "+d.service)}&body=${encodeURIComponent(`Name: ${d.name}\nEmail: ${d.email}\nTopic: ${d.topic||"-"}\nBudget: ${d.budget||"-"}\n\n${d.message}`)}`;setMsg("No form endpoint is configured, so your email app was opened with the inquiry prefilled. Nothing has been sent until you send that email.")}
-const i="w-full border-b border-[var(--line)] bg-transparent py-3 text-base outline-none focus:border-white";
-return(<form onSubmit={submit} noValidate className="grid gap-5">
-{[["name","Name","text"],["email","Your email","email"],["topic","What is it about? (optional)","text"]].map(([n,l,t])=>(<label key={n} className="grid gap-1 text-xs tracking-wider text-[var(--mute)]">{l.toUpperCase()}<input name={n} type={t} className={i}/><span className="text-white/70">{err[n]}</span></label>))}
-<label className="grid gap-1 text-xs tracking-wider text-[var(--mute)]">SERVICE REQUIRED<select name="service" className={i}>{services.map(s=><option key={s.slug} className="bg-black">{s.title}</option>)}</select></label>
-<label className="grid gap-1 text-xs tracking-wider text-[var(--mute)]">BUDGET (OPTIONAL)<input name="budget" className={i}/></label>
-<label className="grid gap-1 text-xs tracking-wider text-[var(--mute)]">PROJECT DESCRIPTION<textarea name="message" rows={5} className={i}/><span className="text-white/70">{err.message}</span></label>
-<input name="website" tabIndex={-1} autoComplete="off" className="absolute -left-[9999px]" aria-hidden/>
-<button className="btn p w-fit">SEND INQUIRY</button>{msg&&<p role="status" className="border border-[var(--line)] p-3 text-sm">{msg}</p>}</form>)}
+
+import { useState } from "react";
+import { contact, services } from "@/data/site";
+
+export default function ContactForm() {
+  const [errors, setErrors] = useState<Record<string, string>>({});
+
+  function submit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const form = e.currentTarget;
+    const data = Object.fromEntries(new FormData(form)) as Record<string, string>;
+    const nextErrors: Record<string, string> = {};
+    const name = (data.name || "").trim();
+    const email = (data.email || "").trim();
+    const topic = (data.topic || "").trim();
+    const budget = (data.budget || "").trim();
+    const message = (data.message || "").trim();
+
+    if (name.length < 2) nextErrors.name = "Enter your name.";
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      nextErrors.email = "Enter a valid email.";
+    }
+    if (message.length < 20) {
+      nextErrors.message = "Describe your project (20+ characters).";
+    }
+
+    setErrors(nextErrors);
+    if (Object.keys(nextErrors).length || data.website) return;
+
+    const enquiry = [
+      "Hello, I'd like to enquire about a project.",
+      "",
+      `Name: ${name}`,
+      `Email: ${email}`,
+      `Topic: ${topic || "-"}`,
+      `Service: ${data.service}`,
+      `Budget: ${budget || "-"}`,
+      "",
+      message,
+    ].join("\n");
+    const phone = contact.whatsapp.replace(/\D/g, "");
+    const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(enquiry)}`;
+
+    window.location.assign(whatsappUrl);
+  }
+
+  const inputClass =
+    "w-full border-b border-[var(--line)] bg-transparent py-3 text-base outline-none focus:border-white";
+
+  return (
+    <form onSubmit={submit} noValidate className="grid gap-5">
+      {[
+        ["name", "Name", "text"],
+        ["email", "Your email", "email"],
+        ["topic", "What is it about? (optional)", "text"],
+      ].map(([name, label, type]) => (
+        <label key={name} className="grid gap-1 text-xs tracking-wider text-[var(--mute)]">
+          {label.toUpperCase()}
+          <input
+            name={name}
+            type={type}
+            className={inputClass}
+            aria-invalid={Boolean(errors[name])}
+            aria-describedby={errors[name] ? `${name}-error` : undefined}
+          />
+          {errors[name] && (
+            <span id={`${name}-error`} className="text-white/70">
+              {errors[name]}
+            </span>
+          )}
+        </label>
+      ))}
+      <label className="grid gap-1 text-xs tracking-wider text-[var(--mute)]">
+        SERVICE REQUIRED
+        <select name="service" className={inputClass} defaultValue={services[0]?.title}>
+          {services.map((service) => (
+            <option key={service.slug} className="bg-black">
+              {service.title}
+            </option>
+          ))}
+        </select>
+      </label>
+      <label className="grid gap-1 text-xs tracking-wider text-[var(--mute)]">
+        BUDGET (OPTIONAL)
+        <input name="budget" className={inputClass} />
+      </label>
+      <label className="grid gap-1 text-xs tracking-wider text-[var(--mute)]">
+        PROJECT DESCRIPTION
+        <textarea
+          name="message"
+          rows={5}
+          className={inputClass}
+          aria-invalid={Boolean(errors.message)}
+          aria-describedby={errors.message ? "message-error" : undefined}
+        />
+        {errors.message && (
+          <span id="message-error" className="text-white/70">
+            {errors.message}
+          </span>
+        )}
+      </label>
+      <input
+        name="website"
+        tabIndex={-1}
+        autoComplete="off"
+        className="absolute -left-[9999px]"
+        aria-hidden="true"
+      />
+      <p className="text-sm text-[var(--mute)]">
+        Submitting opens WhatsApp with your enquiry ready for you to review and send.
+      </p>
+      <button type="submit" className="btn p w-fit">
+        SEND VIA WHATSAPP
+      </button>
+    </form>
+  );
+}

@@ -40,7 +40,7 @@ void main(){
  vec2 p=vec2(u.x*abs(u.x)*260.,20.-s*s*340.);
  vec3 d=vec3(0.);vec3 n=vec3(0.,1.,0.);float jxx=1.,jzz=1.,jxz=0.;
  for(int i=0;i<7;i++){
-  vec2 dir=normalize(uW[i].xy);float k=6.2832/uW[i].z;float c=sqrt(9.81/k)*.85;float Q=uW[i].w;
+  vec2 dir=normalize(uW[i].xy);float k=6.2832/uW[i].z;float c=sqrt(9.81/k)*.6;float Q=uW[i].w;
   float f=k*dot(dir,p)-c*uT;float sn=sin(f),cn=cos(f);float a=Q/k;
   d.xz+=dir*a*cn;d.y+=a*sn;
   n.xz-=dir*Q*cn;n.y-=Q*sn;
@@ -57,7 +57,7 @@ void main(){
  vec2 q=vW.xz;
  /* fine ripples, faded with distance to avoid shimmer */
  float fade=exp(-dist*.014);
- vec2 sc=vec2(uT*.35,uT*.18);
+ vec2 sc=vec2(uT*.22,uT*.11);
  float e=.12;vec2 q1=q*1.6+sc;
  float n0=fbm(q1);vec2 g=vec2(fbm(q1+vec2(e,0.))-n0,fbm(q1+vec2(0.,e))-n0)/e;
  vec2 q2=q*4.1-sc*1.7;
@@ -75,7 +75,7 @@ void main(){
  vec3 H=normalize(normalize(uSun)+V);v+=pow(max(dot(N,H),0.),90.)*.5*vis*fade;
  /* foam: where the surface compresses (low Jacobian) and on tall crests, broken up by noise */
  float fm=smoothstep(.62,.12,vJ)+smoothstep(.55,1.1,vH)*.5;
- float tex=fbm(q*2.4+vec2(uT*.25,-uT*.1))*.65+fbm(q*9.+uT*.4)*.5;
+ float tex=fbm(q*2.4+vec2(uT*.15,-uT*.07))*.65+fbm(q*9.+uT*.25)*.5;
  float foam=smoothstep(.55,.9,fm*(.55+tex*1.1));
  foam*=exp(-dist*.011);
  float lit=.65+.35*smoothstep(-.2,.9,N.y);
@@ -98,7 +98,7 @@ const sc=new T.Scene(),cam=new T.PerspectiveCamera(50,1,.1,1500);cam.position.se
 const sun=new T.Vector3(.2,.1,-1).normalize();
 const U={uT:{value:0},uSun:{value:sun},uFade:{value:0}};
 /* direction x, direction z, wavelength, steepness */
-const W=[[.06,1,46,.08],[-.22,1,27,.12],[.3,1,16,.14],[-.08,1,9.5,.15],[.5,1,6,.13],[-.45,1,3.8,.1],[.15,1,2.4,.07]].map(a=>new T.Vector4(...(a as [number,number,number,number])));
+const W=[[.06,1,46,.14],[-.22,1,27,.17],[.3,1,16,.18],[-.08,1,9.5,.17],[.5,1,6,.14],[-.45,1,3.8,.11],[.15,1,2.4,.08]].map(a=>new T.Vector4(...(a as [number,number,number,number])));
 const sky=new T.Mesh(new T.SphereGeometry(1000,48,24),new T.ShaderMaterial({uniforms:U,vertexShader:SKY_V,fragmentShader:SKY_F,side:T.BackSide,depthWrite:false,depthTest:false}));
 sky.renderOrder=-1;sky.frustumCulled=false;sc.add(sky);
 const seg=mob?170:300;const wg=new T.PlaneGeometry(2,2,seg,seg);
@@ -114,7 +114,7 @@ const el=-.07+.19*ease(t/16)+Math.sin(t*.05)*.004;
 sun.set(.2+Math.sin(t*.03)*.02,el,-1).normalize();
 U.uT.value=t*.35;U.uFade.value=rm?1:Math.min(1,t/2.4);
 sx+=(mx-sx)*.04;sy+=(my-sy)*.04;
-cam.position.set(Math.sin(t*.11)*.5,3.1+Math.sin(t*.42)*.14+Math.sin(t*.9)*.05,0);
+cam.position.set(Math.sin(t*.11)*.5,3.1+Math.sin(t*.3)*.16+Math.sin(t*.55)*.05,0);
 cam.rotation.set(-.075-sy*.05+Math.sin(t*.37)*.004,-sx*.1,Math.sin(t*.29)*.006,"YXZ");
 r.render(sc,cam)};raf=requestAnimationFrame(loop);
 stop=()=>{cancelAnimationFrame(raf);removeEventListener("pointermove",mv);removeEventListener("resize",layout);io.disconnect();wg.dispose();wm.dispose();sky.geometry.dispose();(sky.material as InstanceType<typeof T.ShaderMaterial>).dispose();r.dispose()}})();
