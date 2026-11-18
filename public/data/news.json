@@ -1,6 +1,168 @@
 {
- "updated": "2026-11-18T15:03:26.069Z",
+ "updated": "2026-11-18T23:52:14.572Z",
  "articles": [
+  {
+   "id": "b6239492ef6c",
+   "title": "Introducing workload recovery and expanded infrastructure checks on Amazon SageMaker HyperPod",
+   "summary": "Large training jobs can stall or compute wrong results even when every node looks healthy. Amazon SageMaker HyperPod now adds workload recovery and expanded infrastructure checks that catch these failures sooner and raise the goodput of your training workloads.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/introducing-workload-recovery-and-expanded-infrastructure-checks-on-amazon-sagemaker-hyperpod/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-18T23:03:29.000Z"
+  },
+  {
+   "id": "fa8035bde7d0",
+   "title": "Introducing the Amazon SageMaker JumpStart Model Leaderboard",
+   "summary": "The Amazon SageMaker JumpStart Model Leaderboard compares 70+ foundation models side by side on quality, speed, and cost, directly in SageMaker Studio. Learn what the leaderboard shows, how AWS benchmarks models, and how to go from a shortlist to a deployed model.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-sagemaker-jumpstart-model-leaderboard/",
+   "source": "AWS Machine Learning Blog",
+   "category": "AI Research",
+   "published": "2026-11-18T22:31:04.000Z"
+  },
+  {
+   "id": "93049162414a",
+   "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+   "summary": "Add your teaser here. It should complement the headline, not repeat it. Teaser cannot be longer than 240 characters. The Blog Review Gem will suggest an excerpt. Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extrac",
+   "url": "https://blog.cloudflare.com/open-clairic/",
+   "source": "Cloudflare Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-18T22:00:00.000Z"
+  },
+  {
+   "id": "32f6f88176dc",
+   "title": "How Airbnb uses cost per task to operate coding agents on Amazon Bedrock",
+   "summary": "Airbnb runs evals on real engineering tasks and uses Amazon Bedrock observability to choose models for its coding agents and control production costs. This post shows how cost per task guides model selection, why production spending can differ from eval results, and how to monitor latency, manage qu",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-airbnb-uses-cost-per-task-to-operate-coding-agents-on-amazon-bedrock/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-18T21:48:19.000Z"
+  },
+  {
+   "id": "5a8fb5424af3",
+   "title": "Design responsible AI controls for Amazon Aurora PostgreSQL",
+   "summary": "Learn how to make RAG chatbot answers traceable with Amazon Aurora PostgreSQL, pgvector, and Amazon Bedrock Guardrails, logging sources, scores, and guardrail traces in SQL.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/design-responsible-ai-controls-for-amazon-aurora-postgresql/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-18T21:38:22.000Z"
+  },
+  {
+   "id": "032650d6c042",
+   "title": "Private certificate authority support in Amazon Bedrock AgentCore Identity",
+   "summary": "Amazon Bedrock AgentCore Identity now supports private certificate authorities (CAs), so your agents can connect to self-hosted identity providers that use a private CA. This post shows how to issue an IdP certificate with AWS Private CA, configure a credential provider to trust it, rotate the CA, a",
+   "url": "https://aws.amazon.com/blogs/machine-learning/private-certificate-authority-support-in-amazon-bedrock-agentcore-identity/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-18T20:53:41.000Z"
+  },
+  {
+   "id": "46964ed0b448",
+   "title": "How Salesforce is advancing global-scale model serving with cross-Region inference routing in Amazon SageMaker AI",
+   "summary": "Learn how Salesforce uses the cross-Region inference router in Amazon SageMaker AI to turn fragmented Regional capacity into reliable model serving. Salesforce adds capacity securely across Regions and accounts while keeping its data residency commitments, and sees per request where each call was se",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-18T20:13:18.000Z"
+  },
+  {
+   "id": "f689168723dc",
+   "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+   "summary": "",
+   "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+   "source": "Hugging Face Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-18T19:54:56.000Z"
+  },
+  {
+   "id": "045cb3d3686a",
+   "title": "AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances",
+   "summary": "AWS Lambda now supports GPU instances (G-series) for Event Functions running on Lambda Managed Instances, enabling serverless GPU workloads like machine learning inference, media processing, and rendering. Lambda handles all infrastructure tasks, including instance lifecycle, driver management, and ",
+   "url": "https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances/",
+   "source": "AWS News Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-18T19:39:07.000Z"
+  },
+  {
+   "id": "c059c1020c02",
+   "title": "How Social Department built culture-aware video discovery",
+   "summary": "Social Department, an AI operating system for entertainment marketing, worked with TrackIt and AWS to build QuickSearch: single-action queries that surface shareable scenes, quotable lines, memeable frames, and trend-aligned moments across large video libraries, using TwelveLabs models on Amazon Bed",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-social-department-built-culture-aware-video-discovery/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-18T19:27:56.000Z"
+  },
+  {
+   "id": "6f644c77d595",
+   "title": "Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection",
+   "summary": "Many enterprises run a centralized network model: one account owns every VPC and a central firewall inspects all traffic. This post shows a tested pattern for connecting Amazon Bedrock AgentCore Gateway to private APIs and MCP servers in that model, with the VPC Lattice resource gateway in the netwo",
+   "url": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-and-spoke-network-with-centralized-inspection/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-18T19:05:45.000Z"
+  },
+  {
+   "id": "a460aee76264",
+   "title": "How Stretto built an AI voice agent with Amazon Nova 2 Sonic",
+   "summary": "Stretto replaced its web-form lead capture with Tara, an AI voice agent built on Amazon Nova 2 Sonic that conducts bankruptcy intake interviews by phone and qualifies leads. See how Stretto, the AWS Generative AI Innovation Center, and CI&T designed the voice architecture, validated it for sensitive",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-stretto-built-an-ai-voice-agent-with-amazon-nova-2-sonic/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-18T18:58:42.000Z"
+  },
+  {
+   "id": "67548af43d83",
+   "title": "From reporting to reasoning: Getting enterprise data ready for AI agents",
+   "summary": "A recap of the inaugural AWS Quick User Group DC meetup, where data leaders explored getting enterprise data ready for AI agents. It covers what's new in AWS Quick, Financial Independence Group's AI analytics journey, and hands-on app and no-code flow building.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/from-reporting-to-reasoning-getting-enterprise-data-ready-for-ai-agents/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Data Science",
+   "published": "2026-11-18T18:54:08.000Z"
+  },
+  {
+   "id": "75623b38e68b",
+   "title": "Why your fine-tuning job takes longer than the FLOPs say",
+   "summary": "",
+   "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+   "source": "Hugging Face Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-18T18:53:43.000Z"
+  },
+  {
+   "id": "6f41e71febfa",
+   "title": "Build a Personal Brand to Help Employers Find You",
+   "summary": "This article is crossposted from IEEE Spectrum ’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written i n partnership with tech career development company Parsity and delivered to your inbox for free! In one year, the number of developers working for",
+   "url": "https://spectrum.ieee.org/personal-branding-for-engineers",
+   "source": "IEEE Spectrum",
+   "category": "Robotics and Automation",
+   "published": "2026-11-18T17:33:26.000Z"
+  },
+  {
+   "id": "cd34e449297f",
+   "title": "How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models",
+   "summary": "Our previous post in this series introduced the Ranking Engineer Agent (REA), an autonomous system that generates hypotheses, designs experiments, and proves new machine learning (ML) techniques on ads ranking models. Now, we’re sharing how we propagate ranking model improvements like architectural ",
+   "url": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/",
+   "source": "Engineering at Meta",
+   "category": "Machine Learning",
+   "published": "2026-11-18T17:00:00.000Z"
+  },
+  {
+   "id": "03ca256a4adf",
+   "title": "The Gemini app is now available on lower-memory Android devices.",
+   "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+   "source": "Google AI Blog",
+   "category": "Mobile Technology",
+   "published": "2026-11-18T17:00:00.000Z"
+  },
+  {
+   "id": "d8d01a736fd5",
+   "title": "Design Once, Deploy at Scale: Building a Template-Driven ML Ecosystem",
+   "summary": "As ML ecosystems grow to a large number of production models, the bottleneck is no longer inventing new techniques to improve these models, but rather shipping them reliably and efficiently across a fragmented model space, creating a rising tide that lifts all the boats. At Meta, we built a template",
+   "url": "https://engineering.fb.com/2026/11/18/ml-applications/design-once-deploy-at-scale-template-driven-ml-ecosystem/",
+   "source": "Engineering at Meta",
+   "category": "Software Engineering",
+   "published": "2026-11-18T16:59:38.000Z"
+  },
   {
    "id": "bf1424b145e4",
    "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
@@ -20,6 +182,15 @@
    "published": "2026-11-18T14:52:10.000Z"
   },
   {
+   "id": "bb3ee1cf50e2",
+   "title": "The AI Hype Index: AI is everywhere",
+   "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to",
+   "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+   "source": "MIT Technology Review",
+   "category": "Robotics and Automation",
+   "published": "2026-11-18T14:42:44.000Z"
+  },
+  {
    "id": "5fe5c48115f1",
    "title": "The Download: AI learns to smell and hydropower struggles",
    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This smell startup says its AI nose is as good as a human’s In a New Jersey lab, researchers are trying to sniff every odor on Earth. Their careful no",
@@ -29,6 +200,15 @@
    "published": "2026-11-18T13:10:00.000Z"
   },
   {
+   "id": "122413bd849f",
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability CVE-2026-40217 BerriAI LiteLLM Unprotected Alternate Channe",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-18T12:00:00.000Z"
+  },
+  {
    "id": "d1dd49b4f83d",
    "title": "This smell startup says its AI nose is as good as a human’s",
    "summary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup",
@@ -36,6 +216,42 @@
    "source": "MIT Technology Review",
    "category": "Machine Learning",
    "published": "2026-11-18T10:20:30.000Z"
+  },
+  {
+   "id": "e683d40fba10",
+   "title": "The Silent Consensus",
+   "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+   "url": "https://openai.com/index/the-silent-consensus",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-18T10:00:00.000Z"
+  },
+  {
+   "id": "9fa731b0ef6c",
+   "title": "Research acceleration: The jagged frontier",
+   "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+   "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-18T08:00:00.000Z"
+  },
+  {
+   "id": "53f2a14376dd",
+   "title": "Inside the Codex sandbox",
+   "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+   "url": "https://openai.com/index/inside-the-codex-sandbox",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-18T08:00:00.000Z"
+  },
+  {
+   "id": "8b6ac2940fdc",
+   "title": "Managing frontier AI risk: From training to deployment",
+   "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+   "url": "https://openai.com/index/managing-frontier-ai-risk",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-18T06:00:00.000Z"
   },
   {
    "id": "bcd79b1222f1",
@@ -3384,299 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "AI Research",
    "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "2adf923c8b27",
-   "title": "Let the Mind Conceive, Let the Hand Achieve: Coupling Grounded Action and Progress Evaluation for Long-Horizon Manipulation",
-   "summary": "arXiv:2610.18352v2 Announce Type: replace-cross Abstract: A robot following a multi-step instruction needs to act on the right objects in the right order, even as the scene changes. It must also maintain awareness of task progress and determine when to advance. To address these challenges, we introd",
-   "url": "https://arxiv.org/abs/2610.18352",
-   "source": "arXiv cs.AI",
-   "category": "Robotics and Automation",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "22c37048349c",
-   "title": "Does On-Policy Distillation Need to Complete Every Rollout?",
-   "summary": "arXiv:2610.21337v5 Announce Type: replace-cross Abstract: On-policy distillation (OPD) transfers teacher knowledge to a student through feedback on student-generated rollouts, but generating complete rollouts and computing per-token teacher feedback are computationally expensive. Existing truncation",
-   "url": "https://arxiv.org/abs/2610.21337",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "4849e4444089",
-   "title": "Forecasting Retail Sales at Every Grain: Trees, Foundation Models, Transformers and World Models Compared on Four Public Data Sets",
-   "summary": "arXiv:2610.25170v3 Announce Type: replace-cross Abstract: A retailer makes decisions from the same demand at different grains: store orders by item and day, promotions by item and week, category reviews and supplier terms. This paper asks whether one forecast, built at the finest grain and summed to",
-   "url": "https://arxiv.org/abs/2610.25170",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "28b7073647ca",
-   "title": "Activation-Space Exploration for Visual and Textual Reasoning with RLVR",
-   "summary": "arXiv:2610.27012v2 Announce Type: replace-cross Abstract: Reinforcement learning with verifiable rewards (RLVR) improves visual and textual reasoning by sampling responses, scoring them with an automatic verifier, and updating the policy from the resulting rewards. The policy therefore receives dire",
-   "url": "https://arxiv.org/abs/2610.27012",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "eafebcfc1840",
-   "title": "REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation",
-   "summary": "arXiv:2610.37584v4 Announce Type: replace-cross Abstract: Personalized recommendation depends on learning semantic and collaborative relations among items from online content and user interactions. Generative recommendation (GR) offers a promising paradigm by autoregressively generating discrete sem",
-   "url": "https://arxiv.org/abs/2610.37584",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "29e6f161a8ef",
-   "title": "Cassette-Editor: Shared Timeline Semantics for Human and Agent Editing",
-   "summary": "arXiv:2610.37690v4 Announce Type: replace-cross Abstract: Video editing involves tedious manual manipulation across interconnected timeline tracks, motivating automated agents that offload routine work while keeping the project directly revisable by humans. Fixed operation catalogs limit expressiven",
-   "url": "https://arxiv.org/abs/2610.37690",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "2b007a009a06",
-   "title": "WorldFlow: Joint Video and 3D Motion Prediction via Large-Scale Pretraining",
-   "summary": "arXiv:2610.39278v2 Announce Type: replace-cross Abstract: Predicting future physical states stands as a central challenge in embodied intelligence. Existing video world models leave 3D dynamics implicit, action-based formulations remain tied to specific robot configurations, and 3D motion prediction",
-   "url": "https://arxiv.org/abs/2610.39278",
-   "source": "arXiv cs.AI",
-   "category": "Robotics and Automation",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "0af13689654e",
-   "title": "Multi-Estimate Elicitation Does Not Uniformly Debias Language Model Judgments",
-   "summary": "arXiv:2611.00597v3 Announce Type: replace-cross Abstract: Multi-Candidate Verbalization (MCV) is a task- and model-dependent output protocol: repairing format does not guarantee better posterior accuracy, and requesting weights differs from reweighting an already generated candidate set. Across 31,6",
-   "url": "https://arxiv.org/abs/2611.00597",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "f7ea32f87490",
-   "title": "See, Think, Use: Diagnosing Perception and Reasoning Failures in VLMs",
-   "summary": "arXiv:2611.01467v2 Announce Type: replace-cross Abstract: We present See, Think, Use, a protocol that traces each answer of a vision-language model to perception, reasoning or the use of perception. The diagnosis shows a developer which stage to improve and directs test-time compute to the stage tha",
-   "url": "https://arxiv.org/abs/2611.01467",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "1d71558573e0",
-   "title": "Malware Clustering in the Wild: Taxonomy, Challenges, and Evaluation Metrics",
-   "summary": "arXiv:2611.02380v2 Announce Type: replace-cross Abstract: As malware continues to grow in volume, diversity, and sophistication, clustering has emerged as a critical technique for analyzing large malware corpora. Clustering enables the discovery of structural relationships, behavioral patterns, and ",
-   "url": "https://arxiv.org/abs/2611.02380",
-   "source": "arXiv cs.AI",
-   "category": "Cybersecurity",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "7403f00ccae9",
-   "title": "Enhancing Stock Market Information Retrieval with Retrieval-Augmented Generation",
-   "summary": "arXiv:2611.03747v2 Announce Type: replace-cross Abstract: Natural Language Processing (NLP) has been widely applied in financial domains, enabling automated analysis and retrieval of stock market information. However, traditional NLP-based systems often struggle with maintaining contextual accuracy ",
-   "url": "https://arxiv.org/abs/2611.03747",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "89465e7d4773",
-   "title": "EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL",
-   "summary": "arXiv:2611.06518v2 Announce Type: replace-cross Abstract: Group Relative Policy Optimization (GRPO) has advanced generative model post-training in verifiable domains such as code and mathematics, but evaluating video quality, especially emotional expression, often depends on subjective aesthetics an",
-   "url": "https://arxiv.org/abs/2611.06518",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "ff85a44d449e",
-   "title": "Signed but Not Safe: Requirement Integrity in Multi-Agent LLM Handoffs",
-   "summary": "arXiv:2611.07483v2 Announce Type: replace-cross Abstract: Enterprise AI agents split requests across subagents, and each handoff can drop, alter or ignore a requirement. A preregistered study on synthetic, exactly scorable tasks compares free-text, structured JSON and signed requirement-manifest han",
-   "url": "https://arxiv.org/abs/2611.07483",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "3c3d542150fa",
-   "title": "Continued Training of Continuous Language Flows with Token Identity Squared Supervision",
-   "summary": "arXiv:2611.07721v2 Announce Type: replace-cross Abstract: Diffusion and flow models have recently been extended to language modeling, generating text through continuous denoising in token embedding spaces. Pretrained models provide token representations and contextual prediction capabilities, but im",
-   "url": "https://arxiv.org/abs/2611.07721",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "302f528c426c",
-   "title": "Goodhart in the Planner: Sampling-Based Control Exploits Rewards Learned from Human Preferences",
-   "summary": "arXiv:2611.09670v3 Announce Type: replace-cross Abstract: Robots increasingly plan by searching against a reward model learned from human preferences. We measure what this search does to the true objective. On HalfCheetah and Hopper with crowd-sourced labels, and on Meta-World drawer-open and plate-",
-   "url": "https://arxiv.org/abs/2611.09670",
-   "source": "arXiv cs.AI",
-   "category": "Cybersecurity",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "c06cb1b91a8e",
-   "title": "Attention at Absolute Zero",
-   "summary": "arXiv:2611.11937v2 Announce Type: replace-cross Abstract: Attention scores candidate supports of an answer, which we call witnesses, and reads the scores at a temperature. We build a higher-order attention layer whose state lives on pairs of items: for a pair (a, b), each third item k is a witness j",
-   "url": "https://arxiv.org/abs/2611.11937",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "d3d6070d89b1",
-   "title": "OverServe: Resource Amplification Attacks on SaaS Agents via Tool--Prompt Co-Design",
-   "summary": "arXiv:2611.14808v2 Announce Type: replace-cross Abstract: Advances in large language models (LLMs) are enabling software-as-a-service (SaaS) providers to automate longer business workflows with agents. In subscription-based SaaS deployments, model and tool calls consume provider resources without ad",
-   "url": "https://arxiv.org/abs/2611.14808",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "f103a5f2e9a8",
-   "title": "Rethinking \"RL Generalizes, SFT Memorizes\": The Role of SFT Data",
-   "summary": "arXiv:2611.14912v2 Announce Type: replace-cross Abstract: Large language models trained with Reinforcement Learning (RL) with verifiable rewards exhibit strong reasoning ability and broad generalization, whereas models trained with Supervised Fine-Tuning (SFT) are often viewed as more prone to memor",
-   "url": "https://arxiv.org/abs/2611.14912",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "6fdb3100b7c9",
-   "title": "ReShap: Interpretable Reinforcement Learning for High-Dimensional Multi-Action Settings",
-   "summary": "arXiv:2611.15507v2 Announce Type: replace-cross Abstract: Deep Reinforcement Learning (RL) plays a crucial role in tackling complex tasks, yet its reliance on deep neural networks makes the learned policies opaque. To enhance the trustworthiness of RL policies, existing work (e.g., the SILVER framew",
-   "url": "https://arxiv.org/abs/2611.15507",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "a78cf98f88b2",
-   "title": "Spec-Driven PBT: Deriving Semantic Invariants from Code Specifications for Agentic Property-based Testing",
-   "summary": "arXiv:2611.15920v2 Announce Type: replace-cross Abstract: Software is increasingly written by AI agents that produce an implementation from a natural language specification, a practice known as agentic coding. Code is now produced faster than it can be reviewed, and has been shown to exhibit its own",
-   "url": "https://arxiv.org/abs/2611.15920",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "3966540c4126",
-   "title": "EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming",
-   "summary": "arXiv:2611.16728v2 Announce Type: replace-cross Abstract: Generalist manipulation policies can benefit from the complementary experience of humans, real robots, and simulated agents. However, differences in morphology, sensing, and control interfaces make it difficult to learn effectively from their",
-   "url": "https://arxiv.org/abs/2611.16728",
-   "source": "arXiv cs.AI",
-   "category": "Robotics and Automation",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "f1bd70109da8",
-   "title": "RACE: Ranking-Uncertainty Aware Capacity-Adaptive Customization for Efficient Sequential Recommendation",
-   "summary": "arXiv:2611.18244v2 Announce Type: replace-cross Abstract: Efficient sequential recommendation has emerged as a promising paradigm for providing real-time personalized service. To deploy models under resource-constrained environment, model compression becomes a necessity, yet existing methods typical",
-   "url": "https://arxiv.org/abs/2611.18244",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "67ddb54c8843",
-   "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
-   "summary": "arXiv:2611.18397v2 Announce Type: replace-cross Abstract: We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment ",
-   "url": "https://arxiv.org/abs/2611.18397",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "10b7da688da5",
-   "title": "What Matters for Cross-Modal Alignment",
-   "summary": "arXiv:2611.20000v2 Announce Type: replace-cross Abstract: The Platonic Representation Hypothesis posits that models trained on different modalities converge toward a shared representation. Related work aligns frozen image and text encoders on natural images without paired data. We test zero-pair ali",
-   "url": "https://arxiv.org/abs/2611.20000",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
   }
  ],
  "sources": {
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-18T15:03:25.311Z"
+   "at": "2026-11-18T23:52:14.056Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 401,
-   "at": "2026-11-18T15:03:25.312Z"
+   "at": "2026-11-18T23:52:14.057Z"
   },
   "huggingface": {
    "ok": true,
-   "count": 910,
-   "at": "2026-11-18T15:03:25.310Z"
+   "count": 913,
+   "at": "2026-11-18T23:52:14.055Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-18T15:03:25.313Z"
+   "at": "2026-11-18T23:52:14.058Z"
   },
   "openai": {
    "ok": true,
-   "count": 1407,
-   "at": "2026-11-18T15:03:25.285Z"
+   "count": 1412,
+   "at": "2026-11-18T23:52:14.033Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-18T15:03:25.315Z"
+   "at": "2026-11-18T23:52:14.060Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-18T15:03:25.320Z"
+   "at": "2026-11-18T23:52:14.064Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-18T15:03:25.317Z"
+   "at": "2026-11-18T23:52:14.062Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-18T15:03:25.319Z"
+   "at": "2026-11-18T23:52:14.064Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-18T15:03:25.319Z"
+   "at": "2026-11-18T23:52:14.064Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-18T15:03:25.318Z"
+   "at": "2026-11-18T23:52:14.063Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-18T15:03:25.315Z"
+   "at": "2026-11-18T23:52:14.060Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-18T15:03:25.316Z"
+   "at": "2026-11-18T23:52:14.061Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-18T15:03:25.310Z"
+   "at": "2026-11-18T23:52:14.054Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-18T15:03:25.319Z"
+   "at": "2026-11-18T23:52:14.063Z"
   }
  }
 }
