@@ -1,6 +1,222 @@
 {
- "updated": "2026-11-17T15:28:54.351Z",
+ "updated": "2026-11-18T00:29:52.486Z",
  "articles": [
+  {
+   "id": "c1d8ec268812",
+   "title": "Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference",
+   "summary": "Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for distributed inference, with multi-node and disaggregated serving, KV-aware routing, and automatic fault recovery. Serve large models across many nodes without building the orchestration layer yourself.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-17T23:33:26.000Z"
+  },
+  {
+   "id": "7e538726ff76",
+   "title": "Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads",
+   "summary": "As production agents on Amazon Bedrock AgentCore process multi-megabyte JSON payloads, token costs and latency climb. This post shares three composable strategies: offloading heavy artifacts to Amazon S3, on-demand result paging, and dictionary compaction. Together they cut per-turn token use by up ",
+   "url": "https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-17T22:44:51.000Z"
+  },
+  {
+   "id": "58043437b94b",
+   "title": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
+   "summary": "Malware cocktail delivers cryptocurrency theft payloads and iOS exploits, among other things.",
+   "url": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
+   "source": "Ars Technica",
+   "category": "Cybersecurity",
+   "published": "2026-11-17T22:32:16.000Z"
+  },
+  {
+   "id": "f48c5c525702",
+   "title": "Cut generative AI costs: Code for rules, models for judgment",
+   "summary": "The biggest cost lever in a generative AI system is whether you call a model at all. Learn how to decide whether each workflow step needs a model, and map each option to AWS: deterministic code, a constrained decision call, or a right-sized model on Amazon Bedrock.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-17T21:14:55.000Z"
+  },
+  {
+   "id": "1183c101fd58",
+   "title": "Amazon SageMaker AI real-time endpoints now support KV cache aware routing",
+   "summary": "Amazon SageMaker AI real-time endpoints now support KV cache-aware routing, a new strategy that routes each request to the instance holding the longest cached match for its prompt. Learn how it works, when to use it compared with prefix-aware routing, and how to enable, invoke, and verify it on sing",
+   "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-17T21:11:51.000Z"
+  },
+  {
+   "id": "a82294d2c773",
+   "title": "Govern and discover records with common metadata in AWS Agent Registry",
+   "summary": "Custom metadata schemas in AWS Agent Registry let an administrator define typed, validated fields that every agent, MCP server, and skill must carry. This post follows an MCP record from schema definition through registration, enrichment, approval, and discovery, so teams govern and find resources w",
+   "url": "https://aws.amazon.com/blogs/machine-learning/govern-and-discover-records-with-common-metadata-in-aws-agent-registry/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-17T20:31:04.000Z"
+  },
+  {
+   "id": "51ba100e4456",
+   "title": "Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore",
+   "summary": "When an AI agent on Amazon Bedrock AgentCore calls Snowflake Cortex AI over MCP, how does it authenticate? This post walks through three OAuth patterns we tested on AgentCore Identity: Snowflake OAuth, three-legged OAuth with a corporate IdP, and two-legged OAuth, so you can match your organization'",
+   "url": "https://aws.amazon.com/blogs/machine-learning/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedrock-agentcore/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Developer Tools",
+   "published": "2026-11-17T20:25:23.000Z"
+  },
+  {
+   "id": "797d638b0571",
+   "title": "Quad9’s withdrawal from France: A canary in the coal mine",
+   "summary": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the open Internet.",
+   "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+   "source": "Cloudflare Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-17T20:24:27.000Z"
+  },
+  {
+   "id": "3b6b1303f004",
+   "title": "Announcing AI data preparation capabilities in Amazon SageMaker: Build high-quality datasets for model development workflows",
+   "summary": "Amazon SageMaker AI now offers AI data preparation capabilities for building high-quality training and evaluation data. Generate synthetic examples, assess and improve datasets, auto-label at scale, and bring in expert review through Python SDK APIs and an agent skill, all from your own notebook or ",
+   "url": "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Data Science",
+   "published": "2026-11-17T19:40:01.000Z"
+  },
+  {
+   "id": "e529041ac34a",
+   "title": "Getting AI out of the demo and into businesses globally",
+   "summary": "Most enterprises have AI that works in a demo but stalls before production. AWS Forward Deployed Engineering closes that gap. AWS engineers embed with customer teams to take high-value workflows to production in 45-day sprints, leaving a foundation, workflows, and governance the customer owns.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-17T19:05:22.000Z"
+  },
+  {
+   "id": "41930dc76153",
+   "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
+   "summary": "Policymakers, technologists, and members of the public have raised concerns about the harm AI’s rapid advancement might cause to society. Their concerns include bias, data privacy violations, the spread of misinformation, and losing control of AI agents. Those issues are relatively new to many peopl",
+   "url": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
+   "source": "IEEE Spectrum",
+   "category": "Robotics and Automation",
+   "published": "2026-11-17T19:00:03.000Z"
+  },
+  {
+   "id": "28b3b94e3834",
+   "title": "Build WhatsApp AI agents with Amazon Bedrock AgentCore",
+   "summary": "SMART, an open-source Python SDK and Terraform stack, deploys the full WhatsApp channel layer to your AWS account with one command. Bring any agent that runs on Amazon Bedrock AgentCore, and SMART handles webhook ingestion, media, conversation memory, scheduling, and Meta message templates.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/build-whatsapp-ai-agents-with-amazon-bedrock-agentcore/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-17T18:48:50.000Z"
+  },
+  {
+   "id": "63e33b4081ff",
+   "title": "Roundtables: Inside the Quest for Cognitive Immortality",
+   "summary": "Listen to the session or watch below In an effort to reach an elusive continuity of the self, some far-thinking technologists are working on ways to keep your brain going—even beyond death. Science editor Mary Beth Griggs and senior editor for biomedicine Antonio Regalado explore possible paths to k",
+   "url": "https://www.technologyreview.com/2026/11/17/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
+   "source": "MIT Technology Review",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-17T18:46:47.000Z"
+  },
+  {
+   "id": "aa9ce3deb1b1",
+   "title": "Maintainers don&#8217;t need more AI bug reports. They need fixes.",
+   "summary": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don&#8217;t need more AI bug reports. They need fi",
+   "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+   "source": "GitHub Blog",
+   "category": "Developer Tools",
+   "published": "2026-11-17T18:29:29.000Z"
+  },
+  {
+   "id": "e2c93b2ad7cf",
+   "title": "Building the Agent Host Protocol for sessions that continue across devices",
+   "summary": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud. The post Building the Agent Host Protocol for sessions that continue across devices appeared first on The GitHub Blog .",
+   "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+   "source": "GitHub Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-17T18:20:40.000Z"
+  },
+  {
+   "id": "62819927ecd1",
+   "title": "Reason over time-series data with OpenTSLM on Amazon SageMaker JumpStart",
+   "summary": "OpenTSLM, an open source family of time-series language models, is now available in Amazon SageMaker JumpStart. See how Nexthink and Aionic Labs apply it to proactive IT support, then deploy OpenTSLM to a real-time endpoint and fine-tune it on your own data with TimeNet and a SageMaker training job.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/reason-over-time-series-data-with-opentslm-on-amazon-sagemaker-jumpstart/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-17T18:06:44.000Z"
+  },
+  {
+   "id": "6a38a59720a4",
+   "title": "Hydropower hit record lows in the US Southwest this summer",
+   "summary": "The US Southwest generated 28% less electricity via hydropower between April and August than the 10-year average, according to new data from the US Energy Information Administration. Most hydropower plants in the US rely on dams to hold back water, creating reservoirs. The water can be released thro",
+   "url": "https://www.technologyreview.com/2026/11/17/1148742/hydropower-drought-colorado-river/",
+   "source": "MIT Technology Review",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-17T17:52:10.000Z"
+  },
+  {
+   "id": "549a77347d5e",
+   "title": "Introducing GPT-6.2 Astra and Sol",
+   "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-17T17:45:00.000Z"
+  },
+  {
+   "id": "c94ba3262acc",
+   "title": "Your complete guide to AWS Quick at AWS re:Invent 2026",
+   "summary": "AWS Quick gives your whole organization AI that knows your business, respects your security rules, and acts on your behalf. At AWS re:Invent 2026, customers including Allianz, Cox Automotive, and Southwest Airlines share how they govern, extend, and scale Quick. Use this guide to find the sessions t",
+   "url": "https://aws.amazon.com/blogs/machine-learning/your-complete-guide-to-aws-quick-at-aws-reinvent-2026/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-17T17:08:21.000Z"
+  },
+  {
+   "id": "e9e2922593bd",
+   "title": "Four Continents, Four New AWS Heroes: Closing Out 2026",
+   "summary": "As AWS re:Invent is around the corner, we’re proud to recognize a new group of AWS Heroes. Every Hero finds their own way to give back, whether through sharing what they know, bringing people together, or building tools that help others succeed. What they have in common is a genuine commitment to su",
+   "url": "https://aws.amazon.com/blogs/aws/four-continents-four-new-aws-heroes-closing-out-2026/",
+   "source": "AWS News Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-17T17:06:43.000Z"
+  },
+  {
+   "id": "e86652e1a438",
+   "title": "How LoanPro built an agentic AI loan servicing assistant with Amazon Bedrock AgentCore",
+   "summary": "LoanPro worked with AWS Partner AllCloud and the AWS Generative AI Innovation Center to build a multi-agent AI assistant on Amazon Bedrock and Amazon Bedrock AgentCore. It gives loan servicing agents instant borrower context and next-best-action recommendations, reducing customer call times by up to",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-amazon-bedrock-agentcore/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-17T17:01:08.000Z"
+  },
+  {
+   "id": "357d085ae06f",
+   "title": "Put Gemini to work for you",
+   "summary": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+   "source": "Google AI Blog",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-17T17:00:00.000Z"
+  },
+  {
+   "id": "b696311f9533",
+   "title": "Responsible AI for agentic AI: A phased roadmap for platform and application teams",
+   "summary": "Enterprises adopting agentic AI at scale need platforms that embed responsible AI from the start. This post gives platform and application teams a three-phase roadmap (governance foundation, pilot deployment, and evaluation and hardening) that maps the AWS Responsible AI Lens pillars to each phase, ",
+   "url": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-for-agentic-ai-a-phased-roadmap-for-platform-and-application-teams/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-17T16:56:31.000Z"
+  },
+  {
+   "id": "76ed8af592f5",
+   "title": "How ArisGlobal scaled generative AI inference on Amazon Bedrock",
+   "summary": "ArisGlobal runs NavaX, its life-sciences AI engine, on Amazon Bedrock. By caching the shared prompt prefix instead of each per-case document, ArisGlobal cut effective input cost by about 50% and overall monthly inference spend by about 40%, while onboarding more tenants without proportional cost gro",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-arisglobal-scaled-generative-ai-inference-on-amazon-bedrock/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-17T15:57:09.000Z"
+  },
   {
    "id": "86f07be892b0",
    "title": "Research Reports",
@@ -38,6 +254,123 @@
    "published": "2026-11-17T13:10:00.000Z"
   },
   {
+   "id": "a0f483dd422a",
+   "title": "Siemens ROS#",
+   "summary": "View CSAF Summary ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Siemens has released a new version for ROS# and recommends to updat",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-17T12:00:00.000Z"
+  },
+  {
+   "id": "2662cf713828",
+   "title": "Dorsett Controls InfoScan",
+   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate network communications. The following versions of Dorsett Contro",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-17T12:00:00.000Z"
+  },
+  {
+   "id": "91c22df4b393",
+   "title": "Siemens Mendix Studio Pro",
+   "summary": "View CSAF Summary Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user&#039;s browser into sending unauthorized requests, potentially leading to unauthorized data access, tool exec",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-17T12:00:00.000Z"
+  },
+  {
+   "id": "dc2d43865fd4",
+   "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
+   "summary": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has released a new version for .NET Client Library for SIMATIC S",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-17T12:00:00.000Z"
+  },
+  {
+   "id": "04fced3604e3",
+   "title": "Critical Java Vulnerability Requires Immediate Patching",
+   "summary": "Purpose CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938 . This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Ja",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-17T12:00:00.000Z"
+  },
+  {
+   "id": "877e907402b9",
+   "title": "Siemens Industrial Software Products",
+   "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remot",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-17T12:00:00.000Z"
+  },
+  {
+   "id": "51d812581aa5",
+   "title": "Siemens Simcenter Femap",
+   "summary": "View CSAF Summary Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released a new version for Simcenter Femap and rec",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-17T12:00:00.000Z"
+  },
+  {
+   "id": "9c3818e954e8",
+   "title": "Siemens SIMATIC",
+   "summary": "View CSAF Summary The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate user and execute arbitrary code with the privileges of the victim user. Siemens is preparing fixes and recommends specific mitigati",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-17T12:00:00.000Z"
+  },
+  {
+   "id": "72572082204e",
+   "title": "Siemens Industrial Automation Software Products",
+   "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remot",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-17T12:00:00.000Z"
+  },
+  {
+   "id": "d08071d08cf1",
+   "title": "Siemens RUGGEDCOM APE1808",
+   "summary": "View CSAF Summary Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to update Fortigate NGFW to V7.6.9 or later following the secure update recommendation procedure. Contact customer support t",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-17T12:00:00.000Z"
+  },
+  {
+   "id": "d4620a114430",
+   "title": "Siemens SIMATIC WinCC",
+   "summary": "View CSAF Summary Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to cause arbitrary code execution on the device. Siemens is preparing fixes and recommends specific mitigations for products ",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-17T12:00:00.000Z"
+  },
+  {
+   "id": "f49e9f798bfe",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber ",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-17T12:00:00.000Z"
+  },
+  {
+   "id": "21dc163c1f75",
+   "title": "Siemens meta-iot2050",
+   "summary": "View CSAF Summary meta-iot2050 (https://github.com/siemens/meta-iot2050) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an attacker which is able to manipulate a configuration file to have arbitrary commands run as root. Siemens is preparing fi",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-17T12:00:00.000Z"
+  },
+  {
    "id": "ab7506628686",
    "title": "Understand How Satellite Links Shape IoT Device Design and Testing",
    "summary": "How 3GPP Releases 15, 16, and 17 brought satellite access into 5G NR, NB-IoT, and eMTC. Why satellite links suit IoT devices that send small, infrequent, and delay-tolerant messages. Where non-terrestrial networks (NTN) add value, including asset tracking, agriculture, public safety, and offshore op",
@@ -45,6 +378,15 @@
    "source": "IEEE Spectrum",
    "category": "Robotics and Automation",
    "published": "2026-11-17T11:00:04.000Z"
+  },
+  {
+   "id": "c6c361c53bc4",
+   "title": "Introducing ChatGPT for Sales",
+   "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+   "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-17T08:00:00.000Z"
   },
   {
    "id": "18304d25cb72",
@@ -3258,425 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "AI Research",
    "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "5db2e144ad26",
-   "title": "Nemotron 3.5 Bolt E4B 4GB: An Open and Efficient Small Language Model for Fast Conversational Agents",
-   "summary": "arXiv:2611.20771v1 Announce Type: cross Abstract: We introduce Nemotron 3.5 Bolt E4B 4GB, an open and efficient small language model further post-trained from Gemma-4-E4B-it and optimized for speed and intelligence per GB of memory used for fast conversational agents. The model carries forward Gemma",
-   "url": "https://arxiv.org/abs/2611.20771",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "d295ba7c15a1",
-   "title": "Auditing World-Model Explanations in Retail Forecasting: Faithfulness, Accuracy and Price Response",
-   "summary": "arXiv:2611.20811v1 Announce Type: cross Abstract: Forecasting models that read the price and promotion plan explain each forecast as a baseline, what would sell with nothing planned, plus the lift the plan adds. We test such explanations with eight checks, six with a pass rule fixed before any resul",
-   "url": "https://arxiv.org/abs/2611.20811",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "0d58ec0ceaf2",
-   "title": "The Cybersecurity Dataset Observatory: Which Data for AI in Cybersecurity?",
-   "summary": "arXiv:2611.20812v1 Announce Type: cross Abstract: AI is increasingly used for cybersecurity tasks such as intrusion and malware detection, in enterprise, industrial, vehicular and mobile networks. Its effectiveness depends on data: models need representative network traffic, both to be trained and t",
-   "url": "https://arxiv.org/abs/2611.20812",
-   "source": "arXiv cs.AI",
-   "category": "Cybersecurity",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "b552bdfa3e08",
-   "title": "Surprise-Gated Memory for Live Speaker Diarization",
-   "summary": "arXiv:2611.20819v1 Announce Type: cross Abstract: We transpose the Surprise-Gated Memory recipe, a frozen encoder plus a calibrated novelty signal that gates a one-shot episodic store consolidated by periodic replay, from continual visual learning to live speaker diarization. The moment-to-moment qu",
-   "url": "https://arxiv.org/abs/2611.20819",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "f61bd797d5c4",
-   "title": "ProcReverser: Multi-Agent Black-Box Microarchitectural Reverse Engineering for Processor Vulnerability Analysis",
-   "summary": "arXiv:2611.20827v1 Announce Type: cross Abstract: When processor implementation details are unavailable, black-box microarchitectural reverse engineering helps security researchers identify hardware conditions related to security vulnerabilities. However, this process requires substantial manual eff",
-   "url": "https://arxiv.org/abs/2611.20827",
-   "source": "arXiv cs.AI",
-   "category": "Cybersecurity",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "b5602cdcd855",
-   "title": "Evidence Diet: When Graph Evidence Helps LLMs Rank Competing Candidates",
-   "summary": "arXiv:2611.20837v1 Announce Type: cross Abstract: When several candidates have graph support, does it matter which candidate receives which supporter and path counts? We study how LLM rankers use collaborative evidence on Amazon Books and MovieTV. Swapping user-level evidence degrades ranking, while",
-   "url": "https://arxiv.org/abs/2611.20837",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "e190a1b830fb",
-   "title": "EDITORS Know Your Style! Editing LoRA Subspaces for Stylistic Attribution and Imitation",
-   "summary": "arXiv:2611.20846v1 Announce Type: cross Abstract: Disentangling writing style from semantic content is a fundamental challenge in literary text modeling. Style-content entanglement causes models to rely on semantic content for authorship attribution (AA) tasks and memorize author-specific content fo",
-   "url": "https://arxiv.org/abs/2611.20846",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "0479d3d0e740",
-   "title": "MolReps: Taking SELFIES, Making SMILES, Teaching LLMs",
-   "summary": "arXiv:2611.20848v1 Announce Type: cross Abstract: The same molecule can be expressed in multiple, syntactically distinct representations, yet it remains unclear whether large language models (LLMs) can recognize and relate these equivalent encodings. We introduce MolReps, a pipeline that generates 9",
-   "url": "https://arxiv.org/abs/2611.20848",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "252656bf4701",
-   "title": "Scenario-Based Risk Certificates for Multi-Property Vulnerability Discovery in Parametric MDPs",
-   "summary": "arXiv:2611.20861v1 Announce Type: cross Abstract: Safety-critical systems such as network protocols and distributed algorithms depend on environmental parameters whose exact values are uncertain. Parametric Markov decision processes (pMDPs) model such systems by making transition probabilities symbo",
-   "url": "https://arxiv.org/abs/2611.20861",
-   "source": "arXiv cs.AI",
-   "category": "Cybersecurity",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "c9ae54ba0210",
-   "title": "Re-Reading Is Not Free: Token Traces and Cache-Aware Energy Estimation for LLM Agents in Software Engineering",
-   "summary": "arXiv:2611.20873v1 Announce Type: cross Abstract: As large language models (LLMs) evolve from conversational assistants into autonomous agents embedded in software development workflows, estimating their environmental footprint requires moving beyond conventional token-based accounting. Existing ene",
-   "url": "https://arxiv.org/abs/2611.20873",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "c6e82bf7a8ce",
-   "title": "Auditing a Moving Target: Evidence Anchoring and the Expiry of Fairness Audits of Provider-Served Language Models",
-   "summary": "arXiv:2611.20901v1 Announce Type: cross Abstract: Organizations increasingly use large language models (LLMs) for decisions about people, such as hiring, investment and employee evaluation, and rely on them over long periods of time. Fairness audits of such systems, however, are conducted only once.",
-   "url": "https://arxiv.org/abs/2611.20901",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "2c1ab898f1c9",
-   "title": "Experience Rot: Experienced Agents Fail Where Novices Succeed",
-   "summary": "arXiv:2611.20922v1 Announce Type: cross Abstract: Agents are increasingly built to learn from experience: they keep conversation histories, memory files, retrieved notes and skills, and reuse what worked before. We show that this experience turns against them when their tools change silently. We tes",
-   "url": "https://arxiv.org/abs/2611.20922",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "7e12451132be",
-   "title": "ReAccess: Look Once, Stay Focused with Efficient Test Time Memory",
-   "summary": "arXiv:2611.20936v1 Announce Type: cross Abstract: Despite recent advances, vision-language models (VLMs) still struggle with fine-grained visual understanding, often failing to effectively utilize critical evidence already encoded in their visual representations. Existing approaches address this lim",
-   "url": "https://arxiv.org/abs/2611.20936",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "6e5503f5a278",
-   "title": "vividRGB: Various visual cue detection in RGB photographs with forced focused attention",
-   "summary": "arXiv:2611.20942v1 Announce Type: cross Abstract: Natural photographs contain dense, overlapping structures that can be weakly expressed in feature maps from whole-image vision encoders. We introduce forced focused attention (FFA) and its Python implementation, vividRGB. FFA is an encoder-agnostic i",
-   "url": "https://arxiv.org/abs/2611.20942",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "76c2aa1f429c",
-   "title": "Living Context Graphs: Continual Semantic Learning for Enterprise Data Reasoning",
-   "summary": "arXiv:2611.20976v1 Announce Type: cross Abstract: Enterprise AI can now perform analytics, reporting, and data-driven workflows, yet the data foundations it relies on remain hard to operationalize: business meaning, relationships, metric definitions, and reporting conventions are absent from databas",
-   "url": "https://arxiv.org/abs/2611.20976",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "98c1a1523585",
-   "title": "Breaking feature collapse in self-supervised time series encoders",
-   "summary": "arXiv:2611.20981v1 Announce Type: cross Abstract: General-purpose time series encoders promise a single backbone that generalises across tasks and domains; however, they currently do not scale. We trace this down to a critical point of failure: under the predominant masked data modelling supervision",
-   "url": "https://arxiv.org/abs/2611.20981",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "e3341307fff0",
-   "title": "Calpha: Toward Native Biomolecular Intelligence in a General-Purpose Language Model",
-   "summary": "arXiv:2611.20986v1 Announce Type: cross Abstract: Biomolecular foundation models predict the structures of proteins and their complexes accurately, and large language models (LLMs) reason in natural language, but the two remain separate: the abilities of the former are not part of a general-purpose ",
-   "url": "https://arxiv.org/abs/2611.20986",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "7f0ba0fee29b",
-   "title": "Explaining Cross-Label Decision Structure in Multi-Output Tree Ensembles",
-   "summary": "arXiv:2611.20996v1 Announce Type: cross Abstract: A multi-output tree ensemble predicts several binary labels through decision paths that it largely shares across those labels, yet the attribution methods commonly used to explain such models treat each output in isolation. We propose multi-sink Deci",
-   "url": "https://arxiv.org/abs/2611.20996",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "78053979038b",
-   "title": "Does the Voice Matter? Evaluating Frustration Detection on Deployed Clinical Voice-Agent Calls",
-   "summary": "arXiv:2611.21001v1 Announce Type: cross Abstract: Autonomous voice agents now conduct routine clinical follow-up calls, so some automated triage is unavoidable. A patient becoming frustrated is one thing that triage should catch. These systems typically read only the transcript the speech-to-text st",
-   "url": "https://arxiv.org/abs/2611.21001",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "8a905dcf11d7",
-   "title": "Towards wearable-scale, transition-aware sleep staging for clinical populations",
-   "summary": "arXiv:2611.21040v1 Announce Type: cross Abstract: Automatic sleep staging models are predominantly developed on healthy sleepers and generalize poorly to clinical populations with fragmented sleep. Across three cohorts (patients with stroke, isolated REM sleep behaviour disorder, and other sleep dis",
-   "url": "https://arxiv.org/abs/2611.21040",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "270f41a3073b",
-   "title": "Multi-CONDOR: Learning Multistable Motion Primitives from Demonstration",
-   "summary": "arXiv:2611.21059v1 Announce Type: cross Abstract: Dynamical-system-based motion policies provide a framework for learning reactive robot motions with stability and convergence properties. Many manipulation tasks, however, admit several distinct goals or a continuous set of acceptable outcomes, requi",
-   "url": "https://arxiv.org/abs/2611.21059",
-   "source": "arXiv cs.AI",
-   "category": "Robotics and Automation",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "2ca01a5fb21d",
-   "title": "What Makes a Good Move? Learning to Act from Experience in Visual Worlds",
-   "summary": "arXiv:2611.21065v1 Announce Type: cross Abstract: Learning visual policies requires turning interaction experience into guidance for individual decisions. Trajectory outcomes obscure action quality, while unguided exploration can revisit familiar situations. We present \\textsc{LightAct}, an experien",
-   "url": "https://arxiv.org/abs/2611.21065",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "4e4b2fe2c83f",
-   "title": "SemiNovo: Learning Beyond Search-Identified Spectra for De Novo Peptide Sequencing",
-   "summary": "arXiv:2611.21079v1 Announce Type: cross Abstract: Sensitive peptide identification is fundamental to protein characterization and novel protein discovery, for which de novo peptide sequencing (DNPS) from tandem mass spectra provides an important database-independent approach. Although deep learning ",
-   "url": "https://arxiv.org/abs/2611.21079",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "927778827634",
-   "title": "Think2Listen: Evidence-Centric Learning For Agentic Audio Understanding With LALMS",
-   "summary": "arXiv:2611.21083v1 Announce Type: cross Abstract: Recent advances in large audio-language models (LALMs) have broadened audio understanding across speech, sound, and music, with tool-based agents further supporting these tasks by invoking predefined audio tools. However, a persistent gap remains bet",
-   "url": "https://arxiv.org/abs/2611.21083",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "a5e42b2b6ba3",
-   "title": "SWE-WhatIf: Simulating Real Users of Coding Agents from Recorded Session",
-   "summary": "arXiv:2611.21095v1 Announce Type: cross Abstract: Recorded sessions between users and coding agents offer a way to evaluate how agents complete real-world tasks and interact with users. However, these sessions cannot simply be replayed with new agents, because recorded user replies may no longer app",
-   "url": "https://arxiv.org/abs/2611.21095",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "791e6788adff",
-   "title": "Searching for Autoregressive Neural Architectures from Fundamental Operations",
-   "summary": "arXiv:2611.21111v1 Announce Type: cross Abstract: Expressive Neural Architecture Search (NAS) search spaces are desirable as they do not restrict the space of potential architectures to what is already established. However, few search spaces are expressive enough to represent a broad range of archit",
-   "url": "https://arxiv.org/abs/2611.21111",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "b60f8ee83dc2",
-   "title": "Human-AI Co-Ideation Across Socio-Technical Configurations: An Interactional Analysis of Planar and Immersive Workspaces",
-   "summary": "arXiv:2611.21125v1 Announce Type: cross Abstract: Remote collaborative platforms increasingly integrate generative AI to support group ideation. These platforms are sociotechnical configurations in which spatial mediation, interaction modality, AI output format, and the mechanisms that make contribu",
-   "url": "https://arxiv.org/abs/2611.21125",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "8e9ee572fc8d",
-   "title": "Linglong Agent Service: A Runtime for Centralized Agent Reasoning and Distributed Execution",
-   "summary": "arXiv:2611.21129v1 Announce Type: cross Abstract: LLM agents can use remote tools and cloud sandboxes, but integrating reasoning, session state, and heterogeneous execution sites remains a runtime design problem. We present Linglong Agent Service (agentsvc), a self-hosted HTTP service and embeddable",
-   "url": "https://arxiv.org/abs/2611.21129",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "7b2d31041830",
-   "title": "Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?",
-   "summary": "arXiv:2611.21155v1 Announce Type: cross Abstract: After a large language model (LLM) agent generates an artifact, users often send edit requests for it. This paper studies whether an LLM can anticipate these requests before they are sent. Such anticipation is useful in practice because it reduces th",
-   "url": "https://arxiv.org/abs/2611.21155",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "d75ad6286bf0",
-   "title": "Scientific Coding with Large Language Models: Evidence from Finite Element Analysis",
-   "summary": "arXiv:2611.21176v1 Announce Type: cross Abstract: Large language models (LLMs) offer a potential route to automating scientific programming, but their usefulness depends on consistently producing numerically correct code. We extend FEM-Bench to 17 finite element tasks involving nonlinear and history",
-   "url": "https://arxiv.org/abs/2611.21176",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "5e02b9077d7c",
-   "title": "TRACK: Tool-Augmented Reasoning over Time Series for Fault Diagnosis in Power Management System",
-   "summary": "arXiv:2611.21178v1 Announce Type: cross Abstract: Fault diagnosis in power management systems running multiple loads relies on experts manually inspecting current and voltage waveforms, which fails to scale across deployed units. We present TRACK, which pairs a time series encoder with a Small Langu",
-   "url": "https://arxiv.org/abs/2611.21178",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "0625a288534e",
-   "title": "Verifiable Random Sampling of Private Data Without a Trusted Single Party",
-   "summary": "arXiv:2611.21222v1 Announce Type: cross Abstract: Problem: When a party supports claims about a private dataset by disclosing a sample, auditors cannot tell whether it was drawn at random or \"cherry-picked\" to hide flaws in the rest of the data. Solution: The data holder commits to the hashes of eve",
-   "url": "https://arxiv.org/abs/2611.21222",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "a604f41782c1",
-   "title": "Oriented Semi-DETR for Semi-Supervised Aerial Object Detection",
-   "summary": "arXiv:2611.21223v1 Announce Type: cross Abstract: Semi-supervised object detection has recently been extended to DETR, where oriented boxes introduce an ambiguity that does not arise for axis-aligned boxes: the map from parameters to rectangles is two-to-one, since $(c_x,c_y,w,h,\\theta)$ and $(c_x,c",
-   "url": "https://arxiv.org/abs/2611.21223",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "1880d7bd1922",
-   "title": "A Generative AI-Driven Architecture for Whole-Home Intelligent Services: Edge Models, Memory Management, and Household Applications",
-   "summary": "arXiv:2611.21232v1 Announce Type: cross Abstract: Generative artificial intelligence is entering the home. Cloud-based assistants face governance limitations in data transmission, continuous availability, and the reliability of physical actions, which are especially salient in households where devic",
-   "url": "https://arxiv.org/abs/2611.21232",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "70d3ba9207bb",
-   "title": "Conformal Expert Pools: Training-Free Probabilistic Time-Series Forecasting Beyond Seasonality",
-   "summary": "arXiv:2611.21267v1 Announce Type: cross Abstract: Conformal Seasonal Pools (CSP) showed that a forecaster with no training at all, built only from past values at the same point in the season and from past forecast errors, significantly outperformed DeepNPTS, Amazon's learned non-parametric forecaste",
-   "url": "https://arxiv.org/abs/2611.21267",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "a1401e717066",
-   "title": "In-Context Estimation and Prediction for Parametric ODEs",
-   "summary": "arXiv:2611.21268v1 Announce Type: cross Abstract: Transformers have demonstrated the ability to perform in-context learning, that is, to adapt to new tasks from a few examples without updating their parameters. Existing theory has largely focused on emulating gradient-based algorithms for convex sta",
-   "url": "https://arxiv.org/abs/2611.21268",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "fff5c9dd00dd",
-   "title": "FM-Recon: Exploring Foundation Model Features for Accelerated Cardiac Cine MRI Reconstruction",
-   "summary": "arXiv:2611.21290v1 Announce Type: cross Abstract: Foundation models have demonstrated strong feature extraction capabilities across various medical imaging tasks, yet their potential for MRI reconstruction remains largely unexplored, particularly within unrolled reconstruction networks and under art",
-   "url": "https://arxiv.org/abs/2611.21290",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
-  },
-  {
-   "id": "fe6bd7141b0f",
-   "title": "Benchmarking Large Language Models for Linguistic Annotation",
-   "summary": "arXiv:2611.21291v1 Announce Type: cross Abstract: Assessing large language models for linguistic annotation requires task-specific evaluation under documented conditions. We present dhAIBench, a Python benchmarking and annotation tool with a web interface for exploring and sharing results. It record",
-   "url": "https://arxiv.org/abs/2611.21291",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-17T05:00:00.000Z"
   }
  ],
  "sources": {
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-17T15:28:53.210Z"
+   "at": "2026-11-18T00:29:51.801Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 717,
-   "at": "2026-11-17T15:28:53.212Z"
+   "at": "2026-11-18T00:29:51.802Z"
   },
   "huggingface": {
    "ok": true,
    "count": 908,
-   "at": "2026-11-17T15:28:53.210Z"
+   "at": "2026-11-18T00:29:51.800Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-17T15:28:53.213Z"
+   "at": "2026-11-18T00:29:51.804Z"
   },
   "openai": {
    "ok": true,
-   "count": 1401,
-   "at": "2026-11-17T15:28:53.188Z"
+   "count": 1406,
+   "at": "2026-11-18T00:29:51.774Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-17T15:28:53.214Z"
+   "at": "2026-11-18T00:29:51.805Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-17T15:28:53.219Z"
+   "at": "2026-11-18T00:29:51.810Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-17T15:28:53.217Z"
+   "at": "2026-11-18T00:29:51.807Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-17T15:28:53.219Z"
+   "at": "2026-11-18T00:29:51.809Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-17T15:28:53.218Z"
+   "at": "2026-11-18T00:29:51.809Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-17T15:28:53.218Z"
+   "at": "2026-11-18T00:29:51.808Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-17T15:28:53.215Z"
+   "at": "2026-11-18T00:29:51.805Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-17T15:28:53.215Z"
+   "at": "2026-11-18T00:29:51.806Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-17T15:28:53.209Z"
+   "at": "2026-11-18T00:29:51.799Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-17T15:28:53.218Z"
+   "at": "2026-11-18T00:29:51.808Z"
   }
  }
 }
