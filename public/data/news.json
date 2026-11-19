@@ -1,6 +1,60 @@
 {
- "updated": "2026-11-19T05:48:52.061Z",
+ "updated": "2026-11-19T15:13:13.351Z",
  "articles": [
+  {
+   "id": "948bd5f16aa8",
+   "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
+   "summary": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
+   "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
+   "source": "Cloudflare Blog",
+   "category": "Cybersecurity",
+   "published": "2026-11-19T14:00:00.000Z"
+  },
+  {
+   "id": "0011ae0145f0",
+   "title": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
+   "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A human liver has been kept alive outside the body for seven weeks, setting a record Researchers in Australia claim they’ve kept a human liver alive o",
+   "url": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
+   "source": "MIT Technology Review",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-19T13:10:00.000Z"
+  },
+  {
+   "id": "97b20df2e79d",
+   "title": "Why a Computer Scientist Thinks Superintelligence Won’t Happen",
+   "summary": "Many people were caught off guard this past summer when employees of one of the world’s leading AI companies began casually debating whether their products would lead to human extinction. It started when Anthropic researcher Jacob Coxon announced his resignation, warning that his employer and OpenAI",
+   "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
+   "source": "IEEE Spectrum",
+   "category": "Robotics and Automation",
+   "published": "2026-11-19T12:00:03.000Z"
+  },
+  {
+   "id": "200c26dcc801",
+   "title": "A human liver has been kept alive outside the body for a record seven weeks",
+   "summary": "Researchers in Australia claim they’ve kept a human liver alive, on life support, outside the body for seven weeks, opening up speculative new possibilities in biomedical engineering. The feat, whose details are pending publication, was carried out in Sydney after a team led by surgeon and inventor ",
+   "url": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/",
+   "source": "MIT Technology Review",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-19T12:00:00.000Z"
+  },
+  {
+   "id": "45584a3597b1",
+   "title": "How to tell a cyberattack from a plain old outage",
+   "summary": "When everything goes down, don’t assume it’s a cyberattack.",
+   "url": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/",
+   "source": "Ars Technica",
+   "category": "Cybersecurity",
+   "published": "2026-11-19T11:13:01.000Z"
+  },
+  {
+   "id": "1208f01e00a6",
+   "title": "What a billion-dollar deal says about the US battery market",
+   "summary": "After a tough few years littered with some high-profile failures, there’s some positive news for next-generation batteries in the US. Sila just signed an agreement with Panasonic Energy, a global battery manufacturer, to supply silicon-carbon anode material, a possible key to smaller, lighter batter",
+   "url": "https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/",
+   "source": "MIT Technology Review",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-19T11:00:00.000Z"
+  },
   {
    "id": "f1ae0f2c9ddc",
    "title": "Human-AI Mutualism Is Unstable under Capability Asymmetry",
@@ -3298,7 +3352,7 @@
   {
    "id": "93049162414a",
    "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
-   "summary": "Add your teaser here. It should complement the headline, not repeat it. Teaser cannot be longer than 240 characters. The Blog Review Gem will suggest an excerpt. Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extrac",
+   "summary": "Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extraction models.",
    "url": "https://blog.cloudflare.com/open-clairic/",
    "source": "Cloudflare Blog",
    "category": "Cloud Computing",
@@ -3546,137 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "AI Research",
    "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "7a9e51a5eadb",
-   "title": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
-   "summary": "arXiv:2611.21799v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising tool for detecting hidden goals, off-task behavior, and other failures in AI agents. One risk is that models could deliberately shape their reasoning to make it opaque to monitors. We stress-test this ri",
-   "url": "https://arxiv.org/abs/2611.21799",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "9c46afe5a386",
-   "title": "How Much of SAR Vehicle Recognition Is the Vehicle? Background Shortcuts, Angle Gaps and Partial Libraries on MSTAR and ATRNet-STAR",
-   "summary": "arXiv:2611.21827v1 Announce Type: new Abstract: Deep networks score near 99% on the MSTAR vehicle benchmark, and the newer ATRNet-STAR benchmark was built to be harder. We ask how much of these scores comes from the vehicle itself. With a modern network (ConvNeXt-Small, 3 seeds) we first reproduce t",
-   "url": "https://arxiv.org/abs/2611.21827",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "b5c3132bdab3",
-   "title": "Auditors Struggle to Catch Sabotage In End-to-End Transcripts of AI Safety Research",
-   "summary": "arXiv:2611.21832v1 Announce Type: new Abstract: As AI systems are increasingly used to automate AI R&D, misaligned systems could sabotage research intended to improve model safety and alignment. To stress-test defenses against such sabotage, we use a human expert as a proxy saboteur on AI safety res",
-   "url": "https://arxiv.org/abs/2611.21832",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "7195ca0e6764",
-   "title": "DNeo: Your Parallel Draft Model Needs Better Target Feature Encoding",
-   "summary": "arXiv:2611.21925v1 Announce Type: new Abstract: Speculative-diffusion decoding uses a small parallel drafter model to generate b draft tokens in one forward pass, which then undergo parallel verification via a larger target model. Faster inference can be achieved when multiple draft tokens pass veri",
-   "url": "https://arxiv.org/abs/2611.21925",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "cdb8ae8b75b2",
-   "title": "SLED: Sensor SLicing from Edge to Datacenter",
-   "summary": "arXiv:2611.21937v1 Announce Type: new Abstract: Modern sensing systems generate large volumes of heterogeneous data streams from multiple sensor modalities, increasing reliance on datacenters for computation, artificial intelligence/superintelligence (AI/SI) inference, and AI/SI training. Each senso",
-   "url": "https://arxiv.org/abs/2611.21937",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
-  },
-  {
-   "id": "e1fbba8ab122",
-   "title": "Conserved Verdicts, Drifting Commitments: Identifying Harmful Overthinking",
-   "summary": "arXiv:2611.21946v1 Announce Type: new Abstract: A reasoning model that has reached a correct answer can lose it by continuing to think. Deciding whether to stop means comparing two probabilities at the same point of a chain: that the answer the model would give if stopped now is correct (its commitm",
-   "url": "https://arxiv.org/abs/2611.21946",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
   }
  ],
  "sources": {
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-19T05:48:51.585Z"
+   "at": "2026-11-19T15:13:12.636Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 362,
-   "at": "2026-11-19T05:48:51.586Z"
+   "at": "2026-11-19T15:13:12.637Z"
   },
   "huggingface": {
    "ok": true,
    "count": 913,
-   "at": "2026-11-19T05:48:51.584Z"
+   "at": "2026-11-19T15:13:12.635Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-19T05:48:51.587Z"
+   "at": "2026-11-19T15:13:12.638Z"
   },
   "openai": {
    "ok": true,
    "count": 1413,
-   "at": "2026-11-19T05:48:51.557Z"
+   "at": "2026-11-19T15:13:12.610Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-19T05:48:51.589Z"
+   "at": "2026-11-19T15:13:12.639Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-19T05:48:51.594Z"
+   "at": "2026-11-19T15:13:12.646Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-19T05:48:51.592Z"
+   "at": "2026-11-19T15:13:12.643Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-19T05:48:51.594Z"
+   "at": "2026-11-19T15:13:12.646Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-19T05:48:51.593Z"
+   "at": "2026-11-19T15:13:12.645Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-19T05:48:51.592Z"
+   "at": "2026-11-19T15:13:12.644Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-19T05:48:51.590Z"
+   "at": "2026-11-19T15:13:12.641Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-19T05:48:51.590Z"
+   "at": "2026-11-19T15:13:12.642Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-19T05:48:51.583Z"
+   "at": "2026-11-19T15:13:12.634Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-19T05:48:51.593Z"
+   "at": "2026-11-19T15:13:12.645Z"
   }
  }
 }
