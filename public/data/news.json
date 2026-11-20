@@ -1,6 +1,168 @@
 {
- "updated": "2026-11-19T15:13:13.351Z",
+ "updated": "2026-11-20T00:16:32.019Z",
  "articles": [
+  {
+   "id": "4257f147f104",
+   "title": "Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments",
+   "summary": "Amazon Bedrock AgentCore payments now supports AWS Marketplace, so agents can discover and buy x402-enabled products, APIs, data, and content and pay in USD on the developer's AWS bill, with no stablecoin wallets or API keys. This post walks through a research agent that finds a tool, pays per reque",
+   "url": "https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-19T23:02:16.000Z"
+  },
+  {
+   "id": "28154b618072",
+   "title": "How the BMW Group governs hundreds of agents across thousands of developers",
+   "summary": "When hundreds of agents serve thousands of developers, governance cannot be an afterthought. The BMW Group shares the practices and patterns its R&D teams use to build, govern, and operate AI agents at enterprise scale without sacrificing speed, quality, or compliance.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-19T22:20:23.000Z"
+  },
+  {
+   "id": "e02aa7f35fb5",
+   "title": "Run your whole selling business in AWS Quick",
+   "summary": "Most sellers do not need another AI product to learn. They need the tools and information they already use brought together, so they can see what is happening in their business and act on it.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/run-your-whole-selling-business-in-aws-quick/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-19T22:16:22.000Z"
+  },
+  {
+   "id": "b3fe3802af9c",
+   "title": "Amazon SageMaker AI now detects latency drift, idle GPUs, and missed optimizations on your inference endpoints",
+   "summary": "Amazon SageMaker AI now monitors your generative AI inference endpoints by default and tells you when a change could improve performance or lower cost. It tracks latency, GPU utilization, and serving configuration, then sends a finding through AWS Health with a one-click path to benchmark alternativ",
+   "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints/",
+   "source": "AWS Machine Learning Blog",
+   "category": "AI Research",
+   "published": "2026-11-19T21:28:18.000Z"
+  },
+  {
+   "id": "a9a170b01293",
+   "title": "Inside Amazon Connect Talent: The science of structured AI interviews",
+   "summary": "For organizations hiring hundreds or thousands of people, every interview presents the same challenge: How do you give candidates a consistent opportunity to demonstrate their skills while gathering the evidence needed to make informed hiring decisions? Structured behavioral interviews offer a resea",
+   "url": "https://aws.amazon.com/blogs/machine-learning/inside-amazon-connect-talent-the-science-of-structured-ai-interviews/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-19T21:23:20.000Z"
+  },
+  {
+   "id": "545852a9591f",
+   "title": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say",
+   "summary": "25-year-old accused of stalking employees at coffee shop and in an \"aggressive\" car pursuit.",
+   "url": "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
+   "source": "Ars Technica",
+   "category": "Software Engineering",
+   "published": "2026-11-19T20:29:46.000Z"
+  },
+  {
+   "id": "576cfc788ae1",
+   "title": "Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle hooks",
+   "summary": "Amazon Bedrock AgentCore harness now runs on the open-source Strands harness, bringing a recommended model, task-oriented defaults, automatic prompt caching, proactive context management, and new built-in tools. It also adds lifecycle hooks so you can run deterministic allow or deny checks at define",
+   "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-19T20:01:06.000Z"
+  },
+  {
+   "id": "706e76d41875",
+   "title": "Amazon Polly launches voice cloning: A unique voice for your brand",
+   "summary": "Voice cloning in Amazon Polly is now generally available. Give Amazon Polly a few minutes of recordings from a consenting speaker, and it builds a custom voice that reads new text in that speaker's voice. Cloned voices run on the Amazon Polly generative engine and support seven languages.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-19T19:53:32.000Z"
+  },
+  {
+   "id": "7a9fd6201afb",
+   "title": "Community-Focused Academic Brings AI Tools to Colorado Farmers",
+   "summary": "Many farmers and ranchers in eastern Colorado are curious about artificial intelligence, but they don’t have a local tech-savvy person to show them how to use it. Xue “Alice” Dong has made that her job. Dong, an IEEE senior member, is an extension regional specialist with the Colorado State Universi",
+   "url": "https://spectrum.ieee.org/ai-tools-for-rural-communities",
+   "source": "IEEE Spectrum",
+   "category": "Robotics and Automation",
+   "published": "2026-11-19T19:00:02.000Z"
+  },
+  {
+   "id": "a2b7f42905cf",
+   "title": "Optimize AI economics on Amazon Bedrock with Accenture’s sequenced approach",
+   "summary": "As enterprises scale AI on Amazon Bedrock, token spend can grow even as per-token prices fall. This post walks through six composable optimization levers, shows how Accenture applied them across four client engagements, and recommends a sequence for cutting AI token spend on your own workloads.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/optimize-ai-economics-on-amazon-bedrock-with-accentures-sequenced-approach/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-19T18:48:55.000Z"
+  },
+  {
+   "id": "992f4f009669",
+   "title": "From learning to leaderboard: How Cisco upskilled 1,200 engineers in agentic AI with AWS AI League",
+   "summary": "Cisco and AWS used Cisco Transformation Fest and AWS AI League to turn hands-on AI learning into a culture of building. A Cisco engineer won the 2025 AWS AI League global title and 1,200 engineers competed in 2026. This post shares Cisco's journey, lessons from the 2026 winning agent built on Amazon",
+   "url": "https://aws.amazon.com/blogs/machine-learning/from-learning-to-leaderboard-how-cisco-upskilled-1200-engineers-in-agentic-ai-with-aws-ai-league/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-19T18:26:22.000Z"
+  },
+  {
+   "id": "0b5c4561b261",
+   "title": "Keep inference running through regional capacity shortfalls with cross-Region inference routing in Amazon SageMaker AI",
+   "summary": "Cross-Region inference routing in Amazon SageMaker AI gives your application one invocation path across the endpoints and inference components you already run, in one or more AWS Regions and AWS accounts. The router prefers its own Region and shifts new requests to another destination only when the ",
+   "url": "https://aws.amazon.com/blogs/machine-learning/keep-inference-running-through-regional-capacity-shortfalls-with-cross-region-inference-routing-in-amazon-sagemaker-ai/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-19T18:20:54.000Z"
+  },
+  {
+   "id": "0752c95e43f1",
+   "title": "Protect agent tool calls with Skyflow and Amazon Bedrock AgentCore Gateway",
+   "summary": "Learn how Skyflow and Amazon Bedrock AgentCore Gateway keep sensitive data out of the tools your AI agents call. Added as a gateway interceptor, Skyflow de-identifies data before any tool, model, or log sees it, and restores it for authorized callers, with no change to your agent code.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/protect-agent-tool-calls-with-skyflow-and-amazon-bedrock-agentcore-gateway/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Developer Tools",
+   "published": "2026-11-19T18:14:36.000Z"
+  },
+  {
+   "id": "57728669e048",
+   "title": "Introducing Tool Retrieval in the Gemini API",
+   "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+   "source": "Google AI Blog",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-19T18:00:00.000Z"
+  },
+  {
+   "id": "0a5e50796370",
+   "title": "PolyAI Dialog-RSN-1 is now on Amazon SageMaker JumpStart",
+   "summary": "PolyAI Dialog-RSN-1, a reasoning model built for real-time complex dialog, is available today on AWS Marketplace and Amazon SageMaker JumpStart. Discover it, evaluate it on your own data, and deploy it to a secure SageMaker endpoint in your own AWS account.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/polyai-dialog-rsn-1-is-now-on-amazon-sagemaker-jumpstart/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-19T17:28:47.000Z"
+  },
+  {
+   "id": "c3e7758a2373",
+   "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+   "summary": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+   "source": "Google AI Blog",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-19T17:00:00.000Z"
+  },
+  {
+   "id": "4e742fb11586",
+   "title": "Using NVIDIA Run:ai GPU Fractioning on Amazon EKS",
+   "summary": "Learn how to run two memory-bounded Kubernetes Pods on a single NVIDIA A10G GPU using open-source NVIDIA Run:ai GPU Fractioning on Amazon EKS. This walkthrough builds a custom Amazon Linux 2023 image, installs KAI Scheduler and the GPU Fractioning Operator, and validates per-Pod GPU-memory contracts",
+   "url": "https://aws.amazon.com/blogs/machine-learning/using-nvidia-runai-gpu-fractioning-on-amazon-eks/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-19T16:13:51.000Z"
+  },
+  {
+   "id": "1359fddbf694",
+   "title": "The best things in open source are built together",
+   "summary": "Introducing Replica and the Open Source Accessibility Framework, new open source projects for collaboration and inclusion. The post The best things in open source are built together appeared first on The GitHub Blog .",
+   "url": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/",
+   "source": "GitHub Blog",
+   "category": "Developer Tools",
+   "published": "2026-11-19T16:00:00.000Z"
+  },
   {
    "id": "948bd5f16aa8",
    "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
@@ -13,7 +175,7 @@
   {
    "id": "0011ae0145f0",
    "title": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
-   "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A human liver has been kept alive outside the body for seven weeks, setting a record Researchers in Australia claim they’ve kept a human liver alive o",
+   "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A human liver has been kept alive outside the body for a record seven weeks Researchers in Australia claim they’ve kept a human liver alive on life su",
    "url": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
    "source": "MIT Technology Review",
    "category": "Artificial Intelligence",
@@ -38,6 +200,33 @@
    "published": "2026-11-19T12:00:00.000Z"
   },
   {
+   "id": "73e981a44821",
+   "title": "Elecbrakes EB2, VM1, ELBC2000",
+   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable other critical safety features. The following versions of Elecbrakes EB2, VM1, ",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-19T12:00:00.000Z"
+  },
+  {
+   "id": "3f6682cf9442",
+   "title": "libumqtt",
+   "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure. The following versions of libumqtt are affected: libumqtt <=1.1.1 (CVE-2026-125132) CVSS Vendor Equipment v3 8.6 libumqtt libumqtt",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-19T12:00:00.000Z"
+  },
+  {
+   "id": "7f8f33872341",
+   "title": "Autonomy Logic OpenPLC Runtime",
+   "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created. The following versions of Autonomy Logic OpenPLC Runtime are affected: OpenPLC Runtime <=4.2.4 (CVE-2026-126088) CVSS Vendor Equipment v3 8.1 Autonomy Logic OpenPLC Runti",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-19T12:00:00.000Z"
+  },
+  {
    "id": "45584a3597b1",
    "title": "How to tell a cyberattack from a plain old outage",
    "summary": "When everything goes down, don’t assume it’s a cyberattack.",
@@ -54,6 +243,15 @@
    "source": "MIT Technology Review",
    "category": "Artificial Intelligence",
    "published": "2026-11-19T11:00:00.000Z"
+  },
+  {
+   "id": "6687f7be62c3",
+   "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+   "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+   "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-19T08:00:00.000Z"
   },
   {
    "id": "f1ae0f2c9ddc",
@@ -3323,6 +3521,42 @@
    "published": "2026-11-19T00:15:58.000Z"
   },
   {
+   "id": "e29ac258c013",
+   "title": "Explore the Codex Security Plugin",
+   "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+   "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-19T00:00:00.000Z"
+  },
+  {
+   "id": "cb99e2baa62e",
+   "title": "See PR scans in action",
+   "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+   "url": "https://openai.com/business/learn/pr-scans-demo",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-19T00:00:00.000Z"
+  },
+  {
+   "id": "a2fb00344062",
+   "title": "Get started with Daybreak Blue",
+   "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+   "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-19T00:00:00.000Z"
+  },
+  {
+   "id": "7a380725c666",
+   "title": "Expanding Android developer verification in 2027",
+   "summary": "After over a year of joint preparation with industry leaders, regional partners, app distributors, and Android communities, our user protections successfully went live on September 30 for participating stores across Brazil, Indonesia, Singapore, and Thailand.",
+   "url": "https://developer.android.com/blog/posts/android-developer-verification-2027",
+   "source": "Android Developers Blog",
+   "category": "Mobile Technology",
+   "published": "2026-11-19T00:00:00.000Z"
+  },
+  {
    "id": "b06a28847424",
    "title": "Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips",
    "summary": "Exa's neural search engine is backed by an in-house vector database, so the unit economics of embedding tens of billions of web documents drive the business. This post shares how Exa optimized embedding inference on AWS Neuron hardware (Inferentia2 and Trainium2) with custom NKI kernels, reaching a ",
@@ -3366,317 +3600,83 @@
    "source": "AWS Machine Learning Blog",
    "category": "Machine Learning",
    "published": "2026-11-18T21:48:19.000Z"
-  },
-  {
-   "id": "5a8fb5424af3",
-   "title": "Design responsible AI controls for Amazon Aurora PostgreSQL",
-   "summary": "Learn how to make RAG chatbot answers traceable with Amazon Aurora PostgreSQL, pgvector, and Amazon Bedrock Guardrails, logging sources, scores, and guardrail traces in SQL.",
-   "url": "https://aws.amazon.com/blogs/machine-learning/design-responsible-ai-controls-for-amazon-aurora-postgresql/",
-   "source": "AWS Machine Learning Blog",
-   "category": "Machine Learning",
-   "published": "2026-11-18T21:38:22.000Z"
-  },
-  {
-   "id": "032650d6c042",
-   "title": "Private certificate authority support in Amazon Bedrock AgentCore Identity",
-   "summary": "Amazon Bedrock AgentCore Identity now supports private certificate authorities (CAs), so your agents can connect to self-hosted identity providers that use a private CA. This post shows how to issue an IdP certificate with AWS Private CA, configure a credential provider to trust it, rotate the CA, a",
-   "url": "https://aws.amazon.com/blogs/machine-learning/private-certificate-authority-support-in-amazon-bedrock-agentcore-identity/",
-   "source": "AWS Machine Learning Blog",
-   "category": "Cloud Computing",
-   "published": "2026-11-18T20:53:41.000Z"
-  },
-  {
-   "id": "46964ed0b448",
-   "title": "How Salesforce is advancing global-scale model serving with cross-Region inference routing in Amazon SageMaker AI",
-   "summary": "Learn how Salesforce uses the cross-Region inference router in Amazon SageMaker AI to turn fragmented Regional capacity into reliable model serving. Salesforce adds capacity securely across Regions and accounts while keeping its data residency commitments, and sees per request where each call was se",
-   "url": "https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai/",
-   "source": "AWS Machine Learning Blog",
-   "category": "Machine Learning",
-   "published": "2026-11-18T20:13:18.000Z"
-  },
-  {
-   "id": "f689168723dc",
-   "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-   "summary": "",
-   "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-   "source": "Hugging Face Blog",
-   "category": "Machine Learning",
-   "published": "2026-11-18T19:54:56.000Z"
-  },
-  {
-   "id": "045cb3d3686a",
-   "title": "AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances",
-   "summary": "AWS Lambda now supports GPU instances (G-series) for Event Functions running on Lambda Managed Instances, enabling serverless GPU workloads like machine learning inference, media processing, and rendering. Lambda handles all infrastructure tasks, including instance lifecycle, driver management, and ",
-   "url": "https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances/",
-   "source": "AWS News Blog",
-   "category": "Machine Learning",
-   "published": "2026-11-18T19:39:07.000Z"
-  },
-  {
-   "id": "c059c1020c02",
-   "title": "How Social Department built culture-aware video discovery",
-   "summary": "Social Department, an AI operating system for entertainment marketing, worked with TrackIt and AWS to build QuickSearch: single-action queries that surface shareable scenes, quotable lines, memeable frames, and trend-aligned moments across large video libraries, using TwelveLabs models on Amazon Bed",
-   "url": "https://aws.amazon.com/blogs/machine-learning/how-social-department-built-culture-aware-video-discovery/",
-   "source": "AWS Machine Learning Blog",
-   "category": "Cloud Computing",
-   "published": "2026-11-18T19:27:56.000Z"
-  },
-  {
-   "id": "6f644c77d595",
-   "title": "Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection",
-   "summary": "Many enterprises run a centralized network model: one account owns every VPC and a central firewall inspects all traffic. This post shows a tested pattern for connecting Amazon Bedrock AgentCore Gateway to private APIs and MCP servers in that model, with the VPC Lattice resource gateway in the netwo",
-   "url": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-and-spoke-network-with-centralized-inspection/",
-   "source": "AWS Machine Learning Blog",
-   "category": "Machine Learning",
-   "published": "2026-11-18T19:05:45.000Z"
-  },
-  {
-   "id": "a460aee76264",
-   "title": "How Stretto built an AI voice agent with Amazon Nova 2 Sonic",
-   "summary": "Stretto replaced its web-form lead capture with Tara, an AI voice agent built on Amazon Nova 2 Sonic that conducts bankruptcy intake interviews by phone and qualifies leads. See how Stretto, the AWS Generative AI Innovation Center, and CI&T designed the voice architecture, validated it for sensitive",
-   "url": "https://aws.amazon.com/blogs/machine-learning/how-stretto-built-an-ai-voice-agent-with-amazon-nova-2-sonic/",
-   "source": "AWS Machine Learning Blog",
-   "category": "Cloud Computing",
-   "published": "2026-11-18T18:58:42.000Z"
-  },
-  {
-   "id": "67548af43d83",
-   "title": "From reporting to reasoning: Getting enterprise data ready for AI agents",
-   "summary": "A recap of the inaugural AWS Quick User Group DC meetup, where data leaders explored getting enterprise data ready for AI agents. It covers what's new in AWS Quick, Financial Independence Group's AI analytics journey, and hands-on app and no-code flow building.",
-   "url": "https://aws.amazon.com/blogs/machine-learning/from-reporting-to-reasoning-getting-enterprise-data-ready-for-ai-agents/",
-   "source": "AWS Machine Learning Blog",
-   "category": "Data Science",
-   "published": "2026-11-18T18:54:08.000Z"
-  },
-  {
-   "id": "75623b38e68b",
-   "title": "Why your fine-tuning job takes longer than the FLOPs say",
-   "summary": "",
-   "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-   "source": "Hugging Face Blog",
-   "category": "Machine Learning",
-   "published": "2026-11-18T18:53:43.000Z"
-  },
-  {
-   "id": "6f41e71febfa",
-   "title": "Build a Personal Brand to Help Employers Find You",
-   "summary": "This article is crossposted from IEEE Spectrum ’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written i n partnership with tech career development company Parsity and delivered to your inbox for free! In one year, the number of developers working for",
-   "url": "https://spectrum.ieee.org/personal-branding-for-engineers",
-   "source": "IEEE Spectrum",
-   "category": "Robotics and Automation",
-   "published": "2026-11-18T17:33:26.000Z"
-  },
-  {
-   "id": "cd34e449297f",
-   "title": "How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models",
-   "summary": "Our previous post in this series introduced the Ranking Engineer Agent (REA), an autonomous system that generates hypotheses, designs experiments, and proves new machine learning (ML) techniques on ads ranking models. Now, we’re sharing how we propagate ranking model improvements like architectural ",
-   "url": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/",
-   "source": "Engineering at Meta",
-   "category": "Machine Learning",
-   "published": "2026-11-18T17:00:00.000Z"
-  },
-  {
-   "id": "03ca256a4adf",
-   "title": "The Gemini app is now available on lower-memory Android devices.",
-   "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
-   "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-   "source": "Google AI Blog",
-   "category": "Mobile Technology",
-   "published": "2026-11-18T17:00:00.000Z"
-  },
-  {
-   "id": "d8d01a736fd5",
-   "title": "Design Once, Deploy at Scale: Building a Template-Driven ML Ecosystem",
-   "summary": "As ML ecosystems grow to a large number of production models, the bottleneck is no longer inventing new techniques to improve these models, but rather shipping them reliably and efficiently across a fragmented model space, creating a rising tide that lifts all the boats. At Meta, we built a template",
-   "url": "https://engineering.fb.com/2026/11/18/ml-applications/design-once-deploy-at-scale-template-driven-ml-ecosystem/",
-   "source": "Engineering at Meta",
-   "category": "Software Engineering",
-   "published": "2026-11-18T16:59:38.000Z"
-  },
-  {
-   "id": "bf1424b145e4",
-   "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-   "summary": "",
-   "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-   "source": "Hugging Face Blog",
-   "category": "Machine Learning",
-   "published": "2026-11-18T15:00:23.000Z"
-  },
-  {
-   "id": "07fd21f6853c",
-   "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
-   "summary": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default. Patch your Java runtimes now.",
-   "url": "https://blog.cloudflare.com/java4shell-waf-protection/",
-   "source": "Cloudflare Blog",
-   "category": "Cybersecurity",
-   "published": "2026-11-18T14:52:10.000Z"
-  },
-  {
-   "id": "bb3ee1cf50e2",
-   "title": "The AI Hype Index: AI is everywhere",
-   "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to",
-   "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
-   "source": "MIT Technology Review",
-   "category": "Robotics and Automation",
-   "published": "2026-11-18T14:42:44.000Z"
-  },
-  {
-   "id": "5fe5c48115f1",
-   "title": "The Download: AI learns to smell and hydropower struggles",
-   "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This smell startup says its AI nose is as good as a human’s In a New Jersey lab, researchers are trying to sniff every odor on Earth. Their careful no",
-   "url": "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/",
-   "source": "MIT Technology Review",
-   "category": "Artificial Intelligence",
-   "published": "2026-11-18T13:10:00.000Z"
-  },
-  {
-   "id": "122413bd849f",
-   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-   "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability CVE-2026-40217 BerriAI LiteLLM Unprotected Alternate Channe",
-   "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-   "source": "CISA Advisories",
-   "category": "Cybersecurity",
-   "published": "2026-11-18T12:00:00.000Z"
-  },
-  {
-   "id": "d1dd49b4f83d",
-   "title": "This smell startup says its AI nose is as good as a human’s",
-   "summary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup",
-   "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
-   "source": "MIT Technology Review",
-   "category": "Machine Learning",
-   "published": "2026-11-18T10:20:30.000Z"
-  },
-  {
-   "id": "e683d40fba10",
-   "title": "The Silent Consensus",
-   "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-   "url": "https://openai.com/index/the-silent-consensus",
-   "source": "OpenAI News",
-   "category": "Artificial Intelligence",
-   "published": "2026-11-18T10:00:00.000Z"
-  },
-  {
-   "id": "9fa731b0ef6c",
-   "title": "Research acceleration: The jagged frontier",
-   "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-   "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-   "source": "OpenAI News",
-   "category": "Artificial Intelligence",
-   "published": "2026-11-18T08:00:00.000Z"
-  },
-  {
-   "id": "b527b6f0ddce",
-   "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-   "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-   "url": "https://openai.com/business/customer-stories/sumitomo-life",
-   "source": "OpenAI News",
-   "category": "Artificial Intelligence",
-   "published": "2026-11-18T08:00:00.000Z"
-  },
-  {
-   "id": "53f2a14376dd",
-   "title": "Inside the Codex sandbox",
-   "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
-   "url": "https://openai.com/index/inside-the-codex-sandbox",
-   "source": "OpenAI News",
-   "category": "Artificial Intelligence",
-   "published": "2026-11-18T08:00:00.000Z"
-  },
-  {
-   "id": "8b6ac2940fdc",
-   "title": "Managing frontier AI risk: From training to deployment",
-   "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-   "url": "https://openai.com/index/managing-frontier-ai-risk",
-   "source": "OpenAI News",
-   "category": "Artificial Intelligence",
-   "published": "2026-11-18T06:00:00.000Z"
-  },
-  {
-   "id": "bcd79b1222f1",
-   "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
-   "summary": "arXiv:2611.21682v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being explored for knowledge-intensive and safety-critical applications in nuclear engineering. However, existing nuclear-domain benchmarks provide limited content coverage or focus primarily on answer accu",
-   "url": "https://arxiv.org/abs/2611.21682",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-18T05:00:00.000Z"
   }
  ],
  "sources": {
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-19T15:13:12.636Z"
+   "at": "2026-11-20T00:16:31.456Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 362,
-   "at": "2026-11-19T15:13:12.637Z"
+   "at": "2026-11-20T00:16:31.456Z"
   },
   "huggingface": {
    "ok": true,
    "count": 913,
-   "at": "2026-11-19T15:13:12.635Z"
+   "at": "2026-11-20T00:16:31.455Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-19T15:13:12.638Z"
+   "at": "2026-11-20T00:16:31.458Z"
   },
   "openai": {
    "ok": true,
-   "count": 1413,
-   "at": "2026-11-19T15:13:12.610Z"
+   "count": 1417,
+   "at": "2026-11-20T00:16:31.432Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-19T15:13:12.639Z"
+   "at": "2026-11-20T00:16:31.459Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-19T15:13:12.646Z"
+   "at": "2026-11-20T00:16:31.464Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-19T15:13:12.643Z"
+   "at": "2026-11-20T00:16:31.462Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-19T15:13:12.646Z"
+   "at": "2026-11-20T00:16:31.464Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-19T15:13:12.645Z"
+   "at": "2026-11-20T00:16:31.463Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-19T15:13:12.644Z"
+   "at": "2026-11-20T00:16:31.462Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-19T15:13:12.641Z"
+   "at": "2026-11-20T00:16:31.460Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-19T15:13:12.642Z"
+   "at": "2026-11-20T00:16:31.460Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-19T15:13:12.634Z"
+   "at": "2026-11-20T00:16:31.454Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-19T15:13:12.645Z"
+   "at": "2026-11-20T00:16:31.463Z"
   }
  }
 }
