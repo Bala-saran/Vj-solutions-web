@@ -1,6 +1,87 @@
 {
- "updated": "2026-11-20T14:51:53.837Z",
+ "updated": "2026-11-20T23:40:16.855Z",
  "articles": [
+  {
+   "id": "a7a1e6c55413",
+   "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
+   "summary": "Amazon SageMaker HyperPod now offers managed cluster extensions for observability and user management, bringing declarative, API- and console-driven configuration to the software running on Slurm cluster nodes. This post explains how the extensions work and follows a platform team through a quarter ",
+   "url": "https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-20T23:07:03.000Z"
+  },
+  {
+   "id": "62e6c491de1f",
+   "title": "Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters",
+   "summary": "Amazon SageMaker HyperPod introduces the Global Inference Gateway, one managed endpoint that routes inference requests across your HyperPod clusters in one Region or across Regions. It picks the best cluster, fails over automatically, and authenticates every request with SigV4 and IAM over AWS Priva",
+   "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-20T22:35:24.000Z"
+  },
+  {
+   "id": "99727b65c290",
+   "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+   "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+   "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+   "source": "Ars Technica",
+   "category": "Software Engineering",
+   "published": "2026-11-20T20:59:08.000Z"
+  },
+  {
+   "id": "3416f4aff603",
+   "title": "How Standard Bank Group automates AI risk assessment for generative AI",
+   "summary": "Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, gi",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-20T20:37:31.000Z"
+  },
+  {
+   "id": "53a222836069",
+   "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+   "summary": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
+   "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
+   "source": "Cloudflare Blog",
+   "category": "Cybersecurity",
+   "published": "2026-11-20T20:24:38.000Z"
+  },
+  {
+   "id": "fc9e0792ab7c",
+   "title": "Announcing Amazon Textract Insights: Verifiable generative AI for documents",
+   "summary": "Announcing the general availability of Amazon Textract Insights, a new generative AI feature of Amazon Textract. Describe the fields you need in natural language, submit a document or a mixed packet, and receive structured results with a confidence score and page-level grounding for each value, with",
+   "url": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-20T20:22:00.000Z"
+  },
+  {
+   "id": "9cc860f8d2c5",
+   "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+   "summary": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
+   "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
+   "source": "Cloudflare Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-20T20:00:45.000Z"
+  },
+  {
+   "id": "3d7bf8aa71f0",
+   "title": "Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod",
+   "summary": "Amazon SageMaker HyperPod now offers enhanced observability to help you diagnose GPU training issues faster. It brings together diagnostic and profiling capabilities for training workloads on both Amazon EKS and Slurm orchestrators, pinpointing issues across GPU, network, and host layers.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-20T18:24:06.000Z"
+  },
+  {
+   "id": "01449c61c8b8",
+   "title": "The most misunderstood graph in AI just got a major update",
+   "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time",
+   "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+   "source": "MIT Technology Review",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-20T18:15:15.000Z"
+  },
   {
    "id": "6d39921c7e25",
    "title": "I Don’t Trust Visual Recordings Anymore. But One Day I Will Again",
@@ -18,6 +99,24 @@
    "source": "MIT Technology Review",
    "category": "Artificial Intelligence",
    "published": "2026-11-20T13:10:00.000Z"
+  },
+  {
+   "id": "925f615d5741",
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-42884 SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability CVE-2026-76466 Cisco Expressway Series Use of Hard-coded",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-20T12:00:00.000Z"
+  },
+  {
+   "id": "3ea993db7e3c",
+   "title": "Combatting adversarial distillation",
+   "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+   "url": "https://openai.com/index/combatting-adversarial-distillation",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-20T10:00:00.000Z"
   },
   {
    "id": "bdeef4472d39",
@@ -3501,182 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
    "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "b3b36b221730",
-   "title": "Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment",
-   "summary": "arXiv:2611.18372v2 Announce Type: replace-cross Abstract: Vision-language-action (VLA) models adapt web-pretrained vision-language models to output robot actions, so that web knowledge carries over to physical control. In under four years the field has grown from RT-2, the first VLA, to open models ",
-   "url": "https://arxiv.org/abs/2611.18372",
-   "source": "arXiv cs.AI",
-   "category": "Robotics and Automation",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "3a2e1349a372",
-   "title": "SynthDCB: World Distillation for Scalable Device Control Benchmarking",
-   "summary": "arXiv:2611.18639v2 Announce Type: replace-cross Abstract: Scaling device-control evaluation requires scaling both interactive worlds and the tasks agents must solve. We introduce SynthDCB, a benchmark for environment awareness and device control built through world distillation (WD). World distillat",
-   "url": "https://arxiv.org/abs/2611.18639",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "9bcfa7c5f1a3",
-   "title": "Perceptual Weight Space Programming for Diffusion Super-Resolution",
-   "summary": "arXiv:2611.18690v2 Announce Type: replace-cross Abstract: Diffusion models for image super-resolution can recover scene content while producing distracting artifacts or unbalanced colors. We study whether a large language model (LLM) can improve perceptual quality by editing a small subset of existi",
-   "url": "https://arxiv.org/abs/2611.18690",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "e245b3389b66",
-   "title": "Synthetic Neurosymbolic Task Generation with Controlled Constraint Complexity",
-   "summary": "arXiv:2611.19597v2 Announce Type: replace-cross Abstract: We introduce NeSySy, a synthetic generator for neurosymbolic learning tasks that jointly produces logical constraints and consistent datasets. Unlike existing benchmarks, NeSySy provides fine-grained control over key properties such as constr",
-   "url": "https://arxiv.org/abs/2611.19597",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "10b7da688da5",
-   "title": "What Matters for Cross-Modal Alignment",
-   "summary": "arXiv:2611.20000v3 Announce Type: replace-cross Abstract: The Platonic Representation Hypothesis posits that models trained on different modalities converge toward a shared representation. Related work aligns frozen image and text encoders on natural images without paired data. We test zero-pair ali",
-   "url": "https://arxiv.org/abs/2611.20000",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "e190a1b830fb",
-   "title": "EDITORS Know Your Style! Editing LoRA Subspaces for Stylistic Attribution and Imitation",
-   "summary": "arXiv:2611.20846v2 Announce Type: replace-cross Abstract: Disentangling writing style from semantic content is a fundamental challenge in literary text modeling. Style-content entanglement causes models to rely on semantic content for authorship attribution (AA) tasks and memorize author-specific co",
-   "url": "https://arxiv.org/abs/2611.20846",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "d75ad6286bf0",
-   "title": "Scientific Coding with Large Language Models: Evidence from Finite Element Analysis",
-   "summary": "arXiv:2611.21176v2 Announce Type: replace-cross Abstract: Large language models (LLMs) offer a potential route to automating scientific programming, but their usefulness depends on consistently producing numerically correct code. We extend FEM-Bench to 17 finite element tasks involving nonlinear and",
-   "url": "https://arxiv.org/abs/2611.21176",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "36fc9e1a64a4",
-   "title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
-   "summary": "arXiv:2611.21579v2 Announce Type: replace-cross Abstract: Cyber-range and capture-the-flag scenario construction remains labor-intensive because authors must coordinate infrastructure, vulnerable services, attack paths, artifacts, and success conditions. LLMs can propose detailed exercises, but plau",
-   "url": "https://arxiv.org/abs/2611.21579",
-   "source": "arXiv cs.AI",
-   "category": "Cybersecurity",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "8365bfe0357e",
-   "title": "Revisiting the Survival of Agent-Attributed Code: How Measurement Choices Decide the Verdict",
-   "summary": "arXiv:2611.21784v2 Announce Type: replace-cross Abstract: Studies of how long code from AI coding agents survives after it is merged reach conflicting verdicts: agent code is reported to be retained longer than human code, about as long, or modified sooner. Each study makes defensible measurement ch",
-   "url": "https://arxiv.org/abs/2611.21784",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "f333ecf42928",
-   "title": "Hierarchical Control of Antiphase Synchronization in Biomorphic Spiking Neural Architectures for Locomotor Control",
-   "summary": "arXiv:2611.22639v3 Announce Type: replace-cross Abstract: Central pattern generators (CPGs) provide a biologically inspired foundation for adaptive locomotor control, yet systematically characterizing their dynamic regimes in spiking neural networks remains challenging. This study introduces a frame",
-   "url": "https://arxiv.org/abs/2611.22639",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "72167d875621",
-   "title": "Where Global Context and Weight Sharing Work in Compact Vision Backbones",
-   "summary": "arXiv:2611.23446v2 Announce Type: replace-cross Abstract: Compact convolutional backbones such as EfficientNet achieve strong parameter efficiency through local depthwise separable convolutions, yet two structural questions remain central to hybrid design: where does global self-attention improve re",
-   "url": "https://arxiv.org/abs/2611.23446",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
   }
  ],
  "sources": {
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-20T14:51:53.116Z"
+   "at": "2026-11-20T23:40:15.894Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 400,
-   "at": "2026-11-20T14:51:53.118Z"
+   "at": "2026-11-20T23:40:15.895Z"
   },
   "huggingface": {
    "ok": true,
-   "count": 914,
-   "at": "2026-11-20T14:51:53.115Z"
+   "count": 915,
+   "at": "2026-11-20T23:40:15.892Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-20T14:51:53.119Z"
+   "at": "2026-11-20T23:40:15.897Z"
   },
   "openai": {
    "ok": true,
-   "count": 1418,
-   "at": "2026-11-20T14:51:53.083Z"
+   "count": 1421,
+   "at": "2026-11-20T23:40:15.863Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-20T14:51:53.120Z"
+   "at": "2026-11-20T23:40:15.898Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-20T14:51:53.128Z"
+   "at": "2026-11-20T23:40:15.904Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-20T14:51:53.125Z"
+   "at": "2026-11-20T23:40:15.901Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-20T14:51:53.128Z"
+   "at": "2026-11-20T23:40:15.904Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-20T14:51:53.127Z"
+   "at": "2026-11-20T23:40:15.903Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-20T14:51:53.126Z"
+   "at": "2026-11-20T23:40:15.902Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-20T14:51:53.122Z"
+   "at": "2026-11-20T23:40:15.899Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-20T14:51:53.123Z"
+   "at": "2026-11-20T23:40:15.900Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-20T14:51:53.114Z"
+   "at": "2026-11-20T23:40:15.891Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-20T14:51:53.127Z"
+   "at": "2026-11-20T23:40:15.903Z"
   }
  }
 }
