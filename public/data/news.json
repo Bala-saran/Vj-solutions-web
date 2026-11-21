@@ -1,6 +1,33 @@
 {
- "updated": "2026-11-20T23:40:16.855Z",
+ "updated": "2026-11-21T05:30:56.475Z",
  "articles": [
+  {
+   "id": "15d139ec7c49",
+   "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
+   "summary": "AWS Quick is the AI workspace built only for work. Today we're releasing updates that help your team get more done: build and run business-process flows in chat, triage your day in the updated web app, get more complete answers from multiple agents at once, and connect new data sources like Meta ads",
+   "url": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-21T01:06:42.000Z"
+  },
+  {
+   "id": "93138fbb4db2",
+   "title": "CTO of &#8216;RansomwareHelp&#8217; Indicted for Wire Fraud",
+   "summary": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simply paying the attackers ",
+   "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+   "source": "Krebs on Security",
+   "category": "Cybersecurity",
+   "published": "2026-11-21T00:36:39.000Z"
+  },
+  {
+   "id": "5c33aa5118e6",
+   "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+   "summary": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which ev",
+   "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-21T00:14:26.000Z"
+  },
   {
    "id": "a7a1e6c55413",
    "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
@@ -3573,110 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "AI Research",
    "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "c52e78690cda",
-   "title": "Say Shibboleth: Fingerprinting the LLMs and Harnesses Behind Agentic Attacks",
-   "summary": "arXiv:2611.12386v2 Announce Type: replace-cross Abstract: We study the fingerprinting of agentic cyberattacks. Our objective is to reliably infer information about the attacker's configuration, such as LLM version and harness, from telemetry. To achieve this, we introduce a technique we call shibbol",
-   "url": "https://arxiv.org/abs/2611.12386",
-   "source": "arXiv cs.AI",
-   "category": "Cybersecurity",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "0af758251884",
-   "title": "2D Gum-Net: Unsupervised Dense Elastic Image Registration via Symmetric Correlation and Spectral Pooling",
-   "summary": "arXiv:2611.12805v3 Announce Type: replace-cross Abstract: Dense non-rigid registration, the recovery of a pixel-wise deformation field that warps one image into geometric agreement with another, is fundamental across medical imaging, structural biology, and correspondence estimation, yet learning-ba",
-   "url": "https://arxiv.org/abs/2611.12805",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "cf5d1f715b6d",
-   "title": "TransGHOST: Real-Time, Synthesis-Free Reconstruction of Instrument-Occluded Regions in Ophthalmic Microsurgery",
-   "summary": "arXiv:2611.13971v3 Announce Type: replace-cross Abstract: Intraoperative scene perception in ophthalmic microsurgery is limited by instrument occlusion: when a tool enters the high-magnification field, it conceals tissue from both the surgeon and the perception components of robot-assisted systems t",
-   "url": "https://arxiv.org/abs/2611.13971",
-   "source": "arXiv cs.AI",
-   "category": "Robotics and Automation",
-   "published": "2026-11-20T05:00:00.000Z"
   }
  ],
  "sources": {
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-20T23:40:15.894Z"
+   "at": "2026-11-21T05:30:54.875Z"
   },
   "arxiv-ai": {
    "ok": true,
-   "count": 400,
-   "at": "2026-11-20T23:40:15.895Z"
+   "count": 0,
+   "at": "2026-11-21T05:30:54.876Z"
   },
   "huggingface": {
    "ok": true,
    "count": 915,
-   "at": "2026-11-20T23:40:15.892Z"
+   "at": "2026-11-21T05:30:54.874Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-20T23:40:15.897Z"
+   "at": "2026-11-21T05:30:54.877Z"
   },
   "openai": {
    "ok": true,
    "count": 1421,
-   "at": "2026-11-20T23:40:15.863Z"
+   "at": "2026-11-21T05:30:54.836Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-20T23:40:15.898Z"
+   "at": "2026-11-21T05:30:54.878Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-20T23:40:15.904Z"
+   "at": "2026-11-21T05:30:54.886Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-20T23:40:15.901Z"
+   "at": "2026-11-21T05:30:54.883Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-20T23:40:15.904Z"
+   "at": "2026-11-21T05:30:54.885Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-20T23:40:15.903Z"
+   "at": "2026-11-21T05:30:54.885Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-20T23:40:15.902Z"
+   "at": "2026-11-21T05:30:54.884Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-20T23:40:15.899Z"
+   "at": "2026-11-21T05:30:54.880Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-20T23:40:15.900Z"
+   "at": "2026-11-21T05:30:54.881Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-20T23:40:15.891Z"
+   "at": "2026-11-21T05:30:54.872Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-20T23:40:15.903Z"
+   "at": "2026-11-21T05:30:54.884Z"
   }
  }
 }
