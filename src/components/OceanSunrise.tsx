@@ -91,9 +91,9 @@ const cv=useRef<HTMLCanvasElement>(null),box=useRef<HTMLDivElement>(null),[ok,se
 useEffect(()=>{let stop=()=>{};let dead=false;
 (async()=>{const T=await import("three");if(dead||!cv.current||!box.current)return;const c=cv.current,L=box.current;
 let r:InstanceType<typeof T.WebGLRenderer>;
-try{r=new T.WebGLRenderer({canvas:c,antialias:true,powerPreference:"high-performance"})}catch{setOk(false);return}
+try{r=new T.WebGLRenderer({canvas:c,antialias:false,powerPreference:"high-performance"})}catch{setOk(false);return}
 const mob=innerWidth<860,rm=matchMedia("(prefers-reduced-motion:reduce)").matches;
-r.setPixelRatio(Math.min(devicePixelRatio,mob?1:1.5));r.setClearColor(0x000000,1);
+let pixelRatio=Math.min(devicePixelRatio||1,mob?1:1.25);r.setPixelRatio(pixelRatio);r.setClearColor(0x000000,1);
 const sc=new T.Scene(),cam=new T.PerspectiveCamera(50,1,.1,1500);cam.position.set(0,3.1,0);
 const sun=new T.Vector3(.2,.1,-1).normalize();
 const U={uT:{value:0},uSun:{value:sun},uFade:{value:0}};
@@ -101,22 +101,23 @@ const U={uT:{value:0},uSun:{value:sun},uFade:{value:0}};
 const W=[[.06,1,46,.14],[-.22,1,27,.17],[.3,1,16,.18],[-.08,1,9.5,.17],[.5,1,6,.14],[-.45,1,3.8,.11],[.15,1,2.4,.08]].map(a=>new T.Vector4(...(a as [number,number,number,number])));
 const sky=new T.Mesh(new T.SphereGeometry(1000,48,24),new T.ShaderMaterial({uniforms:U,vertexShader:SKY_V,fragmentShader:SKY_F,side:T.BackSide,depthWrite:false,depthTest:false}));
 sky.renderOrder=-1;sky.frustumCulled=false;sc.add(sky);
-const seg=mob?170:300;const wg=new T.PlaneGeometry(2,2,seg,seg);
+const seg=mob?170:220;const wg=new T.PlaneGeometry(2,2,seg,seg);
 const wm=new T.ShaderMaterial({uniforms:{...U,uW:{value:W}},vertexShader:WAVE_V,fragmentShader:WAVE_F});
 const sea=new T.Mesh(wg,wm);sea.frustumCulled=false;sc.add(sea);
 const layout=()=>{const w=L.clientWidth||innerWidth,h=L.clientHeight||innerHeight;r.setSize(w,h,false);cam.aspect=w/h;cam.fov=w/h<1?68:50;cam.updateProjectionMatrix()};layout();addEventListener("resize",layout);
 let mx=0,my=0,sx=0,sy=0;const mv=(e:PointerEvent)=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5};addEventListener("pointermove",mv,{passive:true});
 let vis=true;const io=new IntersectionObserver(es=>{vis=es[0].isIntersecting});io.observe(L);
-let t=rm?30:0,last=performance.now(),raf=0;
+let t=rm?30:0,last=performance.now(),raf=0,frameCount=0,frameTime=0;
+const motionScale=rm ? 0.12 : 1;
 const ease=(x:number)=>1-Math.pow(1-Math.min(1,Math.max(0,x)),3);
-const loop=(n:number)=>{raf=requestAnimationFrame(loop);const dt=Math.min(.05,(n-last)/1e3);last=n;if(!vis)return;if(!rm)t+=dt;
+const loop=(n:number)=>{raf=requestAnimationFrame(loop);const dt=Math.min(.05,(n-last)/1e3);last=n;if(!vis)return;t+=dt*motionScale;
 const el=-.07+.19*ease(t/16)+Math.sin(t*.05)*.004;
 sun.set(.2+Math.sin(t*.03)*.02,el,-1).normalize();
 U.uT.value=t*.35;U.uFade.value=rm?1:Math.min(1,t/2.4);
 sx+=(mx-sx)*.04;sy+=(my-sy)*.04;
-cam.position.set(Math.sin(t*.11)*.5,3.1+Math.sin(t*.3)*.16+Math.sin(t*.55)*.05,0);
-cam.rotation.set(-.075-sy*.05+Math.sin(t*.37)*.004,-sx*.1,Math.sin(t*.29)*.006,"YXZ");
-r.render(sc,cam)};raf=requestAnimationFrame(loop);
+cam.position.set(Math.sin(t*.11)*.5*motionScale,3.1+(Math.sin(t*.3)*.16+Math.sin(t*.55)*.05)*motionScale,0);
+cam.rotation.set(-.075-sy*.05*motionScale+Math.sin(t*.37)*.004*motionScale,-sx*.1*motionScale,Math.sin(t*.29)*.006*motionScale,"YXZ");
+r.render(sc,cam);frameCount++;frameTime+=dt;if(frameCount===60){if(frameTime/frameCount>1/30&&pixelRatio>.75){pixelRatio=Math.max(.75,pixelRatio*.75);r.setPixelRatio(pixelRatio);layout()}frameCount=0;frameTime=0}};raf=requestAnimationFrame(loop);
 stop=()=>{cancelAnimationFrame(raf);removeEventListener("pointermove",mv);removeEventListener("resize",layout);io.disconnect();wg.dispose();wm.dispose();sky.geometry.dispose();(sky.material as InstanceType<typeof T.ShaderMaterial>).dispose();r.dispose()}})();
 return()=>{dead=true;stop()}},[]);
 return(<div ref={box} className="absolute inset-0 overflow-hidden bg-black" aria-hidden>
