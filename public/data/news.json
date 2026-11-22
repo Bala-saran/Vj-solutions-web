@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-21T22:45:08.042Z",
+ "updated": "2026-11-22T04:56:41.325Z",
  "articles": [
+  {
+   "id": "ab3af887f636",
+   "title": "Meta ads is now available in AWS Quick",
+   "summary": "AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, ",
+   "url": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/",
+   "source": "AWS Machine Learning Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-22T01:59:13.000Z"
+  },
   {
    "id": "15d139ec7c49",
    "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
@@ -3591,92 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "AI Research",
    "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "c06cb1b91a8e",
-   "title": "Attention at Absolute Zero",
-   "summary": "arXiv:2611.11937v3 Announce Type: replace-cross Abstract: Attention scores candidate supports of an answer, which we call witnesses, and reads the scores at a temperature. We build a higher-order attention layer whose state lives on pairs of items: for a pair (a, b), each third item k is a witness j",
-   "url": "https://arxiv.org/abs/2611.11937",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
   }
  ],
  "sources": {
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-21T22:45:07.285Z"
+   "at": "2026-11-22T04:56:40.494Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 0,
-   "at": "2026-11-21T22:45:07.286Z"
+   "at": "2026-11-22T04:56:40.495Z"
   },
   "huggingface": {
    "ok": true,
    "count": 915,
-   "at": "2026-11-21T22:45:07.283Z"
+   "at": "2026-11-22T04:56:40.492Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-21T22:45:07.287Z"
+   "at": "2026-11-22T04:56:40.496Z"
   },
   "openai": {
    "ok": true,
    "count": 1421,
-   "at": "2026-11-21T22:45:07.240Z"
+   "at": "2026-11-22T04:56:40.456Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-21T22:45:07.290Z"
+   "at": "2026-11-22T04:56:40.497Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-21T22:45:07.297Z"
+   "at": "2026-11-22T04:56:40.506Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-21T22:45:07.293Z"
+   "at": "2026-11-22T04:56:40.503Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-21T22:45:07.297Z"
+   "at": "2026-11-22T04:56:40.506Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-21T22:45:07.296Z"
+   "at": "2026-11-22T04:56:40.505Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-21T22:45:07.294Z"
+   "at": "2026-11-22T04:56:40.504Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-21T22:45:07.291Z"
+   "at": "2026-11-22T04:56:40.501Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-21T22:45:07.291Z"
+   "at": "2026-11-22T04:56:40.501Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-21T22:45:07.282Z"
+   "at": "2026-11-22T04:56:40.491Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-21T22:45:07.295Z"
+   "at": "2026-11-22T04:56:40.504Z"
   }
  }
 }
