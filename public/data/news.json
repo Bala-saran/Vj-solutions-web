@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T14:00:29.292Z",
+ "updated": "2026-11-22T23:12:27.083Z",
  "articles": [
   {
    "id": "ab3af887f636",
@@ -9,6 +9,15 @@
    "source": "AWS Machine Learning Blog",
    "category": "Cloud Computing",
    "published": "2026-11-22T01:59:13.000Z"
+  },
+  {
+   "id": "de5cd1a6d51d",
+   "title": "Perplexity and Intelligence",
+   "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+   "url": "https://openai.com/index/perplexity-and-intelligence",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-22T00:00:00.000Z"
   },
   {
    "id": "15d139ec7c49",
@@ -3591,92 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
    "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "126cc5b4f5ef",
-   "title": "How to \"train\" a surgeon? Benchmarking generalist agents in surgical scene understanding",
-   "summary": "arXiv:2611.11437v2 Announce Type: replace-cross Abstract: Evaluating general-purpose multimodal large language models (MLLMs) for surgical scene understanding remains limited due to scarce surgical data and fragmented evaluation protocols. We address these challenges through a two-stage evaluation f",
-   "url": "https://arxiv.org/abs/2611.11437",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
   }
  ],
  "sources": {
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-22T14:00:28.504Z"
+   "at": "2026-11-22T23:12:24.261Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 0,
-   "at": "2026-11-22T14:00:28.504Z"
+   "at": "2026-11-22T23:12:24.262Z"
   },
   "huggingface": {
    "ok": true,
    "count": 915,
-   "at": "2026-11-22T14:00:28.503Z"
+   "at": "2026-11-22T23:12:24.260Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-22T14:00:28.505Z"
+   "at": "2026-11-22T23:12:24.264Z"
   },
   "openai": {
    "ok": true,
-   "count": 1421,
-   "at": "2026-11-22T14:00:28.477Z"
+   "count": 1422,
+   "at": "2026-11-22T23:12:24.229Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-22T14:00:28.507Z"
+   "at": "2026-11-22T23:12:24.266Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-22T14:00:28.512Z"
+   "at": "2026-11-22T23:12:24.272Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-22T14:00:28.510Z"
+   "at": "2026-11-22T23:12:24.269Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-22T14:00:28.512Z"
+   "at": "2026-11-22T23:12:24.272Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-22T14:00:28.511Z"
+   "at": "2026-11-22T23:12:24.271Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-22T14:00:28.510Z"
+   "at": "2026-11-22T23:12:24.270Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-22T14:00:28.508Z"
+   "at": "2026-11-22T23:12:24.267Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-22T14:00:28.508Z"
+   "at": "2026-11-22T23:12:24.268Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-22T14:00:28.502Z"
+   "at": "2026-11-22T23:12:24.259Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-22T14:00:28.511Z"
+   "at": "2026-11-22T23:12:24.271Z"
   }
  }
 }
