@@ -1,6 +1,51 @@
 {
- "updated": "2026-11-23T05:38:15.175Z",
+ "updated": "2026-11-23T17:18:24.171Z",
  "articles": [
+  {
+   "id": "c5903c8754bb",
+   "title": "A more tailored Google Search that’s uniquely yours",
+   "summary": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+   "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+   "source": "Google AI Blog",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-23T17:00:00.000Z"
+  },
+  {
+   "id": "99ce44242649",
+   "title": "Learn How 5G NTN Architecture, Mobility, and Testing Shape 6G",
+   "summary": "What you will learn about: How 3GPP standards from Release 15 to Release 19 built the foundation of NR-NTN, and why NTN extends 5G coverage to oceans, rural regions, and disaster zones. How transparent and regenerative satellite payload architectures differ, and what each choice means for round trip",
+   "url": "https://content.knowledgehub.wiley.com/5g-ntn-takes-flight-a-deep-dive-into-nr-ntn-technology-and-testing-aspects/",
+   "source": "IEEE Spectrum",
+   "category": "Robotics and Automation",
+   "published": "2026-11-23T14:08:53.000Z"
+  },
+  {
+   "id": "452141429dfc",
+   "title": "Probing DNS at Cloudflare",
+   "summary": "At Cloudflare we’ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. This is the story of how this was used for DNS.",
+   "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+   "source": "Cloudflare Blog",
+   "category": "Cloud Computing",
+   "published": "2026-11-23T14:00:00.000Z"
+  },
+  {
+   "id": "9c079ad7f691",
+   "title": "The Download: AI’s judgment problem and carbon removal’s crop threat",
+   "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation nonprofit METR finds that some capabilities are improvi",
+   "url": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
+   "source": "MIT Technology Review",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-23T13:10:00.000Z"
+  },
+  {
+   "id": "dc02d0ba7ca7",
+   "title": "Why using rocks for carbon removal could eventually reduce crop growth",
+   "summary": "Tech companies are investing a lot of hope and money in rocks. Google, Microsoft, and others have committed hundreds of millions of dollars to get startups to spread crushed basalt, olivine, or other alkaline materials across farms, in an effort to capture carbon from the air and lock it away. A num",
+   "url": "https://www.technologyreview.com/2026/11/23/1149392/why-using-rocks-for-carbon-removal-could-eventually-reduce-crop-growth/",
+   "source": "MIT Technology Review",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-23T11:00:00.000Z"
+  },
   {
    "id": "036e80097ea4",
    "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
@@ -3161,6 +3206,15 @@
    "published": "2026-11-23T05:00:00.000Z"
   },
   {
+   "id": "6fd4c32fe34a",
+   "title": "How to build and maintain an agentic evaluation",
+   "summary": "",
+   "url": "https://huggingface.co/blog/agentic-evals",
+   "source": "Hugging Face Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-23T00:00:00.000Z"
+  },
+  {
    "id": "ab3af887f636",
    "title": "Meta ads is now available in AWS Quick",
    "summary": "AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, ",
@@ -3546,137 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "AI Research",
    "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "9aea27b9f8ff",
-   "title": "Why Do LLMs Help with Scientific Misconduct Requests and What to Do About It?: Increasing the Trustworthiness of AI for Science",
-   "summary": "arXiv:2611.25492v1 Announce Type: new Abstract: Large language models (LLMs) support scientific research, but some of that assistance can also undermine research integrity. Existing safety evaluations in science often measure whether models refuse misconduct requests, but rarely explain whether they",
-   "url": "https://arxiv.org/abs/2611.25492",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "efa54d04e04b",
-   "title": "Coordinated Use of Large Language Models in Academic Research",
-   "summary": "arXiv:2611.25502v1 Announce Type: new Abstract: This study proposes a methodological framework for the coordinated use of multiple large language models in academic research. Its central argument is that involving more models does not in itself guarantee more reliable results; what matters is how co",
-   "url": "https://arxiv.org/abs/2611.25502",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "7b7516cf156a",
-   "title": "Keystone: Judging Previews at Key Steps for Test-Time Search in Diffusion Models",
-   "summary": "arXiv:2611.25530v1 Announce Type: new Abstract: Text-to-image diffusion and flow models yield a preview, their clean-image estimate, at every denoising step. When they miscount, drop or misplace objects, test-time search is in a bind: its verifiers are reward models built for finished images, so jud",
-   "url": "https://arxiv.org/abs/2611.25530",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "ce8969d9703e",
-   "title": "LM-based Personalized Travel Planner",
-   "summary": "arXiv:2611.25531v1 Announce Type: new Abstract: Effective travel planning requires handling multiple information sources, managing constraints, and tailoring recommendations to user preferences. While LLMs have introduced dynamic, context-aware decision-making, single-agent models often struggle wit",
-   "url": "https://arxiv.org/abs/2611.25531",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "a4720c688224",
-   "title": "How Feedback-Free Self-Evolution Reshapes Agent Skills: A Systematic Study",
-   "summary": "arXiv:2611.25534v1 Announce Type: new Abstract: Agent skills are documents in which experts write down procedural knowledge, and models increasingly maintain them by rewriting them without feedback. Such rewriting could adapt a skill to the model that uses it or erode the expert knowledge that makes",
-   "url": "https://arxiv.org/abs/2611.25534",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "8e32bb51740b",
-   "title": "COVERAGE-TRACE: Source-Side Counterfactual Tracing for Detecting Omissions in LLM Summaries",
-   "summary": "arXiv:2611.25539v1 Announce Type: new Abstract: Omissions are difficult to verify because missing information leaves no output span to inspect: a summary may be factually supported while still excluding a decision, qualification, quantity, or condition needed to preserve the source's meaning. We int",
-   "url": "https://arxiv.org/abs/2611.25539",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
   }
  ],
  "sources": {
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-23T05:38:14.370Z"
+   "at": "2026-11-23T17:18:23.233Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 351,
-   "at": "2026-11-23T05:38:14.371Z"
+   "at": "2026-11-23T17:18:23.234Z"
   },
   "huggingface": {
    "ok": true,
-   "count": 915,
-   "at": "2026-11-23T05:38:14.369Z"
+   "count": 916,
+   "at": "2026-11-23T17:18:23.232Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-23T05:38:14.372Z"
+   "at": "2026-11-23T17:18:23.235Z"
   },
   "openai": {
    "ok": true,
    "count": 1422,
-   "at": "2026-11-23T05:38:14.332Z"
+   "at": "2026-11-23T17:18:23.200Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-23T05:38:14.374Z"
+   "at": "2026-11-23T17:18:23.237Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-23T05:38:14.381Z"
+   "at": "2026-11-23T17:18:23.244Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-23T05:38:14.378Z"
+   "at": "2026-11-23T17:18:23.241Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-23T05:38:14.380Z"
+   "at": "2026-11-23T17:18:23.243Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-23T05:38:14.380Z"
+   "at": "2026-11-23T17:18:23.243Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-23T05:38:14.378Z"
+   "at": "2026-11-23T17:18:23.242Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-23T05:38:14.375Z"
+   "at": "2026-11-23T17:18:23.238Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-23T05:38:14.376Z"
+   "at": "2026-11-23T17:18:23.239Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-23T05:38:14.367Z"
+   "at": "2026-11-23T17:18:23.231Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-23T05:38:14.379Z"
+   "at": "2026-11-23T17:18:23.242Z"
   }
  }
 }
