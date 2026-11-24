@@ -1,6 +1,33 @@
 {
- "updated": "2026-11-23T17:18:24.171Z",
+ "updated": "2026-11-24T03:46:46.482Z",
  "articles": [
+  {
+   "id": "1d0c151fefed",
+   "title": "OpenAI and Cisco introduce Shirudo",
+   "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+   "url": "https://openai.com/index/introducing-shirudo",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-23T21:20:00.000Z"
+  },
+  {
+   "id": "02839082ff9f",
+   "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we app",
+   "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+   "source": "MIT Technology Review",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-23T17:36:08.000Z"
+  },
+  {
+   "id": "ca38829e7312",
+   "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+   "summary": "",
+   "url": "https://huggingface.co/blog/allenai/robotrack",
+   "source": "Hugging Face Blog",
+   "category": "Robotics and Automation",
+   "published": "2026-11-23T17:20:37.000Z"
+  },
   {
    "id": "c5903c8754bb",
    "title": "A more tailored Google Search that’s uniquely yours",
@@ -38,6 +65,15 @@
    "published": "2026-11-23T13:10:00.000Z"
   },
   {
+   "id": "12b4ad14dd49",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability CVE-2026-134624 N-able Mail Assure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerabi",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-23T12:00:00.000Z"
+  },
+  {
    "id": "dc02d0ba7ca7",
    "title": "Why using rocks for carbon removal could eventually reduce crop growth",
    "summary": "Tech companies are investing a lot of hope and money in rocks. Google, Microsoft, and others have committed hundreds of millions of dollars to get startups to spread crushed basalt, olivine, or other alkaline materials across farms, in an effort to capture carbon from the air and lock it away. A num",
@@ -45,6 +81,24 @@
    "source": "MIT Technology Review",
    "category": "Artificial Intelligence",
    "published": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "id": "f8a4e02f4212",
+   "title": "Connected intelligence for in-house legal",
+   "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+   "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-23T08:00:00.000Z"
+  },
+  {
+   "id": "680b35173b97",
+   "title": "Richpanel helps companies automate 50% of support in 30 days",
+   "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+   "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-23T08:00:00.000Z"
   },
   {
    "id": "036e80097ea4",
@@ -3546,137 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "AI Research",
    "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "472ea37cdbf9",
-   "title": "Beyond Weight Updates: Evolving Agent Harnesses for Domain Specialization",
-   "summary": "arXiv:2611.25380v1 Announce Type: new Abstract: Domain specialization of LLM agents is usually framed as a weight-update problem: collect trajectories, run reinforcement learning (RL) or supervised fine-tuning (SFT), and deploy a new checkpoint. We study a complementary axis: evolving the \\textbf{ag",
-   "url": "https://arxiv.org/abs/2611.25380",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "75737d45b568",
-   "title": "Falsifiable Compositional Reasoning in Time Series Forecasting",
-   "summary": "arXiv:2611.25388v1 Announce Type: new Abstract: Time series foundation models as well as the language-guided analytical agents achieve strong accuracy on standard chronological benchmarks. However, models that rank highest on historical validation splits often degrade across non-stationary regime tr",
-   "url": "https://arxiv.org/abs/2611.25388",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "ba6c6412eb96",
-   "title": "The Coevolution and Coexistence of Humans and AI",
-   "summary": "arXiv:2611.25393v1 Announce Type: new Abstract: Artificial intelligence (AI) systems replicate through deployment, vary through training, and compete for computational resources. These processes create the conditions for natural selection and raise a fundamental question: will AI evolve to benefit t",
-   "url": "https://arxiv.org/abs/2611.25393",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "2ed0029b5ec3",
-   "title": "Toward a Science of AI Agent Societies",
-   "summary": "arXiv:2611.25404v1 Announce Type: new Abstract: AI agents are rapidly evolving from isolated personal assistants into networked actors that interact with one another at scale. We envision the emergence of AI agent societies, with their own social and economic dynamics, as a new research frontier. We",
-   "url": "https://arxiv.org/abs/2611.25404",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "8c303609f14c",
-   "title": "LoongForge-Embodied: A Unified Framework for Training Heterogeneous Embodied Models",
-   "summary": "arXiv:2611.25460v1 Announce Type: new Abstract: Training Vision-Language-Action (VLA) models and World-Action Models (WAMs) is computationally expensive, while their heterogeneous architectures and fragmented training stacks make system optimizations difficult to reuse across models. To address thes",
-   "url": "https://arxiv.org/abs/2611.25460",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
-  },
-  {
-   "id": "a1b2b3c0decd",
-   "title": "When Should a Voice Agent Speak? End-of-Turn Detection in Turkish",
-   "summary": "arXiv:2611.25489v1 Announce Type: new Abstract: A voice agent that waits for a fixed silence before replying either interrupts users who pause mid-utterance or responds late to users who have finished. This study examines the decision at the onset of silence, using turn ends and turn-internal pauses",
-   "url": "https://arxiv.org/abs/2611.25489",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-20T05:00:00.000Z"
   }
  ],
  "sources": {
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-23T17:18:23.233Z"
+   "at": "2026-11-24T03:46:45.742Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 351,
-   "at": "2026-11-23T17:18:23.234Z"
+   "at": "2026-11-24T03:46:45.743Z"
   },
   "huggingface": {
    "ok": true,
    "count": 916,
-   "at": "2026-11-23T17:18:23.232Z"
+   "at": "2026-11-24T03:46:45.741Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-23T17:18:23.235Z"
+   "at": "2026-11-24T03:46:45.744Z"
   },
   "openai": {
    "ok": true,
-   "count": 1422,
-   "at": "2026-11-23T17:18:23.200Z"
+   "count": 1425,
+   "at": "2026-11-24T03:46:45.711Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-23T17:18:23.237Z"
+   "at": "2026-11-24T03:46:45.747Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-23T17:18:23.244Z"
+   "at": "2026-11-24T03:46:45.753Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-23T17:18:23.241Z"
+   "at": "2026-11-24T03:46:45.750Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-23T17:18:23.243Z"
+   "at": "2026-11-24T03:46:45.752Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-23T17:18:23.243Z"
+   "at": "2026-11-24T03:46:45.752Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-23T17:18:23.242Z"
+   "at": "2026-11-24T03:46:45.750Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-23T17:18:23.238Z"
+   "at": "2026-11-24T03:46:45.747Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-23T17:18:23.239Z"
+   "at": "2026-11-24T03:46:45.748Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-23T17:18:23.231Z"
+   "at": "2026-11-24T03:46:45.740Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-23T17:18:23.242Z"
+   "at": "2026-11-24T03:46:45.751Z"
   }
  }
 }
