@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-24T16:56:44.889Z",
+ "updated": "2026-11-25T01:53:45.069Z",
  "articles": [
+  {
+   "id": "3921b84cccb9",
+   "title": "Mitsubishi Electric Research Lab CEO on How He Reached the C-Suite",
+   "summary": "The trajectory from researcher to top executive at a leading R&D organization doesn’t happen overnight. It took Anthony Vetro nearly 30 years to climb the corporate ladder at Mitsubishi Electric Research Laboratories , in Cambridge, Mass. He joined MERL in 1996, right out of college, and he has work",
+   "url": "https://spectrum.ieee.org/mitsubishi-electric-research-lab-ceo",
+   "source": "IEEE Spectrum",
+   "category": "Robotics and Automation",
+   "published": "2026-11-24T19:00:01.000Z"
+  },
   {
    "id": "16565a3f5dc0",
    "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
@@ -56,6 +65,15 @@
    "published": "2026-11-24T13:10:00.000Z"
   },
   {
+   "id": "3c6728c1bfd1",
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-24T13:00:00.000Z"
+  },
+  {
    "id": "21c67f84759f",
    "title": "Amazon says hackers&#039; AI agents found and exploited 0-day with little human input",
    "summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
@@ -65,10 +83,10 @@
    "published": "2026-11-24T12:30:05.000Z"
   },
   {
-   "id": "e1d950e00d28",
-   "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
-   "summary": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extensive bill of material of your switchboard, including all devices, connection item",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+   "id": "a0ae3cb09c40",
+   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+   "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-131914 Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability CVE-2026-132165 Drupal Core Remote Code Execution Vulnerability CVE-2026-132224 Op",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
    "source": "CISA Advisories",
    "category": "Cybersecurity",
    "published": "2026-11-24T12:00:00.000Z"
@@ -78,6 +96,15 @@
    "title": "Danfoss AK-SM 8xxA Series",
    "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges. The following versions of Danfoss AK-SM 8xxA Series are affected: AK-SM8xxA <=5.4.0 (CVE-2026-129713) CVSS Vendor Equipment v3 9.8 Danfoss AK-SM8xxA 1 Vulnerab",
    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-24T12:00:00.000Z"
+  },
+  {
+   "id": "e1d950e00d28",
+   "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+   "summary": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extensive bill of material of your switchboard, including all devices, connection item",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
    "source": "CISA Advisories",
    "category": "Cybersecurity",
    "published": "2026-11-24T12:00:00.000Z"
@@ -101,8 +128,17 @@
    "published": "2026-11-24T11:00:00.000Z"
   },
   {
+   "id": "f3aa9260f109",
+   "title": "Searching for distant planets with Astra",
+   "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+   "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+   "source": "OpenAI News",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-24T11:00:00.000Z"
+  },
+  {
    "id": "25e97c2ec05c",
-   "title": "Introducing the Amazon Bedrock Trusted Access API with Anthropic’s Enterprise Frontier Safeguards and Enterprise Data Controls",
+   "title": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models",
    "summary": "Amazon Bedrock now offers a trusted access program API: one place to discover, request, and enroll in model provider programs. The first two offerings, in public preview, are Anthropic's Enterprise Frontier Safeguards (EFS) and Enterprise Data Controls (EDC), which give you control over your data wh",
    "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/",
    "source": "AWS Machine Learning Blog",
@@ -3564,119 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "AI Research",
    "published": "2026-11-24T05:00:00.000Z"
-  },
-  {
-   "id": "5fd8f84d433f",
-   "title": "Data-Quality-Aware Fundus Classification with Anatomy-Guided Glaucoma Assessment and Cross-Dataset Evaluation",
-   "summary": "arXiv:2611.29834v1 Announce Type: cross Abstract: Background: Deep learning fundus classifiers often perform well internally, but duplicated images, inconsistent labels, acquisition differences and poor threshold transfer can undermine their reliability. We assess nine-class classifiers beyond inter",
-   "url": "https://arxiv.org/abs/2611.29834",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-24T05:00:00.000Z"
-  },
-  {
-   "id": "58e8a816115d",
-   "title": "Dynamics Forcing: Mitigating Error Accumulation in Causal Video World Models",
-   "summary": "arXiv:2611.29839v1 Announce Type: cross Abstract: Causal video world models generate block by block from their own previous outputs. Small errors in early blocks are fed back as history and grow until the scene and the robot fall apart. Teacher forcing trains on clean ground-truth history, so the mo",
-   "url": "https://arxiv.org/abs/2611.29839",
-   "source": "arXiv cs.AI",
-   "category": "Robotics and Automation",
-   "published": "2026-11-24T05:00:00.000Z"
-  },
-  {
-   "id": "ea3fe7145e8b",
-   "title": "LexiDet-OVD: Benchmarking Lexical Sensitivity in Open-Vocabulary Object Detection",
-   "summary": "arXiv:2611.29851v1 Announce Type: cross Abstract: Open-vocabulary object detectors localize objects from free-form text prompts, but their reliability depends on how users describe the target. Standard evaluations usually test a fixed class name, leaving prompt-induced failure modes underexplored. W",
-   "url": "https://arxiv.org/abs/2611.29851",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-24T05:00:00.000Z"
-  },
-  {
-   "id": "0767f0220b69",
-   "title": "Landscape and Taxonomy of Prompt Engineering Patterns in Software Engineering",
-   "summary": "arXiv:2611.29853v1 Announce Type: cross Abstract: Advancements in large language models (LLMs) have enhanced their ability to handle ambiguous user instructions. However, effective prompt patterns remain crucial for usability and comprehension. This article presents a taxonomy of prompt engineering ",
-   "url": "https://arxiv.org/abs/2611.29853",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-24T05:00:00.000Z"
   }
  ],
  "sources": {
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-24T16:56:44.127Z"
+   "at": "2026-11-25T01:53:44.600Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 773,
-   "at": "2026-11-24T16:56:44.128Z"
+   "at": "2026-11-25T01:53:44.601Z"
   },
   "huggingface": {
    "ok": true,
    "count": 916,
-   "at": "2026-11-24T16:56:44.126Z"
+   "at": "2026-11-25T01:53:44.599Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-24T16:56:44.129Z"
+   "at": "2026-11-25T01:53:44.602Z"
   },
   "openai": {
    "ok": true,
-   "count": 1425,
-   "at": "2026-11-24T16:56:44.090Z"
+   "count": 1430,
+   "at": "2026-11-25T01:53:44.576Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-24T16:56:44.131Z"
+   "at": "2026-11-25T01:53:44.603Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-24T16:56:44.138Z"
+   "at": "2026-11-25T01:53:44.609Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-24T16:56:44.135Z"
+   "at": "2026-11-25T01:53:44.607Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-24T16:56:44.137Z"
+   "at": "2026-11-25T01:53:44.609Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-24T16:56:44.137Z"
+   "at": "2026-11-25T01:53:44.609Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-24T16:56:44.136Z"
+   "at": "2026-11-25T01:53:44.607Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-24T16:56:44.132Z"
+   "at": "2026-11-25T01:53:44.604Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-24T16:56:44.133Z"
+   "at": "2026-11-25T01:53:44.605Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-24T16:56:44.124Z"
+   "at": "2026-11-25T01:53:44.599Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-24T16:56:44.136Z"
+   "at": "2026-11-25T01:53:44.608Z"
   }
  }
 }
