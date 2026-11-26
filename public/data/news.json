@@ -1,6 +1,33 @@
 {
- "updated": "2026-11-25T16:45:21.772Z",
+ "updated": "2026-11-26T01:31:26.837Z",
  "articles": [
+  {
+   "id": "37b5c9ba9326",
+   "title": "Where scientists draw the line on AI agents",
+   "summary": "",
+   "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+   "source": "Hugging Face Blog",
+   "category": "Machine Learning",
+   "published": "2026-11-25T18:52:55.000Z"
+  },
+  {
+   "id": "6f937299d9db",
+   "title": "Backblaze explains why it&#039;s sharing customer information with advertisers",
+   "summary": "Backblaze tells Ars it won't share users' backup, storage files with advertisers.",
+   "url": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
+   "source": "Ars Technica",
+   "category": "Software Engineering",
+   "published": "2026-11-25T18:38:29.000Z"
+  },
+  {
+   "id": "ddad6bd46fa1",
+   "title": "How data centers are driving a US natural-gas boom",
+   "summary": "In May 2025, my colleague David Rotman wrote a feature story describing how AI could keep us dependent on natural gas. Just 18 months later, I’ve lost count of how many times he’s already been proved right. Sure, it’s technically possible to meet the world’s rising electricity demand with other powe",
+   "url": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
+   "source": "MIT Technology Review",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-25T17:00:00.000Z"
+  },
   {
    "id": "c510c0910746",
    "title": "Art of play in the age of AI",
@@ -9,6 +36,15 @@
    "source": "GitHub Blog",
    "category": "Developer Tools",
    "published": "2026-11-25T16:00:00.000Z"
+  },
+  {
+   "id": "60ccd11aa2a7",
+   "title": "How to choose the next safe step in application modernization",
+   "summary": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill. The post How to choose the next safe step in application modernization appeared first on The GitHub Blog .",
+   "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+   "source": "GitHub Blog",
+   "category": "Developer Tools",
+   "published": "2026-11-25T15:00:00.000Z"
   },
   {
    "id": "04a02898d890",
@@ -27,6 +63,15 @@
    "source": "MIT Technology Review",
    "category": "Artificial Intelligence",
    "published": "2026-11-25T13:10:00.000Z"
+  },
+  {
+   "id": "b368c84bce94",
+   "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+   "summary": "CISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2023-25914 Danfoss AK-SM 800A Series Path Traversal Vulnerability CVE-2023-25915 Danfoss AK-SM 800A Series Improper Input Validation Vulnerability CVE-2025-41450",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-25T12:00:00.000Z"
   },
   {
    "id": "d0a3a7f662b5",
@@ -3555,128 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "AI Research",
    "published": "2026-11-25T05:00:00.000Z"
-  },
-  {
-   "id": "5d0ffa417941",
-   "title": "PruneGround: Plug-and-play Spatial Pruning for 3D Visual Grounding",
-   "summary": "arXiv:2606.31148v4 Announce Type: replace-cross Abstract: 3D Visual Grounding (3DVG) aims to localize target objects in 3D scenes given natural language descriptions. Existing approaches typically perform reasoning over the entire scene, leading to ambiguous predictions and high computational cost, ",
-   "url": "https://arxiv.org/abs/2606.31148",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-25T05:00:00.000Z"
-  },
-  {
-   "id": "3468c99cc24d",
-   "title": "A Few Teacher Steps Go a Long Way: Efficient SFT Data Collection for LLM Agents",
-   "summary": "arXiv:2607.04574v3 Announce Type: replace-cross Abstract: DAgger-style supervised finetuning (SFT) combines full teacher demonstrations with teacher continuations of partial student rollouts, providing supervision on contexts the student encounters. We study how to allocate the teacher-inference bud",
-   "url": "https://arxiv.org/abs/2607.04574",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-25T05:00:00.000Z"
-  },
-  {
-   "id": "6be4f5ee4ae3",
-   "title": "Pramana: A Composable, Domain-Specific Backend for Empirical Networking Research",
-   "summary": "arXiv:2607.26352v2 Announce Type: replace-cross Abstract: Empirical networking research often tests a hypothesis with data the study itself generates, so accelerating this research requires shortening the time from forming a hypothesis to generating that data. Consider whether a bulk BBR download fa",
-   "url": "https://arxiv.org/abs/2607.26352",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-25T05:00:00.000Z"
-  },
-  {
-   "id": "358fd7ebf4cc",
-   "title": "Parameter-Free Dynamic Regret under Heavy-Tailed Noise",
-   "summary": "arXiv:2607.27073v4 Announce Type: replace-cross Abstract: We study online convex optimization on a compact convex domain of diameter $D$ in which the learner observes, at each round, one stochastic subgradient and no loss values. The observations are conditionally unbiased, and the noise has an unco",
-   "url": "https://arxiv.org/abs/2607.27073",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-25T05:00:00.000Z"
-  },
-  {
-   "id": "8814460172be",
-   "title": "CrossProjection: Benchmarking Spatial Grounding across Projection and Section Views",
-   "summary": "arXiv:2608.00473v2 Announce Type: replace-cross Abstract: Plans, elevations, and sections describe a three-dimensional structure through incomplete projections that change how an entity is drawn, not only where it is seen from. Reading them means deciding which entities correspond across views and r",
-   "url": "https://arxiv.org/abs/2608.00473",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-25T05:00:00.000Z"
   }
  ],
  "sources": {
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-25T16:45:21.072Z"
+   "at": "2026-11-26T01:31:25.735Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 447,
-   "at": "2026-11-25T16:45:21.073Z"
+   "at": "2026-11-26T01:31:25.737Z"
   },
   "huggingface": {
    "ok": true,
-   "count": 916,
-   "at": "2026-11-25T16:45:21.072Z"
+   "count": 917,
+   "at": "2026-11-26T01:31:25.734Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-25T16:45:21.075Z"
+   "at": "2026-11-26T01:31:25.738Z"
   },
   "openai": {
    "ok": true,
    "count": 1430,
-   "at": "2026-11-25T16:45:21.047Z"
+   "at": "2026-11-26T01:31:25.703Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-25T16:45:21.076Z"
+   "at": "2026-11-26T01:31:25.740Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-25T16:45:21.080Z"
+   "at": "2026-11-26T01:31:25.747Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-25T16:45:21.078Z"
+   "at": "2026-11-26T01:31:25.744Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-25T16:45:21.080Z"
+   "at": "2026-11-26T01:31:25.746Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-25T16:45:21.080Z"
+   "at": "2026-11-26T01:31:25.746Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-25T16:45:21.079Z"
+   "at": "2026-11-26T01:31:25.745Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-25T16:45:21.076Z"
+   "at": "2026-11-26T01:31:25.741Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-25T16:45:21.077Z"
+   "at": "2026-11-26T01:31:25.742Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-25T16:45:21.070Z"
+   "at": "2026-11-26T01:31:25.733Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-25T16:45:21.079Z"
+   "at": "2026-11-26T01:31:25.745Z"
   }
  }
 }
