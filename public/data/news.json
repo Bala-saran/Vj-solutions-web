@@ -1,41 +1,41 @@
 {
- "updated": "2026-11-27T01:28:42.260Z",
+ "updated": "2026-11-27T16:05:28.054Z",
  "articles": [
   {
-   "id": "df757b3ca1dd",
-   "title": "The Download: Better bionic hands and AI’s natural-gas boom",
-   "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The next generation of bionic hands is here—and they can feel Avi Davidson lost his left hand as a teenager. Since then, he&#8217;s cycled through a f",
-   "url": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
+   "id": "0f9957586415",
+   "title": "This ER Doctor Became a Hospital’s First Clinical AI Engineer",
+   "summary": "When Boston Children’s Hospital posted a job listing for a prompt engineer in 2023, Dinesh Rai decided to apply. He didn’t expect to get the job. At the time, prompt engineering was being touted as one of the hot new jobs created by generative AI. Companies wanted people who knew how to coax the bes",
+   "url": "https://spectrum.ieee.org/clinical-ai-engineer-dinesh-rai",
+   "source": "IEEE Spectrum",
+   "category": "Robotics and Automation",
+   "published": "2026-11-27T14:00:01.000Z"
+  },
+  {
+   "id": "e0750e6833be",
+   "title": "The Download: Innovators Under 35 nominations are open, and a bionic window into the mind",
+   "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Our 2027 Innovators Under 35 competition is now open Every year, MIT Technology Review honors 35 of the world&#8217;s brightest young scientists, entr",
+   "url": "https://www.technologyreview.com/2026/11/27/1149960/the-download-the-download-innovators-under-35-nominations-bionic-hand/",
    "source": "MIT Technology Review",
    "category": "Artificial Intelligence",
-   "published": "2026-11-26T13:10:00.000Z"
+   "published": "2026-11-27T13:00:00.000Z"
   },
   {
-   "id": "02a088434703",
-   "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-   "summary": "",
-   "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-   "source": "Hugging Face Blog",
-   "category": "AI Research",
-   "published": "2026-11-26T11:37:17.000Z"
-  },
-  {
-   "id": "3351794e6a63",
-   "title": "The next generation of bionic hands is here—and they can feel",
-   "summary": "Avi Davidson lost his left hand as a teenager. Since then, he’s cycled through a few prosthetics. But his latest is different—it’s wired up to nerves in the upper part of his forearm and allows him to feel pressure. For the first time in years, he can use his left limb to handle delicate objects&#82",
-   "url": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/",
+   "id": "b4e61911e477",
+   "title": "Our 2027 Innovators Under 35 competition is now open",
+   "summary": "Every year, the editors at MIT Technology Review select 35 of the world’s top young scientists, entrepreneurs, and inventors to honor as our newest class of Innovators Under 35. And starting today, our 2027 competition is officially open for nominations.&#160; We’re on the hunt for researchers and f",
+   "url": "https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/",
    "source": "MIT Technology Review",
    "category": "Artificial Intelligence",
-   "published": "2026-11-26T09:59:00.000Z"
+   "published": "2026-11-27T10:48:47.000Z"
   },
   {
-   "id": "d3aa48daa62d",
-   "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
-   "summary": "",
-   "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
-   "source": "Hugging Face Blog",
-   "category": "Machine Learning",
-   "published": "2026-11-26T05:05:36.000Z"
+   "id": "f7c430bedf7a",
+   "title": "How cutting-edge prosthetics can help probe the human mind",
+   "summary": "Over the last few weeks, I’ve been talking to Alexander (Avi) Davidson. There are a lot of remarkable things about Avi. He sustained a horrific injury as a teenager, which left him paralyzed and without a left hand. Today, he uses his own experience to guide his practice as a trauma therapist. He’s ",
+   "url": "https://www.technologyreview.com/2026/11/27/1149946/cutting-edge-prosthetics-allow-researchers-to-probe-the-human-mind/",
+   "source": "MIT Technology Review",
+   "category": "Artificial Intelligence",
+   "published": "2026-11-27T10:00:00.000Z"
   },
   {
    "id": "5aa9e3310d13",
@@ -44,7 +44,7 @@
    "url": "https://arxiv.org/abs/2611.33160",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3965806fbc78",
@@ -53,7 +53,7 @@
    "url": "https://arxiv.org/abs/2611.33161",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "be1cc5587b8c",
@@ -62,7 +62,7 @@
    "url": "https://arxiv.org/abs/2611.33165",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "c8682f048617",
@@ -71,7 +71,7 @@
    "url": "https://arxiv.org/abs/2611.33190",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "ef0eeffeb9e1",
@@ -80,7 +80,7 @@
    "url": "https://arxiv.org/abs/2611.33263",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "63908ad4c42c",
@@ -89,7 +89,7 @@
    "url": "https://arxiv.org/abs/2611.33303",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "2e47ed7ddb35",
@@ -98,7 +98,7 @@
    "url": "https://arxiv.org/abs/2611.33304",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "efa382521aa7",
@@ -107,7 +107,7 @@
    "url": "https://arxiv.org/abs/2611.33322",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "aa03895220cf",
@@ -116,7 +116,7 @@
    "url": "https://arxiv.org/abs/2611.33394",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "6109b6ac57f8",
@@ -125,7 +125,7 @@
    "url": "https://arxiv.org/abs/2611.33402",
    "source": "arXiv cs.AI",
    "category": "Cybersecurity",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "4cf7f9ebfa4c",
@@ -134,7 +134,7 @@
    "url": "https://arxiv.org/abs/2611.33411",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "4dddd1096949",
@@ -143,7 +143,7 @@
    "url": "https://arxiv.org/abs/2611.33470",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "80f404d8b5e7",
@@ -152,7 +152,7 @@
    "url": "https://arxiv.org/abs/2611.33497",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "7e922b4c2cc9",
@@ -161,7 +161,7 @@
    "url": "https://arxiv.org/abs/2611.33513",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "bdb12eac8ff6",
@@ -170,7 +170,7 @@
    "url": "https://arxiv.org/abs/2611.33555",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "d132989012a9",
@@ -179,7 +179,7 @@
    "url": "https://arxiv.org/abs/2611.33563",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "758ccd72bcd9",
@@ -188,7 +188,7 @@
    "url": "https://arxiv.org/abs/2611.33594",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "8c28a80eb486",
@@ -197,7 +197,7 @@
    "url": "https://arxiv.org/abs/2611.33615",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "0ec3cbaa6a97",
@@ -206,7 +206,7 @@
    "url": "https://arxiv.org/abs/2611.33617",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "ef38228c8d40",
@@ -215,7 +215,7 @@
    "url": "https://arxiv.org/abs/2611.33639",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "bcac498e7959",
@@ -224,7 +224,7 @@
    "url": "https://arxiv.org/abs/2611.33664",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "af04c85c9704",
@@ -233,7 +233,7 @@
    "url": "https://arxiv.org/abs/2611.33676",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3d3bc7f2d840",
@@ -242,7 +242,7 @@
    "url": "https://arxiv.org/abs/2611.33679",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3fb02af11301",
@@ -251,7 +251,7 @@
    "url": "https://arxiv.org/abs/2611.33706",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "f0c5f52e5d82",
@@ -260,7 +260,7 @@
    "url": "https://arxiv.org/abs/2611.33707",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "10f075af16bd",
@@ -269,7 +269,7 @@
    "url": "https://arxiv.org/abs/2611.33712",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "7c12f552f9e1",
@@ -278,7 +278,7 @@
    "url": "https://arxiv.org/abs/2611.33715",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "d0e11bb3c2f3",
@@ -287,7 +287,7 @@
    "url": "https://arxiv.org/abs/2611.33728",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "bd0e3791a224",
@@ -296,7 +296,7 @@
    "url": "https://arxiv.org/abs/2611.33735",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "035874d82c25",
@@ -305,7 +305,7 @@
    "url": "https://arxiv.org/abs/2611.33745",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "f3bdc8f3bcf2",
@@ -314,7 +314,7 @@
    "url": "https://arxiv.org/abs/2611.33748",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "5f6caed495d8",
@@ -323,7 +323,7 @@
    "url": "https://arxiv.org/abs/2611.33757",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "313b76219792",
@@ -332,7 +332,7 @@
    "url": "https://arxiv.org/abs/2611.33764",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "0a7b71b7923f",
@@ -341,7 +341,7 @@
    "url": "https://arxiv.org/abs/2611.33775",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "f15ab4262253",
@@ -350,7 +350,7 @@
    "url": "https://arxiv.org/abs/2611.33788",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "1fe898ecb285",
@@ -359,7 +359,7 @@
    "url": "https://arxiv.org/abs/2611.33791",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "06d40dbaf8e2",
@@ -368,7 +368,7 @@
    "url": "https://arxiv.org/abs/2611.33794",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "ac3e37b3c350",
@@ -377,7 +377,7 @@
    "url": "https://arxiv.org/abs/2611.33813",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "33738813d852",
@@ -386,7 +386,7 @@
    "url": "https://arxiv.org/abs/2611.33818",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "271dd9ffffc1",
@@ -395,7 +395,7 @@
    "url": "https://arxiv.org/abs/2611.33821",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "551923581e90",
@@ -404,7 +404,7 @@
    "url": "https://arxiv.org/abs/2611.33822",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "6629749d0b4e",
@@ -413,7 +413,7 @@
    "url": "https://arxiv.org/abs/2611.33836",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "65d99987a28d",
@@ -422,7 +422,7 @@
    "url": "https://arxiv.org/abs/2611.33879",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "30c37cc37fab",
@@ -431,7 +431,7 @@
    "url": "https://arxiv.org/abs/2611.33897",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3e0aa1bb018e",
@@ -440,7 +440,7 @@
    "url": "https://arxiv.org/abs/2611.33909",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "f6df3ac7e36a",
@@ -449,7 +449,7 @@
    "url": "https://arxiv.org/abs/2611.33943",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "8ff3be331dab",
@@ -458,7 +458,7 @@
    "url": "https://arxiv.org/abs/2611.33946",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "1c2746193cff",
@@ -467,7 +467,7 @@
    "url": "https://arxiv.org/abs/2611.33966",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "a236997ea897",
@@ -476,7 +476,7 @@
    "url": "https://arxiv.org/abs/2611.34011",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "ed7660ba87ad",
@@ -485,7 +485,7 @@
    "url": "https://arxiv.org/abs/2611.34036",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "9d9674ee2d93",
@@ -494,7 +494,7 @@
    "url": "https://arxiv.org/abs/2611.34068",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "da43a02054ba",
@@ -503,7 +503,7 @@
    "url": "https://arxiv.org/abs/2611.34112",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "5ddc80c89f83",
@@ -512,7 +512,7 @@
    "url": "https://arxiv.org/abs/2611.34147",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "37d15bd37024",
@@ -521,7 +521,7 @@
    "url": "https://arxiv.org/abs/2611.34190",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "2b73c373643b",
@@ -530,7 +530,7 @@
    "url": "https://arxiv.org/abs/2611.34215",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3dc5666ad199",
@@ -539,7 +539,7 @@
    "url": "https://arxiv.org/abs/2611.34247",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "4dae22ce7d03",
@@ -548,7 +548,7 @@
    "url": "https://arxiv.org/abs/2611.34248",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "2806cd06ebf9",
@@ -557,7 +557,7 @@
    "url": "https://arxiv.org/abs/2611.34249",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "d60456d64478",
@@ -566,7 +566,7 @@
    "url": "https://arxiv.org/abs/2611.34250",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "f4359170efb8",
@@ -575,7 +575,7 @@
    "url": "https://arxiv.org/abs/2611.34254",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "0904d6109734",
@@ -584,7 +584,7 @@
    "url": "https://arxiv.org/abs/2611.34327",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "7e489d2c9489",
@@ -593,7 +593,7 @@
    "url": "https://arxiv.org/abs/2611.34400",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "f64f41971aca",
@@ -602,7 +602,7 @@
    "url": "https://arxiv.org/abs/2611.34407",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "7d8787110a5f",
@@ -611,7 +611,7 @@
    "url": "https://arxiv.org/abs/2611.34432",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "f712b8344c4c",
@@ -620,7 +620,7 @@
    "url": "https://arxiv.org/abs/2611.34440",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "653fb27d2ecd",
@@ -629,7 +629,7 @@
    "url": "https://arxiv.org/abs/2611.34466",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "42a679e9ef52",
@@ -638,7 +638,7 @@
    "url": "https://arxiv.org/abs/2611.34563",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "4e46bce9e7a1",
@@ -647,7 +647,7 @@
    "url": "https://arxiv.org/abs/2611.34576",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "1128633fb0f9",
@@ -656,7 +656,7 @@
    "url": "https://arxiv.org/abs/2611.34612",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "2f31d0647a99",
@@ -665,7 +665,7 @@
    "url": "https://arxiv.org/abs/2611.34624",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "8b1416f29c8a",
@@ -674,7 +674,7 @@
    "url": "https://arxiv.org/abs/2611.34635",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "fa1af3715a5f",
@@ -683,7 +683,7 @@
    "url": "https://arxiv.org/abs/2611.34646",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "fcf1acf95d75",
@@ -692,7 +692,7 @@
    "url": "https://arxiv.org/abs/2611.34698",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "81a46184d991",
@@ -701,7 +701,7 @@
    "url": "https://arxiv.org/abs/2611.34708",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "29107442cb56",
@@ -710,7 +710,7 @@
    "url": "https://arxiv.org/abs/2611.34751",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "eee7245816dc",
@@ -719,7 +719,7 @@
    "url": "https://arxiv.org/abs/2611.34762",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "5b8ba2ac828b",
@@ -728,7 +728,7 @@
    "url": "https://arxiv.org/abs/2611.34841",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3c891540729c",
@@ -737,7 +737,7 @@
    "url": "https://arxiv.org/abs/2611.24990",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "4ab332767a70",
@@ -746,7 +746,7 @@
    "url": "https://arxiv.org/abs/2611.33162",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "820a65072061",
@@ -755,7 +755,7 @@
    "url": "https://arxiv.org/abs/2611.33163",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "766b6b8128f4",
@@ -764,7 +764,7 @@
    "url": "https://arxiv.org/abs/2611.33176",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "e2e004cb8016",
@@ -773,7 +773,7 @@
    "url": "https://arxiv.org/abs/2611.33182",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "8beb4eff2273",
@@ -782,7 +782,7 @@
    "url": "https://arxiv.org/abs/2611.33183",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "1027e0aa175b",
@@ -791,7 +791,7 @@
    "url": "https://arxiv.org/abs/2611.33184",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "8903612d16d9",
@@ -800,7 +800,7 @@
    "url": "https://arxiv.org/abs/2611.33192",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b1d624b2fe0c",
@@ -809,7 +809,7 @@
    "url": "https://arxiv.org/abs/2611.33193",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "4a066906982d",
@@ -818,7 +818,7 @@
    "url": "https://arxiv.org/abs/2611.33195",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "a1266fb70a1b",
@@ -827,7 +827,7 @@
    "url": "https://arxiv.org/abs/2611.33197",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "5c10d3ec2798",
@@ -836,7 +836,7 @@
    "url": "https://arxiv.org/abs/2611.33198",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "aae252d93f43",
@@ -845,7 +845,7 @@
    "url": "https://arxiv.org/abs/2611.33201",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "a59264ab226c",
@@ -854,7 +854,7 @@
    "url": "https://arxiv.org/abs/2611.33232",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "6497a83f2d31",
@@ -863,7 +863,7 @@
    "url": "https://arxiv.org/abs/2611.33234",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "12158cf89a75",
@@ -872,7 +872,7 @@
    "url": "https://arxiv.org/abs/2611.33236",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b6042980c647",
@@ -881,7 +881,7 @@
    "url": "https://arxiv.org/abs/2611.33238",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "70764e24a95e",
@@ -890,7 +890,7 @@
    "url": "https://arxiv.org/abs/2611.33242",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "ba37651d6e3e",
@@ -899,7 +899,7 @@
    "url": "https://arxiv.org/abs/2611.33243",
    "source": "arXiv cs.AI",
    "category": "Cybersecurity",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "15d815301322",
@@ -908,7 +908,7 @@
    "url": "https://arxiv.org/abs/2611.33254",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "49088bcf7e30",
@@ -917,7 +917,7 @@
    "url": "https://arxiv.org/abs/2611.33257",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "ba5c870601db",
@@ -926,7 +926,7 @@
    "url": "https://arxiv.org/abs/2611.33262",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "285745fc4911",
@@ -935,7 +935,7 @@
    "url": "https://arxiv.org/abs/2611.33333",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "6bcbd37e56b3",
@@ -944,7 +944,7 @@
    "url": "https://arxiv.org/abs/2611.33369",
    "source": "arXiv cs.AI",
    "category": "Cybersecurity",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "ed35a45a710c",
@@ -953,7 +953,7 @@
    "url": "https://arxiv.org/abs/2611.33385",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "f354f7554cee",
@@ -962,7 +962,7 @@
    "url": "https://arxiv.org/abs/2611.33390",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "8593cef74327",
@@ -971,7 +971,7 @@
    "url": "https://arxiv.org/abs/2611.33398",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "5e908676b616",
@@ -980,7 +980,7 @@
    "url": "https://arxiv.org/abs/2611.33399",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "61dd4058af5a",
@@ -989,7 +989,7 @@
    "url": "https://arxiv.org/abs/2611.33417",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "e452d5cd8eda",
@@ -998,7 +998,7 @@
    "url": "https://arxiv.org/abs/2611.33428",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "bc507496132c",
@@ -1007,7 +1007,7 @@
    "url": "https://arxiv.org/abs/2611.33452",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "427d8bb5d081",
@@ -1016,7 +1016,7 @@
    "url": "https://arxiv.org/abs/2611.33453",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "bf40509517f7",
@@ -1025,7 +1025,7 @@
    "url": "https://arxiv.org/abs/2611.33486",
    "source": "arXiv cs.AI",
    "category": "Cybersecurity",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "750faf8dffb5",
@@ -1034,7 +1034,7 @@
    "url": "https://arxiv.org/abs/2611.33487",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "dbd29855dda2",
@@ -1043,7 +1043,7 @@
    "url": "https://arxiv.org/abs/2611.33493",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "1ef4fc7c2fc7",
@@ -1052,7 +1052,7 @@
    "url": "https://arxiv.org/abs/2611.33519",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "ca7c4ef13ecc",
@@ -1061,7 +1061,7 @@
    "url": "https://arxiv.org/abs/2611.33542",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "0d16ad717e3a",
@@ -1070,7 +1070,7 @@
    "url": "https://arxiv.org/abs/2611.33579",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "c0e894dfe249",
@@ -1079,7 +1079,7 @@
    "url": "https://arxiv.org/abs/2611.33605",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "53b75ed3cc31",
@@ -1088,7 +1088,7 @@
    "url": "https://arxiv.org/abs/2611.33636",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "e56b221d5fd8",
@@ -1097,7 +1097,7 @@
    "url": "https://arxiv.org/abs/2611.33687",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b90afa7ec316",
@@ -1106,7 +1106,7 @@
    "url": "https://arxiv.org/abs/2611.33692",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "8c845277bd47",
@@ -1115,7 +1115,7 @@
    "url": "https://arxiv.org/abs/2611.33700",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "065fab91eee2",
@@ -1124,7 +1124,7 @@
    "url": "https://arxiv.org/abs/2611.33722",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "f4b893f6bafe",
@@ -1133,7 +1133,7 @@
    "url": "https://arxiv.org/abs/2611.33741",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3c638ee3c373",
@@ -1142,7 +1142,7 @@
    "url": "https://arxiv.org/abs/2611.33749",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b1b37bf34db5",
@@ -1151,7 +1151,7 @@
    "url": "https://arxiv.org/abs/2611.33761",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "93a086adfcef",
@@ -1160,7 +1160,7 @@
    "url": "https://arxiv.org/abs/2611.33772",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "0bfc5565bdd4",
@@ -1169,7 +1169,7 @@
    "url": "https://arxiv.org/abs/2611.33793",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "c05ac52cb0eb",
@@ -1178,7 +1178,7 @@
    "url": "https://arxiv.org/abs/2611.33806",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "ff19a7f47b9d",
@@ -1187,7 +1187,7 @@
    "url": "https://arxiv.org/abs/2611.33812",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "5f295f7079a0",
@@ -1196,7 +1196,7 @@
    "url": "https://arxiv.org/abs/2611.33823",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "08075d3f4218",
@@ -1205,7 +1205,7 @@
    "url": "https://arxiv.org/abs/2611.33827",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "6f7a1c27e065",
@@ -1214,7 +1214,7 @@
    "url": "https://arxiv.org/abs/2611.33844",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "89179b1d7f33",
@@ -1223,7 +1223,7 @@
    "url": "https://arxiv.org/abs/2611.33850",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "fabd3a0e05f6",
@@ -1232,7 +1232,7 @@
    "url": "https://arxiv.org/abs/2611.33875",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "659bc4ae463f",
@@ -1241,7 +1241,7 @@
    "url": "https://arxiv.org/abs/2611.33893",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "1381b50847d6",
@@ -1250,7 +1250,7 @@
    "url": "https://arxiv.org/abs/2611.33900",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "2f8de18b2de7",
@@ -1259,7 +1259,7 @@
    "url": "https://arxiv.org/abs/2611.33919",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "f320574d45af",
@@ -1268,7 +1268,7 @@
    "url": "https://arxiv.org/abs/2611.33925",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "4ac06d5874aa",
@@ -1277,7 +1277,7 @@
    "url": "https://arxiv.org/abs/2611.33926",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "8a9cb79c8043",
@@ -1286,7 +1286,7 @@
    "url": "https://arxiv.org/abs/2611.33934",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "a0d2456a0b7d",
@@ -1295,7 +1295,7 @@
    "url": "https://arxiv.org/abs/2611.33937",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "c2117471d3e3",
@@ -1304,7 +1304,7 @@
    "url": "https://arxiv.org/abs/2611.33952",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "93a0ea757b2b",
@@ -1313,7 +1313,7 @@
    "url": "https://arxiv.org/abs/2611.33957",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "83407a526d97",
@@ -1322,7 +1322,7 @@
    "url": "https://arxiv.org/abs/2611.33961",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "5fd96e20be64",
@@ -1331,7 +1331,7 @@
    "url": "https://arxiv.org/abs/2611.33964",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "7d741a44687d",
@@ -1340,7 +1340,7 @@
    "url": "https://arxiv.org/abs/2611.33972",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "c8f1cffabc8e",
@@ -1349,7 +1349,7 @@
    "url": "https://arxiv.org/abs/2611.33973",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "7a5f96395246",
@@ -1358,7 +1358,7 @@
    "url": "https://arxiv.org/abs/2611.33985",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "f6f11cf9088e",
@@ -1367,7 +1367,7 @@
    "url": "https://arxiv.org/abs/2611.33993",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "f8e9b4a90b08",
@@ -1376,7 +1376,7 @@
    "url": "https://arxiv.org/abs/2611.34008",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "72f6324e3e1d",
@@ -1385,7 +1385,7 @@
    "url": "https://arxiv.org/abs/2611.34012",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "70c6cf8fdae5",
@@ -1394,7 +1394,7 @@
    "url": "https://arxiv.org/abs/2611.34015",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "2ec896930c82",
@@ -1403,7 +1403,7 @@
    "url": "https://arxiv.org/abs/2611.34016",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "4b1b63c8be21",
@@ -1412,7 +1412,7 @@
    "url": "https://arxiv.org/abs/2611.34019",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "0b92564eed64",
@@ -1421,7 +1421,7 @@
    "url": "https://arxiv.org/abs/2611.34025",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "160e5aa878ff",
@@ -1430,7 +1430,7 @@
    "url": "https://arxiv.org/abs/2611.34032",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "dce7aa564fba",
@@ -1439,7 +1439,7 @@
    "url": "https://arxiv.org/abs/2611.34035",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "5b682dd5a159",
@@ -1448,7 +1448,7 @@
    "url": "https://arxiv.org/abs/2611.34075",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "afdc3f17fa53",
@@ -1457,7 +1457,7 @@
    "url": "https://arxiv.org/abs/2611.34079",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "2e976358e4a2",
@@ -1466,7 +1466,7 @@
    "url": "https://arxiv.org/abs/2611.34098",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "4cc6b1e1c3c7",
@@ -1475,7 +1475,7 @@
    "url": "https://arxiv.org/abs/2611.34099",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "966c69652eb2",
@@ -1484,7 +1484,7 @@
    "url": "https://arxiv.org/abs/2611.34101",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "212095d9ab81",
@@ -1493,7 +1493,7 @@
    "url": "https://arxiv.org/abs/2611.34104",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "db71e8a03f19",
@@ -1502,7 +1502,7 @@
    "url": "https://arxiv.org/abs/2611.34106",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "8fdf8b417ccc",
@@ -1511,7 +1511,7 @@
    "url": "https://arxiv.org/abs/2611.34121",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "d2a395e74c76",
@@ -1520,7 +1520,7 @@
    "url": "https://arxiv.org/abs/2611.34122",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "842738ac4a9a",
@@ -1529,7 +1529,7 @@
    "url": "https://arxiv.org/abs/2611.34126",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "6f950bb8f51e",
@@ -1538,7 +1538,7 @@
    "url": "https://arxiv.org/abs/2611.34128",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "7e523f9148ec",
@@ -1547,7 +1547,7 @@
    "url": "https://arxiv.org/abs/2611.34130",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3ce0178dc05e",
@@ -1556,7 +1556,7 @@
    "url": "https://arxiv.org/abs/2611.34142",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "2715a7dd128c",
@@ -1565,7 +1565,7 @@
    "url": "https://arxiv.org/abs/2611.34152",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "769b51261496",
@@ -1574,7 +1574,7 @@
    "url": "https://arxiv.org/abs/2611.34158",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "dc5dcf42f178",
@@ -1583,7 +1583,7 @@
    "url": "https://arxiv.org/abs/2611.34169",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "36be01f6b892",
@@ -1592,7 +1592,7 @@
    "url": "https://arxiv.org/abs/2611.34181",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3fafb53ab9c7",
@@ -1601,7 +1601,7 @@
    "url": "https://arxiv.org/abs/2611.34184",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "e302a6283f91",
@@ -1610,7 +1610,7 @@
    "url": "https://arxiv.org/abs/2611.34188",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "0d5f752ef460",
@@ -1619,7 +1619,7 @@
    "url": "https://arxiv.org/abs/2611.34207",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "646d942d9e7c",
@@ -1628,7 +1628,7 @@
    "url": "https://arxiv.org/abs/2611.34218",
    "source": "arXiv cs.AI",
    "category": "Cybersecurity",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "66c1d99a8495",
@@ -1637,7 +1637,7 @@
    "url": "https://arxiv.org/abs/2611.34222",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "af4a8335236d",
@@ -1646,7 +1646,7 @@
    "url": "https://arxiv.org/abs/2611.34230",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "c995508d6342",
@@ -1655,7 +1655,7 @@
    "url": "https://arxiv.org/abs/2611.34270",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "5fbd1e925ca4",
@@ -1664,7 +1664,7 @@
    "url": "https://arxiv.org/abs/2611.34275",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b0c8f3c93e84",
@@ -1673,7 +1673,7 @@
    "url": "https://arxiv.org/abs/2611.34278",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b9a6b5b3831f",
@@ -1682,7 +1682,7 @@
    "url": "https://arxiv.org/abs/2611.34290",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "a64f26372ef2",
@@ -1691,7 +1691,7 @@
    "url": "https://arxiv.org/abs/2611.34292",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3bc058e630c8",
@@ -1700,7 +1700,7 @@
    "url": "https://arxiv.org/abs/2611.34298",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "935bc19f429a",
@@ -1709,7 +1709,7 @@
    "url": "https://arxiv.org/abs/2611.34322",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "ccadd24df604",
@@ -1718,7 +1718,7 @@
    "url": "https://arxiv.org/abs/2611.34328",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "2d0482c46ce2",
@@ -1727,7 +1727,7 @@
    "url": "https://arxiv.org/abs/2611.34331",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "e864fbff8ba9",
@@ -1736,7 +1736,7 @@
    "url": "https://arxiv.org/abs/2611.34351",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "1a8125be1e52",
@@ -1745,7 +1745,7 @@
    "url": "https://arxiv.org/abs/2611.34366",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "d1b25a9b29bb",
@@ -1754,7 +1754,7 @@
    "url": "https://arxiv.org/abs/2611.34398",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b27a123d8b5b",
@@ -1763,7 +1763,7 @@
    "url": "https://arxiv.org/abs/2611.34414",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "608733b47e3a",
@@ -1772,7 +1772,7 @@
    "url": "https://arxiv.org/abs/2611.34416",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "e00ebe4c2763",
@@ -1781,7 +1781,7 @@
    "url": "https://arxiv.org/abs/2611.34428",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "186414e1fe89",
@@ -1790,7 +1790,7 @@
    "url": "https://arxiv.org/abs/2611.34430",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "741fe5fe41eb",
@@ -1799,7 +1799,7 @@
    "url": "https://arxiv.org/abs/2611.34435",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "335348c4a431",
@@ -1808,7 +1808,7 @@
    "url": "https://arxiv.org/abs/2611.34457",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "fdb0942993a9",
@@ -1817,7 +1817,7 @@
    "url": "https://arxiv.org/abs/2611.34474",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b4c7e9e8c56d",
@@ -1826,7 +1826,7 @@
    "url": "https://arxiv.org/abs/2611.34508",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3dcc35405bf3",
@@ -1835,7 +1835,7 @@
    "url": "https://arxiv.org/abs/2611.34509",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "5b000b15ae1c",
@@ -1844,7 +1844,7 @@
    "url": "https://arxiv.org/abs/2611.34521",
    "source": "arXiv cs.AI",
    "category": "Cybersecurity",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b84b98fb6fad",
@@ -1853,7 +1853,7 @@
    "url": "https://arxiv.org/abs/2611.34539",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "4425bb71eba9",
@@ -1862,7 +1862,7 @@
    "url": "https://arxiv.org/abs/2611.34544",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "e09b8ca67332",
@@ -1871,7 +1871,7 @@
    "url": "https://arxiv.org/abs/2611.34545",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "e07a38b9a674",
@@ -1880,7 +1880,7 @@
    "url": "https://arxiv.org/abs/2611.34550",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "09d9e4445ef2",
@@ -1889,7 +1889,7 @@
    "url": "https://arxiv.org/abs/2611.34575",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "53d046c3dff4",
@@ -1898,7 +1898,7 @@
    "url": "https://arxiv.org/abs/2611.34579",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3f48f913d358",
@@ -1907,7 +1907,7 @@
    "url": "https://arxiv.org/abs/2611.34603",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "dedee37d8bc2",
@@ -1916,7 +1916,7 @@
    "url": "https://arxiv.org/abs/2611.34623",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "ebbeb8961e61",
@@ -1925,7 +1925,7 @@
    "url": "https://arxiv.org/abs/2611.34627",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "f85e4c385f35",
@@ -1934,7 +1934,7 @@
    "url": "https://arxiv.org/abs/2611.34634",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "5a23c7b4b65f",
@@ -1943,7 +1943,7 @@
    "url": "https://arxiv.org/abs/2611.34637",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "dfbbf95c6206",
@@ -1952,7 +1952,7 @@
    "url": "https://arxiv.org/abs/2611.34644",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b9fae078148c",
@@ -1961,7 +1961,7 @@
    "url": "https://arxiv.org/abs/2611.34656",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "4f25bdf3644d",
@@ -1970,7 +1970,7 @@
    "url": "https://arxiv.org/abs/2611.34662",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "aa05e66da877",
@@ -1979,7 +1979,7 @@
    "url": "https://arxiv.org/abs/2611.34671",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "397e5bf7d9f5",
@@ -1988,7 +1988,7 @@
    "url": "https://arxiv.org/abs/2611.34675",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "2f3fc3de1fdd",
@@ -1997,7 +1997,7 @@
    "url": "https://arxiv.org/abs/2611.34681",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "7bb39f392495",
@@ -2006,7 +2006,7 @@
    "url": "https://arxiv.org/abs/2611.34687",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "d8155ccb000d",
@@ -2015,7 +2015,7 @@
    "url": "https://arxiv.org/abs/2611.34703",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "d53ed3dac442",
@@ -2024,7 +2024,7 @@
    "url": "https://arxiv.org/abs/2611.34707",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "259547581bad",
@@ -2033,7 +2033,7 @@
    "url": "https://arxiv.org/abs/2611.34745",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "77ac846f9758",
@@ -2042,7 +2042,7 @@
    "url": "https://arxiv.org/abs/2611.34756",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "c90513705f0e",
@@ -2051,7 +2051,7 @@
    "url": "https://arxiv.org/abs/2611.34758",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "2afc837aa891",
@@ -2060,7 +2060,7 @@
    "url": "https://arxiv.org/abs/2611.34760",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "73fa4f721e77",
@@ -2069,7 +2069,7 @@
    "url": "https://arxiv.org/abs/2611.34763",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "edfbdcb3eb52",
@@ -2078,7 +2078,7 @@
    "url": "https://arxiv.org/abs/2611.34770",
    "source": "arXiv cs.AI",
    "category": "Cybersecurity",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "73a6964afff4",
@@ -2087,7 +2087,7 @@
    "url": "https://arxiv.org/abs/2611.34777",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "489801fe9ac5",
@@ -2096,7 +2096,7 @@
    "url": "https://arxiv.org/abs/2611.34785",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "1e213fee8e74",
@@ -2105,7 +2105,7 @@
    "url": "https://arxiv.org/abs/2611.34811",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "86b16d1b32dc",
@@ -2114,7 +2114,7 @@
    "url": "https://arxiv.org/abs/2611.34813",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "647e74c30383",
@@ -2123,7 +2123,7 @@
    "url": "https://arxiv.org/abs/2611.34816",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b9c51e53f2f3",
@@ -2132,7 +2132,7 @@
    "url": "https://arxiv.org/abs/2611.34830",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "73c0aef29b41",
@@ -2141,7 +2141,7 @@
    "url": "https://arxiv.org/abs/2611.34831",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b9ca7208199a",
@@ -2150,7 +2150,7 @@
    "url": "https://arxiv.org/abs/2611.34843",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "38d96de02cd0",
@@ -2159,7 +2159,7 @@
    "url": "https://arxiv.org/abs/2611.34852",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "df932a8f5b86",
@@ -2168,7 +2168,7 @@
    "url": "https://arxiv.org/abs/2611.34858",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "e5938d5e1699",
@@ -2177,7 +2177,7 @@
    "url": "https://arxiv.org/abs/2611.34862",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "a81a318c2340",
@@ -2186,7 +2186,7 @@
    "url": "https://arxiv.org/abs/2611.34864",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "a8c2e4dbb0be",
@@ -2195,7 +2195,7 @@
    "url": "https://arxiv.org/abs/2611.34868",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "308e8397fe2f",
@@ -2204,7 +2204,7 @@
    "url": "https://arxiv.org/abs/2611.34870",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "1edb70c33065",
@@ -2213,7 +2213,7 @@
    "url": "https://arxiv.org/abs/2611.34875",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "c7f583264521",
@@ -2222,7 +2222,7 @@
    "url": "https://arxiv.org/abs/2611.34887",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "6f1345c35847",
@@ -2231,7 +2231,7 @@
    "url": "https://arxiv.org/abs/2611.34899",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "967b83bfb4e4",
@@ -2240,7 +2240,7 @@
    "url": "https://arxiv.org/abs/2611.34920",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "fb43eb5392e0",
@@ -2249,7 +2249,7 @@
    "url": "https://arxiv.org/abs/2611.34928",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "59d18ef749ca",
@@ -2258,7 +2258,7 @@
    "url": "https://arxiv.org/abs/2611.34934",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "5a2e3bf2cceb",
@@ -2267,7 +2267,7 @@
    "url": "https://arxiv.org/abs/2611.34942",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "9919d8639565",
@@ -2276,7 +2276,7 @@
    "url": "https://arxiv.org/abs/2502.10197",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "e9387cb2a75a",
@@ -2285,7 +2285,7 @@
    "url": "https://arxiv.org/abs/2505.23281",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "38a68eacce9f",
@@ -2294,7 +2294,7 @@
    "url": "https://arxiv.org/abs/2506.01676",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "402c7a728010",
@@ -2303,7 +2303,7 @@
    "url": "https://arxiv.org/abs/2509.10297",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "0c4b6201c511",
@@ -2312,7 +2312,7 @@
    "url": "https://arxiv.org/abs/2510.16466",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "96daf9fdc54c",
@@ -2321,7 +2321,7 @@
    "url": "https://arxiv.org/abs/2601.08070",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "589d447f426e",
@@ -2330,7 +2330,7 @@
    "url": "https://arxiv.org/abs/2602.12128",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "6608d4808055",
@@ -2339,7 +2339,7 @@
    "url": "https://arxiv.org/abs/2602.17229",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "90d6d48da362",
@@ -2348,7 +2348,7 @@
    "url": "https://arxiv.org/abs/2605.06068",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "97968efdb1f6",
@@ -2357,7 +2357,7 @@
    "url": "https://arxiv.org/abs/2605.22511",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "95e0e0eabd80",
@@ -2366,7 +2366,7 @@
    "url": "https://arxiv.org/abs/2605.25535",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "52dd7e0c8bb1",
@@ -2375,7 +2375,7 @@
    "url": "https://arxiv.org/abs/2605.27879",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "40e737f99f81",
@@ -2384,7 +2384,7 @@
    "url": "https://arxiv.org/abs/2606.06462",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "638600bb930b",
@@ -2393,7 +2393,7 @@
    "url": "https://arxiv.org/abs/2606.11078",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b47675196603",
@@ -2402,7 +2402,7 @@
    "url": "https://arxiv.org/abs/2607.19355",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "78a9d7231a6a",
@@ -2411,7 +2411,7 @@
    "url": "https://arxiv.org/abs/2607.23586",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "c3dfba877263",
@@ -2420,7 +2420,7 @@
    "url": "https://arxiv.org/abs/2608.07437",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "cabbcd3886f2",
@@ -2429,7 +2429,7 @@
    "url": "https://arxiv.org/abs/2609.06960",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "cd28a5be7117",
@@ -2438,7 +2438,7 @@
    "url": "https://arxiv.org/abs/2609.33699",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "8200ce4d55f2",
@@ -2447,7 +2447,7 @@
    "url": "https://arxiv.org/abs/2609.35149",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "adbcb2db2fac",
@@ -2456,7 +2456,7 @@
    "url": "https://arxiv.org/abs/2609.35744",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "6f893bcbb17f",
@@ -2465,7 +2465,7 @@
    "url": "https://arxiv.org/abs/2609.37054",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "fd8a0465677f",
@@ -2474,7 +2474,7 @@
    "url": "https://arxiv.org/abs/2610.00636",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "bdc134cd22fd",
@@ -2483,7 +2483,7 @@
    "url": "https://arxiv.org/abs/2610.06917",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b2f9ba349514",
@@ -2492,7 +2492,7 @@
    "url": "https://arxiv.org/abs/2610.09335",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "f791514422b4",
@@ -2501,7 +2501,7 @@
    "url": "https://arxiv.org/abs/2610.09937",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "85cfae30e106",
@@ -2510,7 +2510,7 @@
    "url": "https://arxiv.org/abs/2610.17584",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "c50e63ab99a4",
@@ -2519,7 +2519,7 @@
    "url": "https://arxiv.org/abs/2610.23670",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "11ef88e9febb",
@@ -2528,7 +2528,7 @@
    "url": "https://arxiv.org/abs/2610.39454",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "fb210c28b86a",
@@ -2537,7 +2537,7 @@
    "url": "https://arxiv.org/abs/2610.41183",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "7c6fef01cd62",
@@ -2546,7 +2546,7 @@
    "url": "https://arxiv.org/abs/2611.04241",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "946c6ee042ea",
@@ -2555,7 +2555,7 @@
    "url": "https://arxiv.org/abs/2611.06732",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "7f59416e57c7",
@@ -2564,7 +2564,7 @@
    "url": "https://arxiv.org/abs/2611.11658",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "332ba74db466",
@@ -2573,7 +2573,7 @@
    "url": "https://arxiv.org/abs/2611.13487",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "bfec2ce0ac10",
@@ -2582,7 +2582,7 @@
    "url": "https://arxiv.org/abs/2611.14949",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "5f213382ce69",
@@ -2591,7 +2591,7 @@
    "url": "https://arxiv.org/abs/2611.15215",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "7540914d7819",
@@ -2600,7 +2600,7 @@
    "url": "https://arxiv.org/abs/2611.22374",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "81f7397512d4",
@@ -2609,7 +2609,7 @@
    "url": "https://arxiv.org/abs/2611.23700",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "64c2a355e957",
@@ -2618,7 +2618,7 @@
    "url": "https://arxiv.org/abs/2611.23702",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "1b99b0ff5e58",
@@ -2627,7 +2627,7 @@
    "url": "https://arxiv.org/abs/2611.27741",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "50bbe0428a67",
@@ -2636,7 +2636,7 @@
    "url": "https://arxiv.org/abs/2611.28202",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "17e2ca221794",
@@ -2645,7 +2645,7 @@
    "url": "https://arxiv.org/abs/2611.28356",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "8deca33384c7",
@@ -2654,7 +2654,7 @@
    "url": "https://arxiv.org/abs/2611.30281",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "5292c9ad0d1b",
@@ -2663,7 +2663,7 @@
    "url": "https://arxiv.org/abs/2611.30545",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b02e0bf3eddf",
@@ -2672,7 +2672,7 @@
    "url": "https://arxiv.org/abs/2611.31301",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "07b2aecd22d8",
@@ -2681,7 +2681,7 @@
    "url": "https://arxiv.org/abs/2611.31823",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "329aefbfd3a7",
@@ -2690,7 +2690,7 @@
    "url": "https://arxiv.org/abs/2611.32053",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b97c8d6c3755",
@@ -2699,7 +2699,7 @@
    "url": "https://arxiv.org/abs/2611.32776",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "bdc523c87e42",
@@ -2708,7 +2708,7 @@
    "url": "https://arxiv.org/abs/2611.32931",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "d948e3359408",
@@ -2717,7 +2717,7 @@
    "url": "https://arxiv.org/abs/2402.02552",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "4bf33bb5a8d1",
@@ -2726,7 +2726,7 @@
    "url": "https://arxiv.org/abs/2409.00696",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b6fc1cc13fad",
@@ -2735,7 +2735,7 @@
    "url": "https://arxiv.org/abs/2409.09045",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "c0516fd50c4a",
@@ -2744,7 +2744,7 @@
    "url": "https://arxiv.org/abs/2503.11006",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "ef1655557206",
@@ -2753,7 +2753,7 @@
    "url": "https://arxiv.org/abs/2504.08207",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "aaaeb6796302",
@@ -2762,7 +2762,7 @@
    "url": "https://arxiv.org/abs/2504.08604",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "266114e8b64d",
@@ -2771,7 +2771,7 @@
    "url": "https://arxiv.org/abs/2505.12707",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "6b75aedbcce1",
@@ -2780,7 +2780,7 @@
    "url": "https://arxiv.org/abs/2506.00058",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "f3913fdda783",
@@ -2789,7 +2789,7 @@
    "url": "https://arxiv.org/abs/2506.21621",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "fb9ce29dae95",
@@ -2798,7 +2798,7 @@
    "url": "https://arxiv.org/abs/2507.13231",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "0487df50cc53",
@@ -2807,7 +2807,7 @@
    "url": "https://arxiv.org/abs/2508.17150",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "99c45d25d946",
@@ -2816,7 +2816,7 @@
    "url": "https://arxiv.org/abs/2508.20637",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3304ffbf2b0f",
@@ -2825,7 +2825,7 @@
    "url": "https://arxiv.org/abs/2510.04769",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "7e40205a83c3",
@@ -2834,7 +2834,7 @@
    "url": "https://arxiv.org/abs/2510.22232",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "ad1b200b4944",
@@ -2843,7 +2843,7 @@
    "url": "https://arxiv.org/abs/2511.18467",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "dff045873185",
@@ -2852,7 +2852,7 @@
    "url": "https://arxiv.org/abs/2512.00672",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "e918e73f1bc7",
@@ -2861,7 +2861,7 @@
    "url": "https://arxiv.org/abs/2512.04198",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "4222c6ff2d08",
@@ -2870,7 +2870,7 @@
    "url": "https://arxiv.org/abs/2512.14166",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "289e745a1b94",
@@ -2879,7 +2879,7 @@
    "url": "https://arxiv.org/abs/2512.20688",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "808b76d04090",
@@ -2888,7 +2888,7 @@
    "url": "https://arxiv.org/abs/2601.12095",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "478d6317155a",
@@ -2897,7 +2897,7 @@
    "url": "https://arxiv.org/abs/2602.02739",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "c921377cdba3",
@@ -2906,7 +2906,7 @@
    "url": "https://arxiv.org/abs/2602.11202",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "9a012da88ab9",
@@ -2915,7 +2915,7 @@
    "url": "https://arxiv.org/abs/2602.21072",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "0d1fd6273cc3",
@@ -2924,7 +2924,7 @@
    "url": "https://arxiv.org/abs/2603.00318",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "f18bdceb7514",
@@ -2933,7 +2933,7 @@
    "url": "https://arxiv.org/abs/2603.13603",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "5482bcae48c0",
@@ -2942,7 +2942,7 @@
    "url": "https://arxiv.org/abs/2603.14860",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "cddeb7413afe",
@@ -2951,7 +2951,7 @@
    "url": "https://arxiv.org/abs/2603.14947",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "bbb885129bfe",
@@ -2960,7 +2960,7 @@
    "url": "https://arxiv.org/abs/2603.16568",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "84f502f0db93",
@@ -2969,7 +2969,7 @@
    "url": "https://arxiv.org/abs/2603.18066",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3db3190fffbf",
@@ -2978,7 +2978,7 @@
    "url": "https://arxiv.org/abs/2603.21496",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "cc25eca3f905",
@@ -2987,7 +2987,7 @@
    "url": "https://arxiv.org/abs/2603.21676",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "5756dac5131e",
@@ -2996,7 +2996,7 @@
    "url": "https://arxiv.org/abs/2603.22305",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3dedf987d969",
@@ -3005,7 +3005,7 @@
    "url": "https://arxiv.org/abs/2603.23252",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "52fc6ea9f380",
@@ -3014,7 +3014,7 @@
    "url": "https://arxiv.org/abs/2604.08641",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "e06246a1e1cc",
@@ -3023,7 +3023,7 @@
    "url": "https://arxiv.org/abs/2604.10604",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "0994125d8523",
@@ -3032,7 +3032,7 @@
    "url": "https://arxiv.org/abs/2604.15380",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "12ab54cd6c77",
@@ -3041,7 +3041,7 @@
    "url": "https://arxiv.org/abs/2604.19827",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "12dc022d676e",
@@ -3050,7 +3050,7 @@
    "url": "https://arxiv.org/abs/2605.11007",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "2d6d5793a2b0",
@@ -3059,7 +3059,7 @@
    "url": "https://arxiv.org/abs/2605.16442",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "021a65830b85",
@@ -3068,7 +3068,7 @@
    "url": "https://arxiv.org/abs/2605.16598",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b7be5fc6ec39",
@@ -3077,7 +3077,7 @@
    "url": "https://arxiv.org/abs/2605.17620",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "0f7e1cbd4297",
@@ -3086,7 +3086,7 @@
    "url": "https://arxiv.org/abs/2605.22940",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "bd0126031a91",
@@ -3095,7 +3095,7 @@
    "url": "https://arxiv.org/abs/2605.23194",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "a0dbd3c3cb8f",
@@ -3104,7 +3104,7 @@
    "url": "https://arxiv.org/abs/2606.07007",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "10d0c486bf8f",
@@ -3113,7 +3113,7 @@
    "url": "https://arxiv.org/abs/2606.09926",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "fe863409ec22",
@@ -3122,7 +3122,7 @@
    "url": "https://arxiv.org/abs/2606.12428",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "0e7347dbe270",
@@ -3131,7 +3131,7 @@
    "url": "https://arxiv.org/abs/2606.14325",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "1e38cde6e381",
@@ -3140,7 +3140,7 @@
    "url": "https://arxiv.org/abs/2607.02781",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3ea9d7f7bda5",
@@ -3149,7 +3149,7 @@
    "url": "https://arxiv.org/abs/2607.14203",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "400df3868a83",
@@ -3158,7 +3158,7 @@
    "url": "https://arxiv.org/abs/2608.00558",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "56e6bba03fe3",
@@ -3167,7 +3167,7 @@
    "url": "https://arxiv.org/abs/2608.02826",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "0d9dc8466b08",
@@ -3176,7 +3176,7 @@
    "url": "https://arxiv.org/abs/2608.03015",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3ef15e634440",
@@ -3185,7 +3185,7 @@
    "url": "https://arxiv.org/abs/2608.24845",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "e7243d7e3c70",
@@ -3194,7 +3194,7 @@
    "url": "https://arxiv.org/abs/2609.02145",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "f91ea981ff5f",
@@ -3203,7 +3203,7 @@
    "url": "https://arxiv.org/abs/2609.11347",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b1cca06f6081",
@@ -3212,7 +3212,7 @@
    "url": "https://arxiv.org/abs/2609.13043",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "a8c6c04a0cb8",
@@ -3221,7 +3221,7 @@
    "url": "https://arxiv.org/abs/2609.13259",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "79bae7f429eb",
@@ -3230,7 +3230,7 @@
    "url": "https://arxiv.org/abs/2609.19569",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "47f0a27b336c",
@@ -3239,7 +3239,7 @@
    "url": "https://arxiv.org/abs/2609.36515",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "2144c2216cd2",
@@ -3248,7 +3248,7 @@
    "url": "https://arxiv.org/abs/2609.38984",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "af16930c54ea",
@@ -3257,7 +3257,7 @@
    "url": "https://arxiv.org/abs/2610.00666",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "d60f6ac65f21",
@@ -3266,7 +3266,7 @@
    "url": "https://arxiv.org/abs/2610.04399",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "fcad9a41b14f",
@@ -3275,7 +3275,7 @@
    "url": "https://arxiv.org/abs/2610.06621",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "b9d17df4e80b",
@@ -3284,7 +3284,7 @@
    "url": "https://arxiv.org/abs/2610.13724",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "8939f7937ff2",
@@ -3293,7 +3293,7 @@
    "url": "https://arxiv.org/abs/2610.14041",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "840064bd0b7c",
@@ -3302,7 +3302,7 @@
    "url": "https://arxiv.org/abs/2610.14998",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "e6750943a8e5",
@@ -3311,7 +3311,7 @@
    "url": "https://arxiv.org/abs/2610.18305",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "fa670ffb9283",
@@ -3320,7 +3320,7 @@
    "url": "https://arxiv.org/abs/2610.21240",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "391dece28396",
@@ -3329,7 +3329,7 @@
    "url": "https://arxiv.org/abs/2610.21261",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "5850d5cdc057",
@@ -3338,7 +3338,7 @@
    "url": "https://arxiv.org/abs/2610.23166",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "6e970d145030",
@@ -3347,7 +3347,7 @@
    "url": "https://arxiv.org/abs/2610.28709",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "2cb315d7b26a",
@@ -3356,7 +3356,7 @@
    "url": "https://arxiv.org/abs/2610.29172",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "7a3c0dbcfe26",
@@ -3365,7 +3365,7 @@
    "url": "https://arxiv.org/abs/2611.08469",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "8da2a52ba0fe",
@@ -3374,7 +3374,7 @@
    "url": "https://arxiv.org/abs/2611.08657",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "0c6ed06b148a",
@@ -3383,7 +3383,7 @@
    "url": "https://arxiv.org/abs/2611.12603",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "901c2c8f4b64",
@@ -3392,7 +3392,7 @@
    "url": "https://arxiv.org/abs/2611.15004",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "573bcf65419d",
@@ -3401,7 +3401,7 @@
    "url": "https://arxiv.org/abs/2611.15735",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "7ceca5cb62be",
@@ -3410,7 +3410,7 @@
    "url": "https://arxiv.org/abs/2611.15968",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3c77307cee28",
@@ -3419,7 +3419,7 @@
    "url": "https://arxiv.org/abs/2611.16368",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "d01d525796b5",
@@ -3428,7 +3428,7 @@
    "url": "https://arxiv.org/abs/2611.17658",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "02363fb45b9d",
@@ -3437,7 +3437,7 @@
    "url": "https://arxiv.org/abs/2611.18307",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "e841119ab8fb",
@@ -3446,7 +3446,7 @@
    "url": "https://arxiv.org/abs/2611.18359",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "c1c834b2482f",
@@ -3455,7 +3455,7 @@
    "url": "https://arxiv.org/abs/2611.20020",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "bd20788f3e73",
@@ -3464,7 +3464,7 @@
    "url": "https://arxiv.org/abs/2611.20071",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "8743383bf399",
@@ -3473,7 +3473,7 @@
    "url": "https://arxiv.org/abs/2611.22138",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "460d6bf61b21",
@@ -3482,7 +3482,7 @@
    "url": "https://arxiv.org/abs/2611.24059",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "ae8493cfe49e",
@@ -3491,7 +3491,7 @@
    "url": "https://arxiv.org/abs/2611.26073",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "3a32e13f20f6",
@@ -3500,7 +3500,7 @@
    "url": "https://arxiv.org/abs/2611.26809",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "c24424da6fd4",
@@ -3509,7 +3509,7 @@
    "url": "https://arxiv.org/abs/2611.26938",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "49eb90764e56",
@@ -3518,7 +3518,7 @@
    "url": "https://arxiv.org/abs/2611.28082",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "c1c847998ca5",
@@ -3527,7 +3527,7 @@
    "url": "https://arxiv.org/abs/2611.28732",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "ce5fd4bd15ad",
@@ -3536,7 +3536,7 @@
    "url": "https://arxiv.org/abs/2611.29162",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "564224717713",
@@ -3545,7 +3545,7 @@
    "url": "https://arxiv.org/abs/2611.29750",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "91cc722fb3e6",
@@ -3554,7 +3554,7 @@
    "url": "https://arxiv.org/abs/2611.30111",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "ca2672fc9a3a",
@@ -3563,7 +3563,7 @@
    "url": "https://arxiv.org/abs/2611.30209",
    "source": "arXiv cs.AI",
    "category": "Robotics and Automation",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "bb6775e834f3",
@@ -3572,7 +3572,7 @@
    "url": "https://arxiv.org/abs/2611.31249",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "201608d0a69e",
@@ -3581,7 +3581,7 @@
    "url": "https://arxiv.org/abs/2611.32084",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "4f8a4b9b16a7",
@@ -3590,7 +3590,7 @@
    "url": "https://arxiv.org/abs/2611.32316",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   },
   {
    "id": "263fdd860006",
@@ -3599,84 +3599,84 @@
    "url": "https://arxiv.org/abs/2611.32780",
    "source": "arXiv cs.AI",
    "category": "AI Research",
-   "published": "2026-11-26T05:00:00.000Z"
+   "published": "2026-11-27T05:00:00.000Z"
   }
  ],
  "sources": {
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-27T01:28:41.262Z"
+   "at": "2026-11-27T16:05:27.274Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 398,
-   "at": "2026-11-27T01:28:41.263Z"
+   "at": "2026-11-27T16:05:27.275Z"
   },
   "huggingface": {
    "ok": true,
-   "count": 918,
-   "at": "2026-11-27T01:28:41.260Z"
+   "count": 919,
+   "at": "2026-11-27T16:05:27.273Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-27T01:28:41.264Z"
+   "at": "2026-11-27T16:05:27.276Z"
   },
   "openai": {
    "ok": true,
    "count": 1430,
-   "at": "2026-11-27T01:28:41.229Z"
+   "at": "2026-11-27T16:05:27.248Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-27T01:28:41.265Z"
+   "at": "2026-11-27T16:05:27.278Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-27T01:28:41.272Z"
+   "at": "2026-11-27T16:05:27.283Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-27T01:28:41.269Z"
+   "at": "2026-11-27T16:05:27.280Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-27T01:28:41.272Z"
+   "at": "2026-11-27T16:05:27.283Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-27T01:28:41.271Z"
+   "at": "2026-11-27T16:05:27.282Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-27T01:28:41.270Z"
+   "at": "2026-11-27T16:05:27.281Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-27T01:28:41.267Z"
+   "at": "2026-11-27T16:05:27.279Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-27T01:28:41.267Z"
+   "at": "2026-11-27T16:05:27.279Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-27T01:28:41.259Z"
+   "at": "2026-11-27T16:05:27.272Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-27T01:28:41.271Z"
+   "at": "2026-11-27T16:05:27.282Z"
   }
  }
 }
