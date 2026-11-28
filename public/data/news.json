@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:05:28.054Z",
+ "updated": "2026-11-28T01:02:58.258Z",
  "articles": [
   {
    "id": "0f9957586415",
@@ -18,6 +18,15 @@
    "source": "MIT Technology Review",
    "category": "Artificial Intelligence",
    "published": "2026-11-27T13:00:00.000Z"
+  },
+  {
+   "id": "e66a2e1c8c17",
+   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+   "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-120705 OSGeo GeoServer XML Injection Vulnerability CVE-2026-129243 OSGeo GeoServer Incorrect Authorization Vulnerability CVE-2026-136716 Drupal Core Impr",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "category": "Cybersecurity",
+   "published": "2026-11-27T12:00:00.000Z"
   },
   {
    "id": "b4e61911e477",
@@ -3591,92 +3600,83 @@
    "source": "arXiv cs.AI",
    "category": "AI Research",
    "published": "2026-11-27T05:00:00.000Z"
-  },
-  {
-   "id": "263fdd860006",
-   "title": "C3H: Compression-to-Consensus Criteria Hijacking in Multimodal LLM Recommender Systems",
-   "summary": "arXiv:2611.32780v2 Announce Type: replace-cross Abstract: Multimodal large language models (MLLMs) are transforming recommender systems into content-aware decision systems. In these systems, multimodal compression and cross-modal fusion are often viewed as robustness-enhancing mechanisms against con",
-   "url": "https://arxiv.org/abs/2611.32780",
-   "source": "arXiv cs.AI",
-   "category": "AI Research",
-   "published": "2026-11-27T05:00:00.000Z"
   }
  ],
  "sources": {
   "aws-ml": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-27T16:05:27.274Z"
+   "at": "2026-11-28T01:02:57.584Z"
   },
   "arxiv-ai": {
    "ok": true,
    "count": 398,
-   "at": "2026-11-27T16:05:27.275Z"
+   "at": "2026-11-28T01:02:57.585Z"
   },
   "huggingface": {
    "ok": true,
    "count": 919,
-   "at": "2026-11-27T16:05:27.273Z"
+   "at": "2026-11-28T01:02:57.583Z"
   },
   "github": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-27T16:05:27.276Z"
+   "at": "2026-11-28T01:02:57.586Z"
   },
   "openai": {
    "ok": true,
    "count": 1430,
-   "at": "2026-11-27T16:05:27.248Z"
+   "at": "2026-11-28T01:02:57.558Z"
   },
   "meta-eng": {
    "ok": true,
    "count": 9,
-   "at": "2026-11-27T16:05:27.278Z"
+   "at": "2026-11-28T01:02:57.588Z"
   },
   "ars": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-27T16:05:27.283Z"
+   "at": "2026-11-28T01:02:57.592Z"
   },
   "aws": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-27T16:05:27.280Z"
+   "at": "2026-11-28T01:02:57.590Z"
   },
   "ieee": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-27T16:05:27.283Z"
+   "at": "2026-11-28T01:02:57.592Z"
   },
   "mit-tr": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-27T16:05:27.282Z"
+   "at": "2026-11-28T01:02:57.592Z"
   },
   "cloudflare": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-27T16:05:27.281Z"
+   "at": "2026-11-28T01:02:57.591Z"
   },
   "cisa": {
    "ok": true,
    "count": 30,
-   "at": "2026-11-27T16:05:27.279Z"
+   "at": "2026-11-28T01:02:57.588Z"
   },
   "krebs": {
    "ok": true,
    "count": 10,
-   "at": "2026-11-27T16:05:27.279Z"
+   "at": "2026-11-28T01:02:57.589Z"
   },
   "google-ai": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-27T16:05:27.272Z"
+   "at": "2026-11-28T01:02:57.582Z"
   },
   "android": {
    "ok": true,
    "count": 20,
-   "at": "2026-11-27T16:05:27.282Z"
+   "at": "2026-11-28T01:02:57.591Z"
   }
  }
 }
